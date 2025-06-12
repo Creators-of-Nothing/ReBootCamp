@@ -1,0 +1,20 @@
+{
+  "item.sophisticatedbackpacks.copper_backpack": "Backpack 1 - Copper Tier",
+  "item.sophisticatedbackpacks.iron_backpack": "Backpack 2 - Andesite Alloy Tier",
+  "item.sophisticatedbackpacks.gold_backpack": "Backpack 3 - Vinteum Tier",
+  "item.sophisticatedbackpacks.diamond_backpack": "Backpack 4 - Black Iron Tier",
+  "item.sophisticatedbackpacks.netherite_backpack": "Backpack 5 - End Gobber Tier",
+  "block.sophisticatedbackpacks.copper_backpack": "Backpack 1 - Copper Tier",
+  "block.sophisticatedbackpacks.iron_backpack": "Backpack 2 - Andesite Alloy Tier",
+  "block.sophisticatedbackpacks.gold_backpack": "Backpack 3 - Vinteum Tier",
+  "block.sophisticatedbackpacks.diamond_backpack": "Backpack 4 - Black Iron Tier",
+  "block.sophisticatedbackpacks.netherite_backpack": "Backpack 5 - End Gobber Tier",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_1": "Stack Upgrade 1 - Andesite Alloy Tier",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_1.tooltip": "Multiplies the number of stacks that can fit in a slot by 2",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_2": "Stack Upgrade 2 - Vinteum Tier",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_2.tooltip": "Multiplies the number of stacks that can fit in a slot by 4",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_3": "Stack Upgrade 3 - Black Iron Tier",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_3.tooltip": "Multiplies the number of stacks that can fit in a slot by 8",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_4": "Stack Upgrade 4 - End Gobber Tier",
+  "item.sophisticatedbackpacks.stack_upgrade_tier_4.tooltip": "Multiplies the number of stacks that can fit in a slot by 16"
+}

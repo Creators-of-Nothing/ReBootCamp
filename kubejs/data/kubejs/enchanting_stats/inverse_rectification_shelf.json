@@ -1,0 +1,6 @@
+{
+  "block": "kubejs:inverse_rectification_shelf",
+  "stats": {
+    "rectification": -9999
+  }
+}
