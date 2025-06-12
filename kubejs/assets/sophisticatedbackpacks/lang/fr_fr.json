@@ -1,0 +1,20 @@
+{
+    "item.sophisticatedbackpacks.copper_backpack": "Sac à dos 1 - Niveau Cuivre",
+    "item.sophisticatedbackpacks.iron_backpack": "Sac à dos 2 - Niveau Alliage d'Andésite",
+    "item.sophisticatedbackpacks.gold_backpack": "Sac à dos 3 - Niveau Vinteum",
+    "item.sophisticatedbackpacks.diamond_backpack": "Sac à dos 4 - Niveau Black Iron",
+    "item.sophisticatedbackpacks.netherite_backpack": "Sac à dos 5 - Niveau End Gobber",
+    "block.sophisticatedbackpacks.copper_backpack": "Sac à dos 1 - Niveau Cuivre",
+    "block.sophisticatedbackpacks.iron_backpack": "Sac à dos 2 - Niveau Alliage d'Andésite",
+    "block.sophisticatedbackpacks.gold_backpack": "Sac à dos 3 - Niveau Vinteum",
+    "block.sophisticatedbackpacks.diamond_backpack": "Sac à dos 4 - Niveau Black Iron",
+    "block.sophisticatedbackpacks.netherite_backpack": "Sac à dos 5 - Niveau End Gobber",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_1": "Module d'empillement 1 - Niveau Alliage d'Andésite",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_1.tooltip": "Multiplie le nombre d'objet par emplacement par 2",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_2": "Module d'empillement 2 - Niveau Vinteum",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_2.tooltip": "Multiplie le nombre d'objet par emplacement par 4",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_3": "Module d'empillement 3 - Niveau Black Iron",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_3.tooltip": "Multiplie le nombre d'objet par emplacement par 8",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_4": "Module d'empillement 4 - Niveau End Gobber",
+    "item.sophisticatedbackpacks.stack_upgrade_tier_4.tooltip": "Multiplie le nombre d'objet par emplacement par 16"
+}

@@ -1,0 +1,112 @@
+#Maximum number of particles allowed
+#Range: > 0
+maxParticleAmount = 1500
+#Range: > 0
+particleDensity = 100
+#Range: > 0
+particleStormDensity = 200
+#Range: > 0
+particleRadius = 25
+doRainParticles = true
+doSplashParticles = true
+doSmokeParticles = true
+doRippleParticles = true
+doStreakParticles = true
+doSnowParticles = true
+doSandParticles = true
+doShrubParticles = true
+doFogParticles = false
+doGroundFogParticles = true
+doRainSounds = true
+doSnowSounds = true
+doSandSounds = true
+renderVanillaWeather = false
+tickVanillaWeather = false
+biomeTint = true
+#Range: 0 ~ 100
+tintMix = 50
+spawnAboveClouds = false
+#Range: 0 ~ 256
+cloudHeight = 191
+alwaysRaining = false
+yLevelWindAdjustment = true
+syncRegistry = true
+
+[rain]
+	#Rain particle density
+	#Range: 1 ~ 100
+	density = 100
+	#Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	windStrength = 0.3
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stormWindStrength = 0.5
+	#Range: 1 ~ 100
+	opacity = 100
+	#Range: > 0
+	splashDensity = 5
+	#Range: 0.0 ~ 1.7976931348623157E308
+	size = 2.0
+
+[snow]
+	#Range: 1 ~ 100
+	density = 40
+	#Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.08
+	#Range: 0.0 ~ 1.7976931348623157E308
+	rotationAmount = 0.03
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stormRotationAmount = 0.05
+	#Range: 0.0 ~ 1.7976931348623157E308
+	windStrength = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stormWindStrength = 3.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	size = 2.0
+
+[ripple]
+	#Range: 4 ~ 256
+	resolution = 16
+	useResourcepackResolution = true
+
+[sand]
+	#Range: 1 ~ 100
+	density = 80
+	#Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.2
+	#Range: 0.0 ~ 1.7976931348623157E308
+	windStrength = 0.3
+	#Range: 0.0 ~ 1.7976931348623157E308
+	moteSize = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	size = 2.0
+	spawnOnGround = true
+	matchTags = "minecraft:sand"
+
+[shrub]
+	#Range: 1 ~ 100
+	density = 2
+	#Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.2
+	#Range: 0.0 ~ 1.7976931348623157E308
+	rotationAmount = 0.2
+	#Range: 0.0 ~ 1.7976931348623157E308
+	bounciness = 0.2
+
+[fog]
+	#Range: 1 ~ 100
+	density = 20
+	#Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.2
+	#Range: 0.0 ~ 1.7976931348623157E308
+	size = 0.5
+
+[groundFog]
+	#Range: 1 ~ 100
+	density = 20
+	#Range: 0 ~ 256
+	spawnHeight = 64
+	#Range: 0.0 ~ 1.7976931348623157E308
+	size = 8.0
+

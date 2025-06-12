@@ -1,0 +1,131 @@
+{
+  "parent": "botanicalmachinery:block/botanical_block",
+  "textures": {
+    "shimmerock": "botania:block/shimmerrock",
+    "gold": "minecraft:block/gold_block",
+    "mana_infuser_top": "mythicbotany:block/mana_infuser_top",
+    "mana_infuser_side": "mythicbotany:block/mana_infuser_bottom"
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 1, 16 ],
+      "faces": {
+        "down":  { "texture": "#frame", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#frame", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#frame", "uv": [ 0, 0, 16, 1 ] },
+        "south": { "texture": "#frame", "uv": [ 0, 0, 16, 1 ] },
+        "west":  { "texture": "#frame", "uv": [ 0, 0, 16, 1 ] },
+        "east":  { "texture": "#frame", "uv": [ 0, 0, 16, 1 ] }
+      }
+    },
+    {
+      "from": [ 2.6, 1, 2.6 ],
+      "to": [ 6.2, 4.6, 6.2 ],
+      "faces": {
+        "down":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 6.2, 1, 2.6 ],
+      "to": [ 9.8, 4.6, 6.2 ],
+      "faces": {
+        "down":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 9.8, 1, 2.6 ],
+      "to": [ 13.4, 4.6, 6.2 ],
+      "faces": {
+        "down":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 2.6, 1, 6.2 ],
+      "to": [ 6.2, 4.6, 9.8 ],
+      "faces": {
+        "down":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 9.8, 1, 6.2 ],
+      "to": [ 13.4, 4.6, 9.8 ],
+      "faces": {
+        "down":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 2.6, 1, 9.8 ],
+      "to": [ 6.2, 4.6, 13.4 ],
+      "faces": {
+        "down":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 6.2, 1, 9.8 ],
+      "to": [ 9.8, 4.6, 13.4 ],
+      "faces": {
+        "down":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#gold", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 9.8, 1, 9.8 ],
+      "to": [ 13.4, 4.6, 13.4 ],
+      "faces": {
+        "down":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "south": { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "west":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] },
+        "east":  { "texture": "#shimmerock", "uv": [ 0, 0, 16, 16 ] }
+      }
+    },
+    {
+      "from": [ 6.2, 4.6, 6.2 ],
+      "to": [ 9.8, 5.3, 9.8 ],
+      "faces": {
+        "down":  { "texture": "#mana_infuser_top", "uv": [ 0, 0, 16, 16 ] },
+        "up":    { "texture": "#mana_infuser_side", "uv": [ 0, 0, 16, 16 ] },
+        "north": { "texture": "#mana_infuser_side", "uv": [ 0, 13, 16, 16 ] },
+        "south": { "texture": "#mana_infuser_side", "uv": [ 0, 13, 16, 16 ] },
+        "west":  { "texture": "#mana_infuser_side", "uv": [ 0, 13, 16, 16 ] },
+        "east":  { "texture": "#mana_infuser_side", "uv": [ 0, 13, 16, 16 ] }
+      }
+    }
+  ]
+}

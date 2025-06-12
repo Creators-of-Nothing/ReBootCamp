@@ -1,0 +1,8 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "frame": "mythicbotany:block/alfsteel_block",
+    "particle": "#frame"
+  }
+}
