@@ -109,35 +109,7 @@ ServerEvents.recipes(e => {
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function solarflux() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [
-    "solarflux:mirror",
-    "solarflux:photovoltaic_cell_1",
-    "solarflux:photovoltaic_cell_2",
-    "solarflux:photovoltaic_cell_3",
-    "solarflux:photovoltaic_cell_4",
-    "solarflux:photovoltaic_cell_5",
-    "solarflux:photovoltaic_cell_6",
-    "solarflux:blazing_coating",
-    "solarflux:emerald_glass",
-    "solarflux:ender_glass",
-    "solarflux:traversal_upgrade",
-    "solarflux:dispersive_upgrade",
-    "solarflux:block_charging_upgrade",
-    "solarflux:furnace_upgrade",
-    "solarflux:sp_1",
-    "solarflux:sp_2",
-    "solarflux:sp_3",
-    "solarflux:sp_4",
-    "solarflux:sp_5",
-    "solarflux:sp_6",
-    "solarflux:sp_7",
-    "solarflux:sp_8",
-    "solarflux:sp_de.wyvern",
-    "solarflux:sp_de.draconic",
-    "solarflux:sp_de.chaotic",
-    "solarflux:sp_avaritia.neutronium",
-    "solarflux:sp_avaritia.infinity"
-  ];
+  let unused = ["solarflux:mirror", "solarflux:photovoltaic_cell_1", "solarflux:photovoltaic_cell_2", "solarflux:photovoltaic_cell_3", "solarflux:photovoltaic_cell_4", "solarflux:photovoltaic_cell_5", "solarflux:photovoltaic_cell_6", "solarflux:blazing_coating", "solarflux:emerald_glass", "solarflux:ender_glass", "solarflux:traversal_upgrade", "solarflux:dispersive_upgrade", "solarflux:block_charging_upgrade", "solarflux:furnace_upgrade", "solarflux:sp_1", "solarflux:sp_2", "solarflux:sp_3", "solarflux:sp_4", "solarflux:sp_5", "solarflux:sp_6", "solarflux:sp_7", "solarflux:sp_8", "solarflux:sp_de.wyvern", "solarflux:sp_de.draconic", "solarflux:sp_de.chaotic", "solarflux:sp_avaritia.neutronium", "solarflux:sp_avaritia.infinity"];
   let hiding = [];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {

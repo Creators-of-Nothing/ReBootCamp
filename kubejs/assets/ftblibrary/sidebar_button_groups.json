@@ -1,0 +1,15 @@
+{
+  "info": {
+    "y": 0
+  },
+  "cheat": {
+    "y": 100,
+    "pinned": false
+  },
+  "util": {
+    "y": 200
+  },
+  "rebootcamp": {
+    "y": 300
+  }
+}

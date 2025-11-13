@@ -31,34 +31,22 @@ ServerEvents.recipes(e => {
   potting_aeternium("betterend:terminite_boots", "betterend:aeternium_boots");
   //#endregion
   //#region - Thallasium & Terminite
-  let potting_helmets = (Material, Result) => {
-    e.shaped(Result, ["AAA", "A A"], {
+  let potting_helmets = (Material, Helmet, Chestplate, Leggings, Boots) => {
+    e.shaped(Helmet, ["AAA", "A A"], {
+      A: Material
+    });
+    e.shaped(Chestplate, ["A A", "AAA", "AAA"], {
+      A: Material
+    });
+    e.shaped(Leggings, ["AAA", "AAA", "A A"], {
+      A: Material
+    });
+    e.shaped(Boots, ["A A", "A A"], {
       A: Material
     });
   };
-  potting_helmets("betterend:thallasium_ingot", "betterend:thallasium_helmet");
-  potting_helmets("betterend:terminite_ingot", "betterend:terminite_helmet");
-  let potting_chestplates = (Material, Result) => {
-    e.shaped(Result, ["A A", "AAA", "AAA"], {
-      A: Material
-    });
-  };
-  potting_chestplates("betterend:thallasium_ingot", "betterend:thallasium_chestplate");
-  potting_chestplates("betterend:terminite_ingot", "betterend:terminite_chestplate");
-  let potting_leggings = (Material, Result) => {
-    e.shaped(Result, ["AAA", "A A", "A A"], {
-      A: Material
-    });
-  };
-  potting_leggings("betterend:thallasium_ingot", "betterend:thallasium_leggings");
-  potting_leggings("betterend:terminite_ingot", "betterend:terminite_leggings");
-  let potting_boots = (Material, Result) => {
-    e.shaped(Result, ["A A", "A A"], {
-      A: Material
-    });
-  };
-  potting_boots("betterend:thallasium_ingot", "betterend:thallasium_boots");
-  potting_boots("betterend:terminite_ingot", "betterend:terminite_boots");
+  potting_helmets("betterend:thallasium_ingot", "betterend:thallasium_helmet", "betterend:thallasium_chestplate", "betterend:thallasium_leggings", "betterend:thallasium_boots");
+  potting_helmets("betterend:terminite_ingot", "betterend:terminite_helmet", "betterend:terminite_chestplate", "betterend:terminite_leggings", "betterend:terminite_boots");
   //#endregion
 });
 //#endregion

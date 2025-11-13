@@ -1,6 +1,8 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
+  "wizards_reborn": {
+    "numerical": true,
+    "crystal_growth": true,
+    "salt_campfire": true
   },
   "minecraft": {
     "item_storage.show_name_amount": 5,
@@ -54,6 +56,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -62,10 +74,6 @@
     "crafting_table": true,
     "compressor": true
   },
-  "extrastorage": {
-    "crafter": true,
-    "advanced_crafter": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -73,20 +81,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "apotheosis": {
-    "ench": true,
-    "spawner": true
-  },
-  "lootr": {
-    "info": true
-  },
-  "refinedcooking": {
-    "kitchen_access_point": true,
-    "kitchen_station": true
-  },
-  "balm": {
-    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -99,9 +93,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "modularrouters": {
-    "router": true
   },
   "extendedcrafting": {
     "elite_auto_table": true,
@@ -118,42 +109,17 @@
     "advanced_auto_table": true,
     "compressor": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "hammerlib": {
     "root": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
   },
   "pipez": {
     "pipe": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
+  "appliedcooking": {
+    "kitchen_station": true
   },
   "waystones": {
     "waystone": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "cookingforblockheads": {
     "fridge": true,
@@ -162,5 +128,50 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
+  "extrastorage": {
+    "crafter": true,
+    "advanced_crafter": true
+  },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
+  "apotheosis": {
+    "ench": true,
+    "spawner": true
+  },
+  "refinedcooking": {
+    "kitchen_access_point": true,
+    "kitchen_station": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

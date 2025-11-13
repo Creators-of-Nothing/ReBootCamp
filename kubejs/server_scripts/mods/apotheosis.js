@@ -1,16 +1,10 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Removed Crafts
-  e.remove([
-    { id: "apotheosis:enchanting/trident" },
-    { id: "apotheosis:library" },
-    { id: "apotheosis:hellshelf" },
-    { id: "apotheosis:seashelf" },
-    { id: "apotheosis:dormant_deepshelf" },
-    { id: "apotheosis:endshelf" }
-  ]);
+  e.remove({ id: "apotheosis:enchanting/trident" });
   //#endregion
   //#region - Bookshelves
+  e.remove([{ id: "apotheosis:hellshelf" }, { id: "apotheosis:seashelf" }, { id: "apotheosis:dormant_deepshelf" }, { id: "apotheosis:endshelf" }]);
   let potting_bookshelf = (Material1, Material2, Potion, Result) => {
     e.shaped(Result, ["AAA", "BCD", "AEA"], {
       A: Material1,
@@ -26,6 +20,7 @@ ServerEvents.recipes(e => {
   potting_bookshelf("minecraft:end_stone_bricks", "minecraft:dragon_breath", Item.of("minecraft:potion", '{Potion:"minecraft:long_slow_falling"}'), "apotheosis:endshelf");
   //#endregion
   //#region - Library
+  e.remove({ id: "apotheosis:library" });
   e.shaped("apotheosis:library", [" A ", "BCB", "DEF"], {
     A: "handcrafted:stackable_book",
     B: "#forge:chests/wooden",

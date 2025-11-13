@@ -1,15 +1,15 @@
 {
     "items": {
         // Type: Integer
-        "oxygen_chargers_distribution_interval": 20,
+        "oxygen_chargers_distribution_interval": 10,
         // Type: Long
-        "oxygen_can_fluid_capacity": 500,
+        "oxygen_can_fluid_capacity": 1000,
         // Type: Long
-        "oxygen_can_fluid_transfer": 125,
+        "oxygen_can_fluid_transfer": 500,
         // Type: Long
-        "netherite_oxygen_can_fluid_capacity": 1000,
+        "netherite_oxygen_can_fluid_capacity": 2000,
         // Type: Long
-        "netherite_oxygen_can_fluid_transfer": 250
+        "netherite_oxygen_can_fluid_transfer": 1000
     },
     "machines": {
         // Type: Long
@@ -46,7 +46,7 @@
     },
     "enchantments": {
         // Show tooltip on this mod's enchanted book
-        "tooltip_enabled": true,
+        "tooltip_enabled": false,
         /*
          * Tooltip will don't show when 'Enchantment Descriptions' or 'Enchantment Lore' or 'CoFH Core' installed.
          * but, if this set 'true' show tooltip with ignore that mods.
@@ -56,47 +56,47 @@
          * Energy usage for proof [in every 10 ticks]
          * Type: Integer
          */
-        "space_fire_proof_energy_using": 10,
+        "space_fire_proof_energy_using": 0,
         /*
          * Durability usage for proof
          * Type: Integer
          */
-        "space_fire_proof_durability_using": 1,
+        "space_fire_proof_durability_using": 0,
         /*
          * Proof duration on using durability [ticks, be multiple of 10]
          * Type: Integer
          */
-        "space_fire_proof_durability_duration": 60,
+        "space_fire_proof_durability_duration": 120,
         /*
          * Energy usage for proof [in every 10 ticks]
          * Type: Integer
          */
-        "acid_rain_proof_energy_using": 10,
+        "acid_rain_proof_energy_using": 0,
         /*
          * Durability usage for proof
          * Type: Integer
          */
-        "acid_rain_proof_durability_using": 1,
+        "acid_rain_proof_durability_using": 0,
         /*
          * Proof duration on using durability [ticks, be multiple of 10]
          * Type: Integer
          */
-        "acid_rain_proof_durability_duration": 60,
+        "acid_rain_proof_durability_duration": 120,
         /*
          * Energy usage for proof [in every 10 ticks]
          * Type: Integer
          */
-        "gravity_normalizing_energy_using": 10,
+        "gravity_normalizing_energy_using": 0,
         /*
          * Durability usage for proof
          * Type: Integer
          */
-        "gravity_normalizing_durability_using": 1,
+        "gravity_normalizing_durability_using": 0,
         /*
          * Proof duration on using durability [ticks, be multiple of 10]
          * Type: Integer
          */
-        "gravity_normalizing_durability_duration": 60
+        "gravity_normalizing_durability_duration": 120
     },
     "compats": {
         "mekanism": {

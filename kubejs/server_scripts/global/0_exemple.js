@@ -1,3 +1,5 @@
+//ignored: true
+
 //#region - Tags
 ServerEvents.tags(["item", "block"], e => {});
 //#endregion

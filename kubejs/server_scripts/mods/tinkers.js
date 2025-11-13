@@ -1,15 +1,13 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
-  //#region - Removed Crafts
-  e.remove({ id: /tconstruct:.*_sand_cast/ });
-  //#endregion
+  e.remove({id: /createaddition:compat\/tconstruct\//})
 });
 //#endregion
 
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function tinkers() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [/tconstruct:.*_sand_cast/, /tconstruct:plate.*_cast/, /tconstruct:wire.*_cast/, /tconstruct:gear.*_cast/, /tconstruct:potion_bucket/];
+  let unused = [/tconstruct:.*_sand_cast/, "tconstruct:plate_cast", "tconstruct:wire_cast", "tconstruct:potion_bucket", "tconstruct:debris_nugget", /ticex:rf_furnace_fuel_/, "tconstruct:copper_can", "ticex:exhausted_glove", "ticex:resonance_gauntlet", "tcompat:energy_arrow", "tcompat:mana_arrow"];
   let hiding = [];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {

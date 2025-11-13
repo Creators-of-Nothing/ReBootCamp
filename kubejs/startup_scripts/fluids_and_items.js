@@ -2,26 +2,13 @@
 StartupEvents.registry("fluid", e => {
   e.create("flower_oil").thinTexture(0xc4b99f).bucketColor(0xc4b99f).displayName("Flower Oil");
   e.create("void_fluid").thinTexture(0x3d1673).bucketColor(0x3d1673).displayName("Void Fluid");
-  e.create("infinity_fluid")
-    .stillTexture("avaritia:block/resource/infinity")
-    .flowingTexture("avaritia:block/resource/infinity")
-    .bucketColor(0xf0f0f0)
-    .displayName("Infinity Fluid")
-    .viscosity("10000")
-    .temperature("0");
+  e.create("infinity_fluid").stillTexture("avaritia:block/resource/infinity").flowingTexture("avaritia:block/resource/infinity").bucketColor(0xf0f0f0).displayName("Infinity Fluid").viscosity("10000").temperature("0");
 });
 //#endregion
 
 //#region - Custom Items
 StartupEvents.registry("item", e => {
-  e.create("aspectus_stamp").displayName("Aspectus Stamp");
-  e.create("dragon_cast").displayName("Dragon Cast");
-  e.create("extreme_cast").displayName("Extreme Cast");
-  e.create("inert_aspectus").displayName("Inert Aspectus");
-  e.create("inert_ingot").displayName("Inert Ingot");
-  e.create("raw_aspectus_stamp").displayName("Raw Aspectus Stamp");
-  e.create("sculk_cast").displayName("Sculk Cast");
-  e.create("wither_cast").displayName("Wither Cast");
+  e.create("inert_spawn_egg").displayName("Inert Spawn Egg");
   // Ores Duplication
   e.create("clump_amber").displayName("Amber Clump");
   e.create("clump_blazing_quartz").displayName("Blazing Quartz Clump");
@@ -135,6 +122,5 @@ StartupEvents.registry("item", e => {
 StartupEvents.registry("block", e => {
   e.create("powdered_obsidian_block").displayName("Powdered Obsidian Block");
   e.create("gaia_block").displayName("Gaia Spirit Block");
-  e.create("inert_block").displayName("Inert Block");
 });
 //#endregion

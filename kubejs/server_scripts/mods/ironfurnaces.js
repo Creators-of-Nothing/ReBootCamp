@@ -78,19 +78,7 @@ ServerEvents.recipes(e => {
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function ironfurnaces() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [
-    "ironfurnaces:crystal_furnace",
-    "ironfurnaces:silver_furnace",
-    "ironfurnaces:upgrade_crystal",
-    "ironfurnaces:upgrade_gold2",
-    "ironfurnaces:upgrade_iron",
-    "ironfurnaces:upgrade_obsidian2",
-    "ironfurnaces:upgrade_silver",
-    "ironfurnaces:upgrade_silver2",
-    "ironfurnaces:rainbow_coal",
-    "ironfurnaces:rainbow_core",
-    "ironfurnaces:rainbow_plating"
-  ];
+  let unused = ["ironfurnaces:crystal_furnace", "ironfurnaces:silver_furnace", "ironfurnaces:upgrade_crystal", "ironfurnaces:upgrade_gold2", "ironfurnaces:upgrade_iron", "ironfurnaces:upgrade_obsidian2", "ironfurnaces:upgrade_silver", "ironfurnaces:upgrade_silver2", "ironfurnaces:rainbow_coal", "ironfurnaces:rainbow_core", "ironfurnaces:rainbow_plating"];
   let hiding = [];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
