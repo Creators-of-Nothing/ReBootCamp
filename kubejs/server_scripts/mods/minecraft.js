@@ -2,6 +2,7 @@
 ServerEvents.tags(["item", "block"], e => {
   e.remove("c:chests", "minecraft:ender_chest");
   e.remove("handcrafted:chests", "minecraft:ender_chest");
+  e.remove("forge:chests/wooden", "minecraft:trapped_chest");
 });
 //#endregion
 
@@ -11,7 +12,8 @@ ServerEvents.recipes(e => {
   e.remove([{ id: "minecraft:netherite_ingot" }, { id: "minecraft:netherite_scrap" }]);
   //#endregion
   //#region - Replaced Inputs
-  e.replaceInput({ input: "minecraft:chest" }, "minecraft:chest", "#forge:chests/wooden");
+  e.replaceInput({ input: "minecraft:chest" }, "minecraft:chest", "forge:chests/wooden");
+  e.replaceInput({ input: "minecraft:barrel" }, "minecraft:barrel", "forge:barrels/wooden");
   //#endregion
 });
 //#endregion
@@ -19,7 +21,7 @@ ServerEvents.recipes(e => {
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function minecraft() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = ["minecraft:netherite_scrap", "minecraft:chest", /minecraft:.*shulker_box/, /minecraft:.*command_block/, "minecraft:structure_block", "minecraft:jigsaw"];
+  let unused = ["minecraft:netherite_scrap", /minecraft:.*command_block/, "minecraft:structure_block", "minecraft:jigsaw"];
   let hiding = ["minecraft:tipped_arrow"];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {

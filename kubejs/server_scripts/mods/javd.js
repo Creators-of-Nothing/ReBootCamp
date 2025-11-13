@@ -9,7 +9,7 @@ ServerEvents.recipes(e => {
         item: "alexsmobs:void_worm_eye"
       },
       {
-        item: "mna:patch_void"
+        item: "tconstruct:nahuatl"
       },
       {
         item: "cataclysm:void_core"
@@ -24,35 +24,35 @@ ServerEvents.recipes(e => {
     spirits: [
       {
         type: "aqueous",
-        count: 32
+        count: 64
       },
       {
         type: "aerial",
-        count: 32
+        count: 64
       },
       {
         type: "earthen",
-        count: 32
+        count: 64
       },
       {
         type: "infernal",
-        count: 32
+        count: 64
       },
       {
         type: "arcane",
-        count: 32
+        count: 64
       },
       {
         type: "sacred",
-        count: 32
+        count: 64
       },
       {
         type: "eldritch",
-        count: 32
+        count: 64
       },
       {
         type: "wicked",
-        count: 32
+        count: 64
       }
     ]
   });

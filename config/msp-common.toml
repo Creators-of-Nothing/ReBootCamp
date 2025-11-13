@@ -1,0 +1,5 @@
+
+["General Settings"]
+	#Show message sender (default = true)
+	showNotificationSender = true
+

@@ -1,15 +1,7 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Removed Crafts
-  e.remove([
-    { id: /sophisticatedbackpacks:.*backpack/ },
-    { id: /sophisticatedstorage:.*_barrel/ },
-    { id: /sophisticatedstorage:.*_chest/ },
-    { id: /sophisticatedstorage:.*_shulker/ },
-    { id: /sophisticatedstorage:shulker/ },
-    { id: "minecraft:shulker_box_from_vanilla_shulker_box" },
-    { id: /sophisticatedstorage:.*_tier_upgrade/ }
-  ]);
+  e.remove([{ id: /sophisticatedbackpacks:.*backpack/ }, { id: /sophisticatedstorage:.*_barrel/ }, { id: /sophisticatedstorage:.*_chest/ }, { id: /sophisticatedstorage:.*_shulker/ }, { id: /sophisticatedstorage:shulker/ }, { id: "minecraft:shulker_box_from_vanilla_shulker_box" }, { id: /sophisticatedstorage:.*_tier_upgrade/ }]);
   //#endregion
   //#region - Basic Backpack
   e.shaped("sophisticatedbackpacks:backpack", ["ABA", "CDC", "ABA"], {
@@ -55,54 +47,6 @@ ServerEvents.recipes(e => {
   potting_backpack_tier("sophisticatedbackpacks:gold_backpack", "botania:terrasteel_block", "extendedcrafting:black_iron_block", "sophisticatedbackpacks:diamond_backpack");
   potting_backpack_tier("sophisticatedbackpacks:diamond_backpack", "ad_astra:steel_block", "gobber2:gobber2_block_end", "sophisticatedbackpacks:netherite_backpack");
   //#endregion
-  //#region - Crafts with Chests
-  e.remove([{ id: "minecraft:hopper" }, { id: "bclib:tag_hopper" }]);
-  e.shaped("minecraft:hopper", ["A A", "ABA", " A "], {
-    A: "minecraft:iron_ingot",
-    B: "sophisticatedstorage:chest"
-  });
-  let potting_crafts_with_chests_shapeless = (Material, Result_and_ID) => {
-    e.remove({ id: Result_and_ID });
-    e.shapeless(Result_and_ID, ["sophisticatedstorage:chest", Material]);
-  };
-  potting_crafts_with_chests_shapeless("minecraft:oak_boat", "minecraft:oak_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:bamboo_raft", "minecraft:bamboo_chest_raft");
-  potting_crafts_with_chests_shapeless("minecraft:spruce_boat", "minecraft:spruce_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:birch_boat", "minecraft:birch_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:jungle_boat", "minecraft:jungle_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:acacia_boat", "minecraft:acacia_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:dark_oak_boat", "minecraft:dark_oak_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:mangrove_boat", "minecraft:mangrove_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:cherry_boat", "minecraft:cherry_chest_boat");
-  potting_crafts_with_chests_shapeless("alexscaves:pewen_boat", "alexscaves:pewen_chest_boat");
-  potting_crafts_with_chests_shapeless("alexscaves:thornwood_boat", "alexscaves:thornwood_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:aspen_boat", "biomeswevegone:aspen_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:baobab_boat", "biomeswevegone:baobab_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:blue_enchanted_boat", "biomeswevegone:blue_enchanted_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:cika_boat", "biomeswevegone:cika_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:cypress_boat", "biomeswevegone:cypress_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:ebony_boat", "biomeswevegone:ebony_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:fir_boat", "biomeswevegone:fir_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:florus_boat", "biomeswevegone:florus_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:green_enchanted_boat", "biomeswevegone:green_enchanted_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:holly_boat", "biomeswevegone:holly_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:ironwood_boat", "biomeswevegone:ironwood_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:jacaranda_boat", "biomeswevegone:jacaranda_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:mahogany_boat", "biomeswevegone:mahogany_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:maple_boat", "biomeswevegone:maple_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:palm_boat", "biomeswevegone:palm_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:pine_boat", "biomeswevegone:pine_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:rainbow_eucalyptus_boat", "biomeswevegone:rainbow_eucalyptus_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:redwood_boat", "biomeswevegone:redwood_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:sakura_boat", "biomeswevegone:sakura_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:skyris_boat", "biomeswevegone:skyris_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:white_mangrove_boat", "biomeswevegone:white_mangrove_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:willow_boat", "biomeswevegone:willow_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:witch_hazel_boat", "biomeswevegone:witch_hazel_chest_boat");
-  potting_crafts_with_chests_shapeless("biomeswevegone:zelkova_boat", "biomeswevegone:zelkova_chest_boat");
-  potting_crafts_with_chests_shapeless("minecraft:tripwire_hook", "minecraft:trapped_chest");
-  potting_crafts_with_chests_shapeless("minecraft:minecart", "minecraft:chest_minecart");
-  //#endregion
   //#region - Barrel, Chest and Shulker
   let potting_storage = (Material1, Material2, Result) => {
     e.shaped(Result, ["ABA", "ACA", "ABA"], {
@@ -129,13 +73,7 @@ ServerEvents.recipes(e => {
   potting_limited_barrel("#minecraft:wooden_slabs", "#minecraft:planks", "#minecraft:planks", "#minecraft:planks", Item.of("sophisticatedstorage:limited_barrel_1", '{woodType:"oak"}'));
   potting_limited_barrel("#minecraft:planks", "#minecraft:wooden_slabs", "#minecraft:wooden_slabs", "#minecraft:planks", Item.of("sophisticatedstorage:limited_barrel_2", '{woodType:"oak"}'));
   potting_limited_barrel("#minecraft:wooden_slabs", "#minecraft:wooden_slabs", "#minecraft:wooden_slabs", "#minecraft:planks", Item.of("sophisticatedstorage:limited_barrel_3", '{woodType:"oak"}'));
-  potting_limited_barrel(
-    "#minecraft:wooden_slabs",
-    "#minecraft:wooden_slabs",
-    "#minecraft:wooden_slabs",
-    "#minecraft:wooden_slabs",
-    Item.of("sophisticatedstorage:limited_barrel_4", '{woodType:"oak"}')
-  );
+  potting_limited_barrel("#minecraft:wooden_slabs", "#minecraft:wooden_slabs", "#minecraft:wooden_slabs", "#minecraft:wooden_slabs", Item.of("sophisticatedstorage:limited_barrel_4", '{woodType:"oak"}'));
   //#endregion
   //#region - Storage Tiers
   let potting_storage_tier = (Base, Material1, Material2, Result) => {
@@ -219,13 +157,7 @@ ServerEvents.recipes(e => {
   potting_storage_tier_upgrade("sophisticatedstorage:gold_to_diamond_tier_upgrade", "ad_astra:steel_block", "gobber2:gobber2_block_end", "sophisticatedstorage:diamond_to_netherite_tier_upgrade");
   //#endregion
   //#region - Upgrades
-  e.remove([
-    { id: /sophisticatedstorage:tier_upgrade/ },
-    { id: /sophisticatedstorage:.*from/ },
-    { id: /sophisticatedstorage:stack_/ },
-    { id: /sophisticatedbackpacks:.*from/ },
-    { id: /sophisticatedbackpacks:stack_/ }
-  ]);
+  e.remove([{ id: /sophisticatedstorage:tier_upgrade/ }, { id: /sophisticatedstorage:.*from/ }, { id: /sophisticatedstorage:stack_/ }, { id: /sophisticatedbackpacks:.*from/ }, { id: /sophisticatedbackpacks:stack_/ }]);
   let potting_upgrade = (Base, Material, Result) => {
     e.custom({
       type: "create:deploying",

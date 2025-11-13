@@ -1,0 +1,8 @@
+{
+  "name": "singularity.exemple",
+  "colors": ["AABBCC", "CCBBAA"],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  }
+}

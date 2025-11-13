@@ -1,7 +1,7 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Netherite Trapdoor/Door/Safe
-  e.remove([{ id: "supplementaries:netherite_trapdoor" }, { id: "supplementaries:netherite_door" }, { id: "supplementaries:safe_crafting" }]);
+  e.remove([{ id: "supplementaries:netherite_trapdoor" }, { id: "supplementaries:netherite_door" }]);
   e.shapeless("supplementaries:netherite_trapdoor", ["supplementaries:gold_trapdoor", "minecraft:netherite_ingot"]);
   e.shapeless("supplementaries:netherite_door", ["supplementaries:gold_door", "minecraft:netherite_ingot"]);
   //#endregion

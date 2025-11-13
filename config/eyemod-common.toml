@@ -1,0 +1,30 @@
+#The item that can be exchanged for money in the bank app
+currency = "minecraft:emerald"
+#Disable apps that are marked as 'OP' apps
+disableCheatApps = false
+#Allow apps that let the user buy items for a price (does not include the store app)
+allowShopApps = false
+#The maximum reach of a router block
+#Range: 0 ~ 512
+routerRange = 0
+#The battery drain speed (0 = zero drain, 100 = maximum drain)
+#Range: 0 ~ 100
+battery = 50
+#The EyePhone NBT tag will be cleared if the size is larger then the defined number. The size is defined by the amount of characters of the tag.
+#Range: > 10000
+maxStorage = 10000
+#Allows the user teleport to their own home location
+allowHome = false
+#Allows the user to teleport to the locations in the spawn location list
+allowSpawns = false
+#A list of spawn locations where any user can teleport to, for example: ["Spawn=X/Y/Z/minecraft:overworld", "Nether=X/Y/Z/minecraft:the_nether"]
+spawnLocations = [""]
+#Use to overwrite the price of the apps
+prices = ["eyemod:appname=10", "mod:appname=0"]
+#Overwrite the access level of the apps, 0 = Everyone, 1 = Only OP's (or cheats enabled in SP), 2 = Disabled
+access = ["eyemod:appname=1", "mod:appname=2"]
+#Items sold in the food shop app, add items to the list using '<item:id>=<price>x<amount>'
+shopFood = ["minecraft:apple=4x1", "minecraft:baked_potato=5x1", "minecraft:beetroot_soup=7x1", "minecraft:bread=5x1", "minecraft:cake=15x1", "minecraft:cooked_beef=8x1", "minecraft:cooked_chicken=6x1", "minecraft:cooked_cod=5x1", "minecraft:cooked_mutton=6x1", "minecraft:cooked_porkchop=8x1", "minecraft:cooked_rabbit=6x1", "minecraft:cooked_salmon=6x1", "minecraft:cookie=2x1", "minecraft:dried_kelp=1x1", "minecraft:golden_carrot=6x1", "minecraft:mushroom_stew=6x1", "minecraft:pumpkin_pie=8x1", "minecraft:rabbit_stew=10x1", "minecraft:potion=4x1"]
+#Items sold in the util shop app, add items to the list using '<item:id>=<price>x<amount>'
+shopUtil = ["minecraft:iron_pickaxe=16x1", "minecraft:iron_axe=16x1", "minecraft:iron_shovel=12x1", "minecraft:iron_sword=12x1", "minecraft:iron_hoe=8x1", "minecraft:torch=16x64", "minecraft:bucket=10x1", "minecraft:oak_planks=32x64", "minecraft:dirt=24x128"]
+

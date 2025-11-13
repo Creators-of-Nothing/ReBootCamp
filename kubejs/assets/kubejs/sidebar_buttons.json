@@ -1,0 +1,8 @@
+{
+  "rebootcamp": {
+    "group": "ftblibrary:rebootcamp",
+    "icon": "solcarrot:item/food_book",
+    "x": 0,
+    "click": "command:/say hello"
+  }
+}

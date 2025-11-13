@@ -126,14 +126,6 @@ ServerEvents.recipes(e => {
   //#endregion
   //#region - Minerals
   e.remove({ type: "minecraft:stonecutting", output: "#chipped:iron_block" });
-  e.remove({ id: "iceandfire:ash_to_charcoal" });
-  //#endregion
-  //#region - Others
-  e.remove({ id: "iceandfire:dragon_ice" });
-  e.remove({ id: "powah:energizing/dry_ice" });
-  e.remove({ id: "alexscaves:furnace/smooth_bone_smelting" });
-  e.remove({ id: "alexscaves:hollow_bone" });
-  e.remove({ id: "alexscaves:thin_bone" });
   //#endregion
 });
 //#endregion
