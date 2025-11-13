@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah_et_flux_network"
+	group: "5583654A1516B98A"
+	icon: "fluxnetworks:gargantuan_flux_storage"
+	id: "10D297BB965F1A5A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["432162E66E132351"]
+			description: [
+				"Permet de gérer l'énergie en &2Wifi&r. Utilisez le &4Controller&r pour créer votre propre &2network&r. Avec lui, vous pourrez décider si l'énergie peut se transmettre à votre personnage ou non, et dans quelle partie de l'inventaire."
+				""
+				"Le &4Plug&r envoie l'énergie depuis votre source (comme par exemple les &4panneaux solaires&r de &4Solar Flux Reborn&r), le &4Point&r la réceptionne et la transmet à la machine ou au cable auquel il est lié."
+			]
+			id: "50DCDBEDCE3C671B"
+			rewards: [{
+				count: 4
+				id: "33EE01A7278E91FB"
+				item: "minecraft:redstone_ore"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Energie en WIFI"
+			tasks: [
+				{
+					id: "1C518E1A5189F975"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "50A8D833568378FC"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "1134D92E5E42DF76"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "Flux Network"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50DCDBEDCE3C671B"]
+			description: ["C'est un très gros &2stockage&r d'énergie."]
+			id: "3559E786CD78AADC"
+			rewards: [{
+				count: 4
+				id: "155AD831B234659D"
+				item: "minecraft:redstone_block"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A49668CBACAE16"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Ce chapitre a pour vocation de vous expliquer comment obtenir un &2maximum d'énergie&r et comment le transmettre facilement."
+				""
+				"&n&4Petite subtilité&r :&r le mod &4Powah&r a été très largement simplifié, car nous estimons que les autres façons de générer de l'énergie étaient juste dérisoires par rapport aux &4Thermo Generators&r. Il y a également moins de &2Tiers&r de machines, mais le principe reste le même."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "432162E66E132351"
+			rewards: [{
+				count: 4
+				id: "3B1BCACAB6103A3B"
+				item: "pipez:energy_pipe"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "77FBAB15DFBDDCBE"
+				type: "checkmark"
+			}]
+			title: "Unlimited POWAAAAH !!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0291219EAB8A821F"]
+			description: ["C'est juste des &2cables d'énergie&r. Plus le &2Tier&r est élevé, plus ils &2déplacerons&r d'énergie."]
+			id: "7536A477D3231E17"
+			rewards: [{
+				count: 4
+				id: "3EE9408150ABB2E7"
+				item: "powah:energy_cable_nitro"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Des cables d'énergie"
+			tasks: [
+				{
+					count: 4L
+					id: "32D671C3E74DB1E0"
+					item: { Count: 4, id: "powah:energy_cable_starter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "593068561EFA700A"
+					item: { Count: 4, id: "powah:energy_cable_hardened" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5876770F9D57A587"
+					item: { Count: 4, id: "powah:energy_cable_niotic" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4AF3B3FD7ACCCD14"
+					item: { Count: 4, id: "powah:energy_cable_nitro" }
+					type: "item"
+				}
+			]
+			title: "Energy Cables"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0291219EAB8A821F"
+				"0D4A0724F4A7B94C"
+			]
+			description: [
+				"Les &4Rods&r se &2greffent&r à des &4cables&r du mod &4Powah&r. Plus le &2Tier&r est élevé, plus ils &2transmettrons&r d'énergie à l'Orb."
+				""
+				"Si les &4Rods&r sont trop loin de l'&4Orb&r, vous pouvez utiliser la &4Wrench&r en &2mode Link&r pour lier les &4Rods&r à l'&4Orb&r en faisant un &2clic droit&r des &4Rods&r jusqu'à l'&4Orb&r."
+			]
+			id: "36D227383BEDFD3A"
+			rewards: [{
+				id: "5523E90A6E25203F"
+				item: "powah:energizing_rod_nitro"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Transférer l'énergie"
+			tasks: [
+				{
+					id: "0FBBC8EB34C69A64"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+				{
+					id: "6D04E28991B78F74"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+				{
+					id: "75D4C07040E776B1"
+					item: "powah:energizing_rod_niotic"
+					type: "item"
+				}
+				{
+					id: "02CDEAD89340626D"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+			]
+			title: "Energizing Rods"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["432162E66E132351"]
+			description: ["C'est juste une &2batterie&r. Plus le &2Tier&r est élevé, plus il pourra &2stocker&r et &2redistribuer&r de l'énergie."]
+			id: "5ECAE2764D379CF8"
+			rewards: [{
+				id: "13F62AA98CA45B9F"
+				item: "gobber2:gobber2_block_end"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Du stockage d'énergie"
+			tasks: [
+				{
+					id: "3E23DBD9C21BF482"
+					item: "powah:energy_cell_starter"
+					type: "item"
+				}
+				{
+					id: "03DAFF4095BAAA64"
+					item: "powah:energy_cell_hardened"
+					type: "item"
+				}
+				{
+					id: "1B39360EAE7200D3"
+					item: "powah:energy_cell_niotic"
+					type: "item"
+				}
+				{
+					id: "7C1DF5199E9F96F2"
+					item: "powah:energy_cell_nitro"
+					type: "item"
+				}
+			]
+			title: "Energy Cells"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["432162E66E132351"]
+			description: [
+				"Les &4Thermo Generators&r sont très simples d'utilisation : le but est de générer un maximum de &2chaleur&r qui vous produira un maximum d'&2énergie&r. Pour cela, il vous faudra :"
+				""
+				"- un &2bloc chaud&r sur lequel poser votre &4Thermo Generator&r"
+				"- un &2liquide chaud&r à donner en continu qui se &2consommera&r avec le temps"
+				""
+				"Plus ces deux facteurs produisent de chaleur, plus le &4Thermo Generator&r produira d'&2énergie&r. Pour connaître les blocs et liquides compatibles, regarder l'&2utilisation&r (par défaut la touche U) d'un &4Thermo Genetator&r, il y a un &2onglet&r pour les blocs et un onglet pour les liquides."
+				""
+				"Plus le &2Tier&r d'un &4Thermo Generator&r est élevé, plus il &2produira&r, &2stockera&r, et &2transmettra&r d'énergie."
+			]
+			id: "147B2403ACD96E1D"
+			rewards: [
+				{
+					id: "281613968FEA59FB"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6BF34ECCB0E10B45"
+					item: "cataclysm:ignitium_block"
+					type: "item"
+				}
+			]
+			subtitle: "Une génération d'énergie"
+			tasks: [
+				{
+					id: "54FEF8EA00CE61E4"
+					item: "powah:thermo_generator_starter"
+					type: "item"
+				}
+				{
+					id: "3F6DB9ADE90A0A10"
+					item: "powah:thermo_generator_hardened"
+					type: "item"
+				}
+				{
+					id: "130ED63F044DF872"
+					item: "powah:thermo_generator_niotic"
+					type: "item"
+				}
+				{
+					id: "2624FBD90F1C44C9"
+					item: "powah:thermo_generator_nitro"
+					type: "item"
+				}
+			]
+			title: "Thermo Generators"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["432162E66E132351"]
+			description: [
+				"Une &4Wrench&r qui permet de &2configurer&r les machines du mod &4Powah&r. Vous vous en servirez surtout pour &2lier&r les &4Energising Rods&r à l'&4Orb&r."
+				""
+				"Pour changer le &2mode de fonctionnement&r de la &4Wrench&r, il faut faire un &2shift + clic droit&r dans les airs avec la &4Wrench&r en main."
+				""
+				"Les différents &2modes&r sont :"
+				""
+				"- &2Config&r -> permet de changer le mode des cables. Par défaut, ces derniers peuvent insérer et extraire de l'énergie. Vous pouvez faire en sorte qu'ils déplacent l'énergie que dans un sens avec ce mode."
+				"- &2Link&r -> permet de lier les Energising Rods à l'Orb en faisant un clic droit de l'un à l'autre."
+				"- &2Rotate&r -> permet de changer l'orientation d'un bloc."
+			]
+			id: "0D4A0724F4A7B94C"
+			rewards: [{
+				id: "49AEE8B093D48367"
+				item: "minecraft:iron_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "13E7EB91A160E266"
+				item: {
+					Count: 1
+					id: "powah:wrench"
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["432162E66E132351"]
+			description: [
+				"Il s'agit de la &2seule machine&r du mod &4Powah&r. Il s'agit grossièrement d'une &4table de craft&r. En faisant un &2clic droit&r avec un item sur l'&4Orb&r, vous lui placerez l'objet à l'intérieur. Un &2clic droit&r avec la main vide vous permettra de récupérer les objets à l'intérieur. Vous pouvez également utiliser des &4cables&r pour y placer les objets et extraire les objets."
+				""
+				"Pour que l'&4Orb&r fonctionne, après y avoir placer les objets, il faudra lui transférer de l'énergie via les &4Energising Rods&r."
+			]
+			id: "0291219EAB8A821F"
+			rewards: [{
+				id: "130CCE60FEBCA5BD"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			subtitle: "La seule machine"
+			tasks: [{
+				id: "1E6E63C80809B1DD"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3559E786CD78AADC"
+				"36D227383BEDFD3A"
+				"7536A477D3231E17"
+				"5ECAE2764D379CF8"
+				"147B2403ACD96E1D"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "77208761EDF36AA3"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0C6CAD302FA65D09"
+				title: "Powah et Flux Network complété"
+				type: "checkmark"
+			}]
+			title: "Powah et Flux Network complété !"
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	title: "Powah et Flux Network"
+}

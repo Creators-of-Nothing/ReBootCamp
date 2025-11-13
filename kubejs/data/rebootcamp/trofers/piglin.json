@@ -1,0 +1,20 @@
+{
+    "name": {
+        "text": "Trophée Vanille !",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "minecraft:piglin_brute",
+		"nbt": "{HandItems:[{Count:1b,id:\"minecraft:golden_axe\",tag:{Damage:0}},{}]}"
+    },
+    "display": {
+        "scale": 0.5
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#4a2207",
+        "base": "#FFFFFF"
+    }
+}

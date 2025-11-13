@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapitre_2"
+	group: "1ACD3872D20FC6C3"
+	icon: "create:mechanical_arm"
+	id: "1B224C6583E5FF1B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Technologie"
+}

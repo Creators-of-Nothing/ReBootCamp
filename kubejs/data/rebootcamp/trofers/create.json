@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Create",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "create:mechanical_arm"
+    },
+    "display": {
+        "scale": 1.25,
+		"offset": {
+			"y": 6
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#FFAA00",
+        "base": "#FFFFFF"
+    }
+}

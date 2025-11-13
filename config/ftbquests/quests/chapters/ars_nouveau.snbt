@@ -1,0 +1,1816 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "1921496FB68D5F69"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "2F9EAA2D7BD1F8C3"
+	images: [
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/familiers.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.25d
+			y: -5.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.5d
+			y: -0.25d
+		}
+		{
+			height: 13.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -9.25d
+			y: 6.75d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0150375939849623d
+			image: "kubejs:textures/ftbquests/monstre.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -10.25d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/ftbquests/grimoire.png"
+			rotation: 0.0d
+			width: 5.629213483146067d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 0.9906191369606004d
+			image: "kubejs:textures/ftbquests/source.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -8.75d
+			y: 3.5d
+		}
+		{
+			height: 1.7363344051446945d
+			image: "kubejs:textures/ftbquests/machine.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			height: 10.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.75d
+			y: -10.25d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/armures.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.5d
+			y: -12.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: [
+				"C'est le livre du mod. Il est très complet, n'hésites pas à le consulter si besoin ! Pour les anglophobes, il est traduit en &2français&r !!"
+				""
+				"N'hésitez pas à utiliser l'&4Index&r du livre pour savoir à quoi servent les objets. "
+			]
+			hide_dependency_lines: true
+			id: "68E7C6523CC197C8"
+			rewards: [{
+				id: "2A8514546065B318"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "13C9FB1C81AF2045"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Tues un &2Wilden Stalker&r. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Stalker Wilden Den&r."]
+			hide_dependency_lines: true
+			id: "6B9B376A7043C727"
+			rewards: [{
+				id: "472F837578789F24"
+				item: "ars_nouveau:wilden_wing"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				icon: "ars_nouveau:wilden_stalker_se"
+				id: "4C2780451C0AF564"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Tues un &2Wilden Defender&r. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Gardian Wilden Den&r."]
+			hide_dependency_lines: true
+			id: "5DA1694B9BF2B14A"
+			rewards: [{
+				id: "02C5D300DE9482A2"
+				item: "ars_nouveau:wilden_spike"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				icon: "ars_nouveau:wilden_guardian_se"
+				id: "334885F3374977F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Tues un &2Wilden Hunter&r. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Hunter Wilden Den&r."]
+			hide_dependency_lines: true
+			id: "715B3F8FF5F8E69C"
+			rewards: [{
+				id: "0FCF83724DEE99CF"
+				item: "ars_nouveau:wilden_horn"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				icon: "ars_nouveau:wilden_hunter_se"
+				id: "12984374ED3886D9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: [
+				"Invoque et tues une &4Wilden Chimera&r. Pour l'invoquer, tu vas devoir faire un rituel avec la &4Tablet Summon Wilden&r, et donner au &4Brazier&r un &4Wilden Horn&r, un &4Wilden Wing&r, et un &4Wilden Spike&r, puis activer le rituel. "
+				""
+				"Bonne chance !"
+			]
+			hide_dependency_lines: true
+			id: "32B05767159912E2"
+			rewards: [{
+				id: "683EC23CD74FD4B3"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "54145C2C2201A304"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1346620FBEF42E79"]
+			description: ["Encore mieux ! Il te permet de lancer tout les sorts que tu veux !"]
+			id: "0EDE325A1E08EC4D"
+			rewards: [{
+				id: "0726E4B499D5F6C0"
+				item: "minecraft:emerald"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "08C531E9598A9D40"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68E7C6523CC197C8"]
+			description: [
+				"Ton premier &4livre de sort&r. Il te permet de lancer des sorts de &2tier 1&r. Pour l'ouvrir, configurez une touche pour l'ouvrir quand vous l'avez en main. Vous pouvez configurer une touche pour ouvrir une &2roue d'accès rapide&r des sorts que vous avez enregistré."
+				""
+				"La page principale de ce livre vous permet de &4créer vos sorts personnalisés&r. Pour créer votre premier sort, vous devez commencer par lui donner une &4forme&r : c'est le mode de déclenchement du sort. Ensuite, vous pouvez, soit l'&4amplifier&r puis lui donner un effet, soit lui donner un effet et l'amplifier, etc ... La seule limite est votre imagination ! Plus votre sort est complexe, plus il coutera du mana. Pour gagner du mana max ou de la régen mana, vous avez les &4enchantements&r, ou les &4armures du mod&r."
+			]
+			id: "396AD3760E38C080"
+			rewards: [{
+				id: "57011DAD8BFB4E4D"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "413783AE5D535A78"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["396AD3760E38C080"]
+			description: ["Le même livre, mais en mieux ! Il te permet de lancer des sorts de       &4tier 1 et 2&r !"]
+			id: "1346620FBEF42E79"
+			rewards: [{
+				id: "5251BDD123C0639D"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "37140D290321A488"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["396AD3760E38C080"]
+			description: ["Cette table vous permettra de débloquer de nouveaux &4glyphes&r pour créer des sorts. Visez la table comme si vous alliez lancer un sort avec votre livre. Sélectionnez le &4glyphe&r désiré, et jetez sur la table tout ce qui est demandé en bas à gauche. Attention, cela vous coûtera des &2niveaux d'xp&r ! Lorsque vous aurez votre glyphes, mangez le en faisant un &2clic droit&r. Il apparaîtra désormais dans votre &4livre de sort&r !"]
+			id: "5D8C20CAA0F7D716"
+			rewards: [{
+				id: "3E9AC5D5F5DE0C6F"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57362E8853DC85B2"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: [
+				"Il s'agit du stockage de la &4Source&r. La &4Source&r sert à faire fonctionner vos machines."
+				""
+				"Si un générateur de &4Source&r se trouvent à proximité (5 blocs max), il remplira la &4Jar&r. Cette dernière peut contenir jusqu'à &210.000 unités&r de &2Source&r."
+			]
+			hide_dependency_lines: true
+			id: "05B1F9222C0D715E"
+			rewards: [{
+				id: "55F619A0847C0DAD"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58DB10C2848D469A"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Donnez une &4Wilden Horn&r à un &4Drygmy&r."]
+			hide_dependency_lines: true
+			id: "7FAD444CAA0A13C3"
+			rewards: [{
+				id: "4C3424E31EDB51DF"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D9E058DBDB5751A"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Donnez un &4gold nugget&r à un &4Starbuncle&r."]
+			hide_dependency_lines: true
+			id: "27FCBB2F0294B701"
+			rewards: [{
+				id: "557ABBDFE7580C07"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC8AF1E4659E61F"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Faites pousser un &2arbre&r à côté d'un &4Whirlispring&r."]
+			hide_dependency_lines: true
+			id: "026E7E41ABF9AD88"
+			rewards: [{
+				id: "22F11C4701C28A55"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F0BAF8F013C5104"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Utilisez le sort &4Dispel&r sur une &4sorcière&r qui boit une potion lorsqu'elle a moins de la moitié de sa vie. Pour lancer un sort, utilises ton &4Spell Book&r !"]
+			hide_dependency_lines: true
+			id: "46FA2563F9171D37"
+			rewards: [{
+				id: "1EFA8523CF3AC64B"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1935E2B4FE1363CF"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46FA2563F9171D37"]
+			description: ["A utiliser sur un &4chaudron&r. La &4Wixie&r permet de faire des potions comme un &4Alambic&r, mais plus puissante, avec des potions réutilisables ! Elle peut également faire des crafts automatiquement ! Je vous invite à lire le livre du mod si vous souhaitez en savoir plus :)"]
+			id: "16CCC5BFB5B243C0"
+			rewards: [{
+				id: "0889BA8E73016B72"
+				item: "minecraft:blaze_powder"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F0EF2567C593D2B"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["026E7E41ABF9AD88"]
+			description: ["Le &4Whirlispring&r est un être qui va produire des ressources végétales automatiquement et qui se trouve à côté de lui. Lisez le livre pour en savoir plus :)"]
+			id: "150AADE3EB49F686"
+			rewards: [{
+				id: "07B6F2702EE44A77"
+				item: "minecraft:spruce_sapling"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CD42E41828E8EE"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27FCBB2F0294B701"]
+			description: ["Les &4Starbuncles&r peuvent transporter les items d'un inventaire à un autre, et les ramasser au sol. Voir le livre pour en savoir plus :)"]
+			id: "5D88BF4459207F12"
+			rewards: [{
+				id: "30D459FD1071CF77"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4811E4F4767760FE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FAD444CAA0A13C3"]
+			description: ["Faites un clic avec le &4charm&r sur un bloc de &4Cobble Moussu&r pour l'invoquer. Le &4Drygmy&r produire les ressources des mobs à proximité de lui, sans les tuer, passif ou agressif. Lire le livre du mod pour en savoir plus :)"]
+			id: "021D50A4A0D65EDF"
+			rewards: [{
+				id: "18ABADA2EBF4D78F"
+				item: "minecraft:apple"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EBF969985C3DEED"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05B1F9222C0D715E"]
+			description: ["Génère de la &4Source&r grâce à la pousse &n&2naturelle&r&r des &2plantes&r dans un rayon de 15 blocs autour de lui. Accélérer la pousse des plantes grâce à la bonemeal &4ne fonctionne pas&r. Cependant, les plantes de &4Ars Nouveau&r produisent plus de Source que les autres (&4Magebloom, Source Berry Bush, et Archwood Sapling&r)."]
+			id: "5000E70B88157424"
+			rewards: [{
+				id: "7B74E6D37EF47770"
+				item: "minecraft:wheat_seeds"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "58EC8C15EF87D113"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05B1F9222C0D715E"]
+			description: [
+				"Génère de la &4Source&r en lui donnant de la &2nourriture&r. Plus la nourriture est de bonne qualitée, plus elle génère de &2Source&r. Les &2Sources Berry&r en donne beaucoup."
+				""
+				"Accessoirement, cet item convertira la &4terre&r autour de lui en &4mycélium&r et génèrera des &4champignons&r autour de lui."
+			]
+			id: "5070F9748FE9B4D0"
+			rewards: [
+				{
+					id: "4991CC857785AE11"
+					item: "minecraft:brown_mushroom"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4192A4BBD96747F7"
+					item: "minecraft:red_mushroom"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D65EF6402CD0698"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05B1F9222C0D715E"]
+			description: ["Génère de la &2Source&r en lui donnant du &2combustible&r. Les &4Archwood Logs&r en donne le plus. Il posera des &4Lava Lily&r autour de lui, et convertira la &4Stone&r en &4Lave&r."]
+			id: "009D6F6447336592"
+			rewards: [{
+				id: "3B849D38716887AA"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00EB6A3C8743358E"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05B1F9222C0D715E"]
+			description: ["Génère de la &4Source&r en prélevant des potions dans les &4Potions Jar&r environnantes. L'utilisation de la &4Wixie&r est recommandée. Plus la potion est complexe, plus elle génèrera de &4Source&r."]
+			id: "6949845EDB95CA06"
+			rewards: [{
+				id: "51C6ED6721EAD4F3"
+				item: "minecraft:blaze_powder"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A19868877C30045"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["05B1F9222C0D715E"]
+			description: ["Génère de la &4Source&r lorsque des créatures &2meurent&r à proximité, ou que des animaux sont &2reproduit&r à proximité. Egalement, il produira un peu de &4Source&r passivement si des bébés animaux sont non loin de lui, et accélèrera leur maturité."]
+			id: "720666C1780AB8A9"
+			rewards: [{
+				id: "1EBFAE6A74975465"
+				item: "minecraft:melon_slice"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "680C24F07E47CC00"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5000E70B88157424"
+				"5070F9748FE9B4D0"
+				"6949845EDB95CA06"
+				"720666C1780AB8A9"
+				"009D6F6447336592"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Permet de &2configurer&r des machines ou des relays et des Jars entre eux. Un simple &2clic droit&r sur les machines permet de les liés entre eux. Pour défaire un lien, il faut &2Sneak - clic droit&r."]
+			id: "7C735AE024C68B9F"
+			rewards: [{
+				id: "5689B0AD93FE7F2C"
+				item: "minecraft:gold_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "5580A33F25EA219B"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C735AE024C68B9F"]
+			description: [
+				"En utilisant la &4Domination Wand&r, vous pourrez transférer la &4Source&r de Jar en Jar en utilisant les &4relays&r. Utilises la &4Wand&r sur une Jar puis sur un &4Relay&r pour envoyer la &4Source&r de la &4Jar&r sur le&4 Relay&r, et inversement."
+				""
+				"Ce relay a une porté de 30 blocs."
+			]
+			id: "1AE7AD3826091096"
+			rewards: [{
+				id: "6637116B21A4F9CB"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4785BA13DA95B3"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C735AE024C68B9F"]
+			description: ["Collecte &2automatiquement&r la&4 Source&r de toutes les &4Jars&r auquel il n'est pas lié à 5 blocs de rayon."]
+			id: "3A6CED0EF1B4009A"
+			rewards: [{
+				id: "0C923161632AF93F"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C5CCDF3516A35DB"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C735AE024C68B9F"]
+			description: ["Dépose &2automatiquement&r la &4Source&r de toutes les &4Jars&r auquel il n'est &4pas&r lié à 5 blocs de rayon."]
+			id: "202DEE8207FF1F7E"
+			rewards: [{
+				id: "738ADAFBE5E65CD9"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B8389E4D3DFF5CF"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C735AE024C68B9F"]
+			description: ["Peut répartir la &4Source&r dans plusieurs &4Jars&r à la fois. Il possède un plus grand débit que le &4Relay&r de base."]
+			id: "279F16D6F78C75DE"
+			rewards: [{
+				id: "481D7C4F69C815AB"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF1FD98269485E5"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C735AE024C68B9F"]
+			description: ["Fonctionne de la même manière que le &4Relay Splitter&r, mais peut transférer la &4Source&r de &4Warper&r en &4Warper&r sur une distance infinie, et interdimension. Attention, au delà de 30 blocs, il peut y avoir de la perte."]
+			id: "19CD6F3B116BC39E"
+			rewards: [{
+				id: "1C20BBAB127D7E07"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C5405680B455849"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["L'&cImbuement Chamber&r vous permet d'obtenir vos &4Sources Gems&r. Si vous lui donnez de la Source, il ira plus vite. Pour faire de plus gros crafts, il faut l'entouré de &4piedestaux&r."]
+			hide_dependency_lines: true
+			id: "2A3508ABFB6D2F68"
+			rewards: [{
+				id: "2CD767DBE4170DB7"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2D7B6E2762DFF702"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: [
+				"Cet objet possède un grand nombre de craft possible (Armure, Enchantement, et Crafts divers), tous indiqué sur &4JEI&r. Vous pouvez mettre n'importe quels &4Pedestals&r autour de lui dans un rayon de 3 blocs. Pour le faire fonctionner, il a besoin du &4Arcane Core&r en dessous de l'&4Enchanting Apparatus&r."
+				""
+				"Il peut également créer des livres et outils enchantés ! Mais par exemple, si vous voulez tranchant 3, il faudra commencer par le 1, puis le 2, et enfin le 3 !"
+			]
+			hide_dependency_lines: true
+			id: "7301F2456540A830"
+			rewards: [{
+				count: 4
+				id: "14C2577C7A9F8B27"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "536EF348FF914F96"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "61B9A54F4BAB59A6"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6E31A722E5831CB0"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["68E7C6523CC197C8"]
+			description: ["De très jolis &2arbres&r, qui n'ont besoin que d'une pousse pour pousser. Leur bois servent pour beaucoup de crafts."]
+			id: "350B1C192B396520"
+			rewards: [{
+				id: "00F64EEDBC7BBAA8"
+				item: "minecraft:bone_meal"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "626BF2B6C0DE3BCA"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "6EC5E7B9DF7A4E64"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "72BD5A894FBD1EEC"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "70B991B4F566CDA1"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68E7C6523CC197C8"]
+			description: ["De la &2nourriture&r qui &2régénère&r votre mana, ou peut se transformer en la meilleur couleur au monde : le &2violet&r !"]
+			id: "6D272AD8C1AA9F11"
+			rewards: [{
+				id: "5A68D513763C2C38"
+				item: "ars_nouveau:source_berry_roll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59117E02AF2DF169"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: [
+				"Voir description de l'arc."
+				""
+				"Cette &4épée&r peut être enchantée via la &4Scribe's Table&r, et possède en lui la &2Forme Touch&r. Il appliquera, en plus, un effet d'&2Amplification&r à la fin du sort."
+			]
+			id: "226C110FA351D02B"
+			rewards: [{
+				id: "32F64C5A18C009CD"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:bane_of_arthropods"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69A53A6CF833F65D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: [
+				"Cet &4arc&r (ou &4arbalète&r) peut être enchanté comme un arc normal. Mais il peut également lancer des sorts ! Pour cela, posez-le sur la &4Scribe's Table&r, puis, avec ton livre de sort, sélectionne le sort souhaité. Il &4ne doit pas avoir de Forme&r, car l'arc a, nativement, la &2Forme Projectile&r en lui ! Ensuite, sneak et clic droit comme si vous alliez lancé un sort en &2visant&r&n l'item sur la table. "
+				""
+				"Si l'arc n'a pas de flèche, il pourra tirer une flèche qui fera 0 de dégâts. "
+			]
+			id: "74D5CCC7092C9653"
+			rewards: [{
+				id: "51352DD2775410CC"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "050A5D95AFB64BBA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: [
+				"Voir description de l'arc."
+				""
+				"Cette &4Wand&r peut être enchantée dans la &4Scribe's Table&r et possède en elle &2Projectile -> Accéléré&r."
+			]
+			id: "601B083E9F23A26F"
+			rewards: [{
+				id: "243FD0A027C7AE60"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0460C9506FCE0C40"
+				item: {
+					Count: 1
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: ["Une &4arme&r qui lance des &4potions&r que tu possèdes sur toi. Tu peux utiliser la &2roue de sélection de sorts&r pour sélectionner des potions"]
+			id: "5FE7E27ADE26A236"
+			rewards: [{
+				id: "5E575D2F29D68C7A"
+				item: {
+					Count: 1
+					id: "ars_nouveau:splash_flask_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F777DDBF9EC9976"
+				item: {
+					Count: 1
+					id: "ars_nouveau:lingering_flask_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: ["Cette baguette, a utilisation limitée, permet, dans un rayon de &275 blocs&r, de &2voir&r les créatures magiques autour de soi, ainsi que les &2géodes d'Améthystes&r."]
+			id: "21BEFD11A00565CF"
+			rewards: [{
+				id: "1B258E08F83606F1"
+				item: "minecraft:amethyst_shard"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "196D120B98B84D77"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: ["En &2bloquant&r les dégâts, ce bouclier donne une &2régénération de mana&r et des &2dégâts magiques&r au porteur. Il se &2réparera&r en consommant le &4Mana&r du porteur."]
+			id: "5E81AEA72A450DA1"
+			rewards: [{
+				id: "7C7612456593CFF9"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5C8E82B4D1FA95"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: ["Réduit le coût des sorts, un &4indispensable&r !"]
+			id: "3C9E53CD4E08301C"
+			rewards: [{
+				id: "7C297285F4B1B632"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "65537AEB8BEE2928"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: ["Il fait ce qu'il dit. Augmente, selon celui que tu préfères, soit ton &2mana max&r pour lancer des gros sorts, soit ta &2régen mana&r pour lancer pleins de petits sorts."]
+			id: "416E83EC971D9DF3"
+			rewards: [{
+				id: "117C7D618AE5F5D4"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04AA2988C0BDFC7F"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Une &4poubelle portative&r : &2shift - clic droit&r pour l'activer ou la désactiver. Mettez en main gauche l'item que vous voulez filtré. Quand il est activé, tout les objets filtrés que vous ramasserez &2disparaîtront&r et vous donnerons une petite quantité de mana."]
+			id: "181A3DF2DA3BB765"
+			rewards: [
+				{
+					id: "2C741BF79DAAA35D"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "62B1DB5FE7053D91"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3494AD3C41DD1911"
+				item: "ars_nouveau:void_jar"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Invoque une &2lumière&r qui vous suit. Peut être révoqué à tout moment."]
+			id: "41C846E09719B367"
+			rewards: [{
+				count: 4
+				id: "72BC5F48AF0432A3"
+				item: "minecraft:torch"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "1035CF1582A2833F"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Réduit les &2dégâts de chute&r quand porté, et, lorsque vous sautez ou chuter, et que vous vous accroupissez dans les airs, cela réduit votre &2vitesse de chute&r, puis vous &2lévitez&r à quelques blocs du sol lorsque vous en êtes proche."]
+			id: "02BE7191BFA34897"
+			rewards: [{
+				id: "526A437C0FD4425B"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ACDB85A9FF47754"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Donnes pendant 5sec un effet de &2potion aléatoire positive&r au porteur de la ceinture."]
+			id: "1022B2AE562AC4D6"
+			rewards: [{
+				id: "15E3F68746CA8398"
+				item: "ars_nouveau:potion_diffuser"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C7964783B15C31A"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["74D5CCC7092C9653"]
+			description: ["L'arc et l'arbalète peuvent tirer des flèches normales, mais vous pouvez également lui faire tirer des flèches spéciales qui amélioreront les effets de vos sorts. "]
+			id: "77CDD7E385E7F66F"
+			rewards: [{
+				id: "21094138F66F064D"
+				item: "minecraft:spectral_arrow"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D4F828969133F36"
+					item: "ars_nouveau:amplify_arrow"
+					type: "item"
+				}
+				{
+					id: "0E4D7936349B2D50"
+					item: "ars_nouveau:pierce_arrow"
+					type: "item"
+				}
+				{
+					id: "1A149D007FE23770"
+					item: "ars_nouveau:split_arrow"
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: [
+				"Voir description de l'arc."
+				""
+				"Fonctionne avec les sorts qui s'utilise sur &2soi&r, car il possède en lui la &2Forme Self&r."
+			]
+			id: "24FAE067394B0DD5"
+			rewards: [{
+				id: "54FDEE618A6EAE87"
+				item: "fantasyfurniture:decorations/royal_wall_mirror_large"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C1AB32720535B1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["5D8C20CAA0F7D716"]
+			description: ["Il permet, après avoir fait un clic droit avec, de &2partager&r toutes les connaissances des &4glyphes&r. Pratique si vous jouez en &2équipes&r !"]
+			id: "05EC953F90ED4341"
+			rewards: [{
+				id: "70CE824633B0B784"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "25C5E9E44B3625DA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Une plante qui sert pour certains crafts !"]
+			id: "58BCF1DFEE225223"
+			rewards: [{
+				id: "158EAE219DB0A27A"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4586E1E8525CC183"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Donnes aux &2invocations&r une plus grande &2vitesse&r et plus de &2force&r. Elles durent &2plus longtemps&r et font des dégâts aux ennemis qui la tuent. Lancer un sort avec les &2Formes Orbite ou Self&r impacte le &4lanceur et l'invocation&r !"]
+			id: "1515D05868AF3D85"
+			rewards: [{
+				id: "17F18F753C2225B4"
+				item: "ars_nouveau:source_gem"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1351432CB06AD3B9"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5D8C20CAA0F7D716"]
+			description: [
+				"Permet de poser une &4rune au sol&r qui pourra s'activer en &2marchant dessus&r. Cette &4rune&r peut accueillir un sort. Pour se faire, il faut créer un &4Blank Parchment&r que l'on pose sur la &4Scribe's Table&r. Ensuite, il faut créer un sort dans le &4Spell Book&r qui commence par le &4Glyphe Touch&r, par exemple : Touch -> Explosion. Puis, faites, avec le livre en main, un &2Shift + clic droit&r sur la &4Scribe Table&r. Le parchemin n'est plus vierge."
+				""
+				"Enfin, il ne reste plus qu'à poser une rune au sol avec la &4Shalk&r, et faire un &2clic droit&r avec le &4Spell Parchment&r. Voilà, la rune explosera quand quelqu'un marchera dessus."
+				""
+				"Les runes ne s'activent qu'une fois. Pour la &2recharger&r, il faut qu'une &4Source Jar&r soit à proximité."
+			]
+			id: "217649C8E81207B8"
+			rewards: [{
+				id: "5B77C3EB871E309A"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15372500D95806BA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58BCF1DFEE225223"]
+			description: [
+				"Cette &4fibre&r sert notamment à la confection d'&4armures&r. Sachez qu'elles possèdent toutes un effet sur le mana, ainsi que la propriété d'accueillir jusqu'à trois &4fils&r (= &4Thread&r) de différents tiers au niveau 3 de l'armure. Ainsi :"
+				"- La &4Battlemage&r possède un &2haut niveau de protection&r, mais pourra accueillir les &4fils&r les moins puissants."
+				"- La &4Sorcerer&r possède &2peu d'armure&r, mais pourra accueillir de &2puissants fils&r."
+				"- L'&4Arcaniste&r est un &2entre deux&r."
+				""
+				"Vous pouvez prendre des morceaux de l'une et compléter avec les autres en fonction de votre build. Les &2fils&r sont comme des &2enchantements&r, tout est expliqué dans le livre de &4Ars Nouveau&r. Sinon, je le détaille dans la partie des &4armures&r."
+			]
+			id: "3AC7C5A246C8609A"
+			rewards: [{
+				count: 16
+				id: "562AA0620C30DADE"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "732B88A6B7A5EB87"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A3508ABFB6D2F68"]
+			description: [
+				"Une pierre très &2jolie&r avec beaucoup de variantes dans le &4Stonecutter&r. Elle peut également servir à créer des &2portails de téléportation&r. Pour cela, créez un portail composé de &4Sourcestone&r de n'importe quelle variante (vous pouvez même les mélanger) de taille entre &21*1 à 21*21&r. Ensuite, placez une &4Source Jar pleine&r près du portail. Enfin jetez un &4Warp Scroll&r que vous aurez configurer dans le cadre du portail. Pour changer la &2texture&r du portail, vous pouvez utiliser la &4Dominion Wand&r dessus en faisant un simple &2clic droit&r."
+				""
+				"La &2téléportation&r ne coûte pas de &2Source&r, vous pouvez donc retirer votre Jar."
+				""
+				"Le &4Warp Scroll&r est un consommable à &2usage unique&r. Accroupissez-vous, puis faites un clic droit avec le Scroll en main pour y inscrire la localisation. Un simple clic droit le consommera, et vous téléportera au point de téléportation."
+				""
+				"Le &4Stabilized Warp Scroll&r est un consommable à &2usage unique&r également. Il est quasi identique au &4Warp Scroll&r de base, sauf qu'en faisant un clic droit avec sur le sol, il va créer un &2portail temporaire&r automatiquement, utiles si vous êtes plusieurs en balade !"
+			]
+			id: "6C0F7E5CD316CD80"
+			rewards: [
+				{
+					id: "3713B177EA0866C3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "456D051A75DFCE76"
+					item: {
+						Count: 1
+						id: "ars_nouveau:stable_warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "03414B00D32916BB"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			title: "Sourcestone et Portail"
+			x: -0.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E60CBB244E7D995"]
+			description: [
+				"C'est un bloc qui permet de contenir beaucoup de mobs différents (un par pot). Pour faire rentrer un mob à l'intérieur, il faut faire le &2rituel de confinement&r, qui prendra le mob et le mettra dans le pot (qui doit se trouver dans un rayon de 3 blocs). Ensuite, vous pourrez interagir avec le pot. A quoi ça sert ? Simple :"
+				"- &4un mouton&r : vous pouvez le tondre"
+				"- &4une vache&r : vous pouvez la traire"
+				"- &4l'enderdragon&r : vous pouvez avoir du dragon breath avec des fioles vides !"
+				""
+				"Et il y en a beaucoup comme ça ! D'autres exemples dans le livre de &4Ars Nouveau&r. N'hésitez pas à faire des tests !"
+			]
+			id: "7268BB480EDAA2D3"
+			rewards: [{
+				id: "4299B6133CA8A2A6"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3297D992A7C9AF44"
+				item: "ars_nouveau:mob_jar"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: [
+				"Ce &4Lectern&r sera votre &4système de stockage&r qui fonctionne à l'aide des &4Wyrms&r. Le &4Lectern&r peut être&2 lié&r à tout inventaire de stockage jusqu'à 30 blocs de rayon à l'aide de la &4Dominion Wand&r. Vous pouvez ajouter &2pleins de Wyrm&r sur le &4Lectern&r, qui enverront les items et les réceptionneront pour vous les donner depuis les coffres où les déposer. Plus il y a de Wyrms, plus vous pourrez faire d'actions."
+				""
+				"Le &4Repository&r est un simple double coffre, mais en un bloc."
+			]
+			id: "2FBB33E6EB27BF57"
+			rewards: [{
+				id: "6DD5CAF9B7939928"
+				item: "ars_nouveau:repository"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C42206848C147BC"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					id: "5F4387889EE4D5ED"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Permet de faire des &2rituels&r à partir de &4tablettes&r. Lorsque vous déposez une &4tablette&r sur le &4brazier&r, le &2rituel&r est en attente. Selon le &2rituel&r et votre bon vouloir, vous pouvez ajouter des &2items supplémentaires&r pour améliorer ou modifier le &2rituel&r. Tout est indiqué dans le livre du mod. Pour activer le &2rituel&r, faites un &2clic droit&r avec la main vide dessus."]
+			hide_dependency_lines: true
+			id: "1E60CBB244E7D995"
+			rewards: [{
+				id: "1EA78872693BA3B4"
+				item: "ars_nouveau:ritual_burrowing"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "36A2A9970EE6D6B0"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7301F2456540A830"]
+			description: ["Permet de consommer des &4potions instantanément&r depuis l'inventaire. "]
+			id: "36A443EEBE70C83D"
+			rewards: [{
+				id: "4D7C9D283838F6B6"
+				item: "minecraft:glass_bottle"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E70618320AD9DA"
+				item: "ars_nouveau:alchemists_crown"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E60CBB244E7D995"]
+			description: [
+				"Vous permet d'invoquer des &2familiers&r ! Lorsque vous invoquez un &2familier&r, vous souffrirez du &2mal d'invocation&r, c'est à dire l'impossibilité d'invoquer un autre familier pendant un certain temps. Pour obtenir le &4scroll&r qui vous permet de les invoquer, vous devez faire le &2rituel of Binding&r proche des animaux que vous voulez obtenir. Ainsi :"
+				""
+				"- Pour avoir le &4Drygmy&r, le &4Starbuncle&r, et le &4Whirlispring&r, il faut faire le rituel à côté de ceux que vous trouvez dans la nature."
+				"- Pour avoir l'&4Améthyst Golem&r, vous devez faire le rituel de Summon près d'une &2géode Amethyst&r, puis faire le &2rituel of Binding&r."
+				"- Pour avoir la &4Wyrm&r, vous devez faire le &2rituel of Awakening&r, clic droit avec le &4charm&r sur un &4Storage Lectern&r, et faire le &2rituel of Binding&r à côté de lui."
+				"- Pour avoir la &4Wixie&r, vous devez cliquez avec le &4charm de la Wixie&r sur un &4chaudron&r, puis faire le &2rituel of Binding&r à côté d'elle."
+			]
+			id: "4EA686735B200331"
+			rewards: [{
+				id: "5EFCF9EAE8BB262A"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "543CBFA8C16D6940"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			x: 13.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: [
+				"Réalisez le &2Ritual of Awakening&r près d'une &4géode d'Amethyste&r."
+				""
+				"Ce petit golem va collecter l'&4Améthyste&r qui se trouve dans les géodes ! De quoi faire une petite ferme  automatique !"
+			]
+			hide_dependency_lines: true
+			id: "56BD3836C8DFBA3E"
+			rewards: [{
+				id: "6D5A2FCC3DDBF8B9"
+				item: "minecraft:amethyst_shard"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F443C70BDE5E518"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"56BD3836C8DFBA3E"
+				"021D50A4A0D65EDF"
+				"5D88BF4459207F12"
+				"150AADE3EB49F686"
+				"16CCC5BFB5B243C0"
+				"32B05767159912E2"
+				"5DA1694B9BF2B14A"
+				"715B3F8FF5F8E69C"
+				"6B9B376A7043C727"
+				"5000E70B88157424"
+				"6949845EDB95CA06"
+				"5070F9748FE9B4D0"
+				"720666C1780AB8A9"
+				"009D6F6447336592"
+				"1AE7AD3826091096"
+				"3A6CED0EF1B4009A"
+				"202DEE8207FF1F7E"
+				"279F16D6F78C75DE"
+				"19CD6F3B116BC39E"
+				"6D272AD8C1AA9F11"
+				"350B1C192B396520"
+				"05EC953F90ED4341"
+				"217649C8E81207B8"
+				"0EDE325A1E08EC4D"
+				"7268BB480EDAA2D3"
+				"4EA686735B200331"
+				"5E81AEA72A450DA1"
+				"6C0F7E5CD316CD80"
+				"5FE7E27ADE26A236"
+				"21BEFD11A00565CF"
+				"24FAE067394B0DD5"
+				"601B083E9F23A26F"
+				"77CDD7E385E7F66F"
+				"226C110FA351D02B"
+				"3C9E53CD4E08301C"
+				"416E83EC971D9DF3"
+				"1515D05868AF3D85"
+				"36A443EEBE70C83D"
+				"02BE7191BFA34897"
+				"3AC7C5A246C8609A"
+				"2FBB33E6EB27BF57"
+				"1022B2AE562AC4D6"
+				"41C846E09719B367"
+				"181A3DF2DA3BB765"
+				"44979AFBF49F2FDF"
+				"635E5AFD6CDA7521"
+				"44979AFBF49F2FDF"
+				"635E5AFD6CDA7521"
+				"5809476FB4291833"
+				"40FD38FD136D0307"
+				"49F6522FCBD742BD"
+				"21D127D94A05665D"
+				"220D58AD8DC7F7D7"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "68C46241A23C03D9"
+			rewards: [{
+				id: "25EF7D188E6BE9D0"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:ars"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6C35EC175401A3A8"
+				title: "Ars Nouveau fini !"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau complété !"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E60CBB244E7D995"]
+			description: ["Permet d'ajouter jusqu'à &216.000 mb de liquide&r. La &4Jar&r garde son contenu quand on la casse."]
+			id: "44979AFBF49F2FDF"
+			rewards: [{
+				id: "4744D77416E6FB2C"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53591A19E942B863"
+				item: "starbunclemania:fluid_jar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["44979AFBF49F2FDF"]
+			description: ["Permet de capturer la &2Source&r depuis une &4Source Jar&r pour la condenser en un &2liquide&r que vous pouvez utiliser pour créer votre future &4Creative Source Jar&r. Vous n'aurez plus qu'à extraire le liquide via des &4Fluids Pipes&r par exemple."]
+			id: "635E5AFD6CDA7521"
+			rewards: [{
+				id: "04AB353ED8CD8F66"
+				item: "starbunclemania:fluid_jar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02AEE0E89D7CC214"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&4Ars Nouveau&r est un mod &2Magie-Tech&r, c'est à dire que beaucoup d'éléments que vous allez utiliser sont d'origines magiques, en utilisant une &2baguette&r ou un &2Grimoire&r par exemple, mais également des \"&2machines&r\" déguisées derrière un concept magique. "
+				""
+				"Ce qui est important de retenir, c'est les deux différentes formes de \"&4mana&r\" :"
+				""
+				"- La &4Source&r est un &2liquide&r que produira certaines machines et que vous pourrez stocker pour utiliser le pouvoir de certains rituels"
+				"- Votre &4Mana&r lorsque vous tenez le grimoire en main et qui apparaît en bas à gauche de l'écran. Ce &4Mana&r servira à lancer des sorts, et votre \"&2stockage&r\" dépend de l'enchantement et l'armure que vous portez."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "013C3CCB1771692A"
+			rewards: [{
+				id: "78FFBC1197554378"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starby_gift"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Ca coule de Source"
+			tasks: [{
+				id: "4F0BFF2690F6692B"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 5.625d
+			y: -4.375d
+		}
+		{
+			dependencies: ["013C3CCB1771692A"]
+			description: ["Il s'agit d'un &2présentoir&r à item."]
+			hide_dependency_lines: true
+			id: "5809476FB4291833"
+			rewards: [{
+				id: "54BE97B96ADE746D"
+				item: "ars_nouveau:item_detector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A94538238406EA1"
+				item: "ars_nouveau:item_detector"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AC7C5A246C8609A"]
+			description: [
+				"Cette &4Armure&r donne &2peu de protection&r, mais permet d'accueillir des &4Threads&r de &2tier 3&r."
+				""
+				"Comme toutes les &4Armures&r de ce mod, elle est &2améliorable&r grâce à l'&4Enchanting Apparatus&r."
+			]
+			hide_dependency_lines: true
+			id: "220D58AD8DC7F7D7"
+			rewards: [{
+				id: "10571203C1773F39"
+				item: "minecraft:gold_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F0E26CC5E3B0F7A"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47D40ADA6CC44D39"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FDA8DDDF3C14377"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57DDC709E0614AAC"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armure du Sorcier"
+			x: 6.25d
+			y: -11.25d
+		}
+		{
+			dependencies: ["3AC7C5A246C8609A"]
+			description: [
+				"Cette &4Armure&r &2protège moyennement&r le porteur. En échange, elle peut accueillir des &4Threads&r &2moyens&r."
+				""
+				"Comme toutes les &4Armures&r de ce mod, elle est &2améliorable&r grâce à l'&4Enchanting Apparatus&r."
+			]
+			hide_dependency_lines: true
+			id: "49F6522FCBD742BD"
+			rewards: [{
+				id: "06A59717F1955D81"
+				item: "minecraft:iron_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C1F4B844EA234D5"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09DFB18CEADE36B6"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19332B276ABEFBE6"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DBB2F3278CD0531"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armure de l'Arcaniste"
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3AC7C5A246C8609A"]
+			description: [
+				"Cette &4Armure&r donne &2beaucoup de protection&r, mais ne peut accueillir que des &4Threads&r &2faibles&r."
+				""
+				"Comme toutes les &4Armures&r de ce mod, elle est &2améliorable&r grâce à l'&4Enchanting Apparatus&r."
+			]
+			hide_dependency_lines: true
+			id: "21D127D94A05665D"
+			rewards: [{
+				id: "5977DF6F922B7865"
+				item: "minecraft:diamond"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2FEC3E6336596D04"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44714978F3E32143"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E86DFD5452DD546"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AAC096C833177F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armure du Mage de Bataille"
+			x: 11.75d
+			y: -11.25d
+		}
+		{
+			dependencies: ["36A4D5333AEF0D82"]
+			description: ["Cette table permet d'&2ajouter&r les &4Threads&r à votre &4Armure&r. Pour cela, posez votre armure sur la table en faisant un simple &2clic droit&r. Sur la feuille à gauche de la table, vous verrez les différents &2Tiers&r de votre &4Armure&r. Si vous faites un &2clic droit&r, avec un &4Thread&r, sur cette feuille, il va s'ajouter à votre &4Armure&r. L'ajout se fait de &2haut en bas&r. Lorsque vous avez fini, vous pouvez faire un &2clic droit&r sur votre &4Armure&r pour la récupérer."]
+			id: "40FD38FD136D0307"
+			rewards: [{
+				id: "3636EC9889ED8F44"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "013A6175F07E8FB3"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"220D58AD8DC7F7D7"
+				"49F6522FCBD742BD"
+				"21D127D94A05665D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Les &4Threads&r sont des &4fils&r que l'on ajoute à chaque partie des &4armures&r de ce mod et qui correspondent à des enchantements uniques et très puissant. Il en existe de nombreux types, et certains nécessite un certain &2Tier&r de disponible sur l'&4armure&r pour être utilisé. Chaque &4armure&r peut accueillir jusqu'à &2trois Threads&r, mais les &2Tiers&r que vous pouvez déposer sont dépendant de l'armure confectionnée, comme mentionné plus tôt."
+				""
+				"&nPar exemple&r : "
+				""
+				"- Le &4Thread of the Drygmy&r augmente votre niveau de &2Looting&r. Si il est appliqué sur un emplacement de &2Tier 3&r, c'est comme si vous aviez un &2Looting 3&r intégré à votre armure. "
+				"- Le &2Thread of Glyding&r permet de simuler une paire d'&4Elytra&r, mais nécessite &4obligatoirement&r un emplacement de &2Tier 3&r pour être utilisé."
+				""
+				"&n&4Attention&r :&r vous ne pouvez pas cumuler un même &4Thread&r sur un set d'&4Armure&r. Par exemple, il est inutile de poser 12 &4Thread of the Drygmy&r, vous serez capés à, au mieux, &2Looting 3&r."
+			]
+			id: "36A4D5333AEF0D82"
+			rewards: [{
+				id: "607F75F0467CCB4B"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D34A8873CC76B66"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.75d
+		}
+	]
+	title: "Ars Nouveau"
+}

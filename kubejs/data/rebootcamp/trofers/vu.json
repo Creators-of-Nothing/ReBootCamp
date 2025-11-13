@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Vu",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "minecraft:allay"
+    },
+    "display": {
+        "scale": 0.7,
+		"offset": {
+			"y": 3
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#55FFFF",
+        "base": "#FFFFFF"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": {
+        "text": "Trophée Magneto",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"mutantmonsters:chemical_x\"}"
+    },
+    "display": {
+        "scale": 1.25
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#0F0F0F",
+        "base": "#FFFFFF"
+    }
+}

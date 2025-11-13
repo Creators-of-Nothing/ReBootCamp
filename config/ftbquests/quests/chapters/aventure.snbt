@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aventure"
+	group: "48E8FA999D758C15"
+	icon: {
+		Count: 1
+		id: "everlastingabilities:ability_bottle"
+		tag: {
+			"everlastingabilities:abilityStoreStack": [ ]
+		}
+	}
+	id: "10BE70FF8569C51A"
+	images: [
+		{
+			height: 2.7654761904761904d
+			image: "kubejs:textures/ftbquests/wand.png"
+			rotation: 0.0d
+			width: 3.45d
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			height: 6.0d
+			image: "kubejs:textures/ftbquests/villager.png"
+			rotation: 0.0d
+			width: 3.4939759036144578d
+			x: 3.75d
+			y: -1.25d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un Magnet pour attirer les choses de plus loin."]
+			id: "261DCE49E3922679"
+			rewards: [{
+				id: "7273F8A4EA9BE639"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5D6FAD2B90918B3A"
+				item: {
+					Count: 1
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.25d
+		}
+		{
+			description: [
+				"Un moyen de trouver les biomes que vous voulez. Vous pouvez trier les biomes par nom, par source (à quel mod ils appartiennent), par dimension, et par groupe."
+				""
+				"&nAttention&r : Ne fonctionne pas pour les biomes du mod Alex's Caves."
+			]
+			id: "4B5B81DF4334B4A5"
+			rewards: [{
+				id: "4AF67F2C40EB6B5D"
+				item: "minecraft:oak_sapling"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3682F71083016DCC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B5B81DF4334B4A5"]
+			description: [
+				"Permet de trouver des structures. Vous pouvez trier les structures par nom, par source (à quel mod ils appartiennent), par dimension, et par groupe."
+				""
+				"&nAttention&r : Ne permet pas de trouver les structures du mod Alex's Caves."
+			]
+			id: "268C4D813699ECC7"
+			rewards: [{
+				id: "1CF334607B961495"
+				item: "lootr:trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CFCA472A3449F1C"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Le &4Neptunium&r est un lingot qui se pêche &4&nuniquement&r&r."
+				""
+				"Il existe tout un tas d'équipements et de nourriture lié à ce mod. Pour upgrader votre canne à pêche, il faut poser puis utiliser la Tackle Box. Cette dernière servira de stockage pour tout vos équipements de pêche ! "
+				""
+				"Le Bobber et la Fishing Line sont deux items cosmétiques, que vous pouvez colorer dans une table de craft avec un colorant, et qui changera l'aspect respectivement du bouchon et de la ligne de votre canne à pêche."
+				""
+				"Selon le crochet utilisé, vous gagnerez des effets supplémentaires."
+				""
+				"Si vous souhaitez farmer les poissons, vous pouvez vous faire une ferme à vers en mettant des végétaux dans la Worm Farm. Lorsqu'arrivé à maturation, faites clic droit dessus pour les récupérer."
+			]
+			id: "02CAD17DA73B67C6"
+			rewards: [{
+				id: "5FD19A95251E6D1D"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			subtitle: "Pêcher comme un Dieu !"
+			tasks: [{
+				id: "1DE73CA0E9E52CD3"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "Aquaculture 2"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			description: ["Cette cage permet de kidnapper n'importe quelle entité et de la mettre en cage ! Vous pouvez la libérer avec un simple clic droit, ou poser la cage au sol avec un shift - clic droit."]
+			id: "1B8BED215FB7A447"
+			rewards: [{
+				id: "7B187B4A5A9D86D4"
+				item: "moa_decor_holidays:esqueleto_enjaulado"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34889483E56EC0FD"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["Cette baguette te permet de poser des blocs à la chaîne sur une grande surface : idéale pour build ! Pour annuler un coup de baguette malencontreux, appuyes sur &4Alt + Control&r. Attention : ne fonctionne que deux fois."]
+			id: "341EAB267F91C70B"
+			rewards: [{
+				count: 64
+				id: "4073816B271BB5B9"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FAD2C3B4F2E92CB"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1BCC0B53CAC227"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "252785244CA47CD4"
+					item: "constructionwand:core_destruction"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: [
+				"341EAB267F91C70B"
+				"02CAD17DA73B67C6"
+				"1B8BED215FB7A447"
+				"268C4D813699ECC7"
+				"261DCE49E3922679"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "300C409F8D74BDA2"
+			rewards: [{
+				id: "722BB7726318CCE5"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:equipements"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4FB01A4652554257"
+				title: "Equipements complété !"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+	]
+	title: "Equipements"
+}

@@ -1,0 +1,466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "du_soutien_pour_les_usines"
+	group: "48E8FA999D758C15"
+	icon: {
+		Count: 1
+		id: "ironfurnaces:million_furnace"
+		tag: {
+			display: {
+				Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"green\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
+		}
+	}
+	id: "235AB90CD226C9B0"
+	images: [
+		{
+			height: 4.848866498740554d
+			image: "kubejs:textures/ftbquests/furnace.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -12.25d
+			y: 4.5d
+		}
+		{
+			height: 4.015748031496063d
+			image: "kubejs:textures/ftbquests/seed.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.5d
+			y: -6.75d
+		}
+		{
+			height: 5.88628762541806d
+			image: "kubejs:textures/ftbquests/chicken.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.75d
+			y: -6.75d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une poubelle à item. Existe pour les fluides, l'énergie, et la version ultimate fait tout."]
+			id: "00DDE2EAFB75E375"
+			rewards: [{
+				id: "5FAE8A14C518BF5F"
+				item: "trashcans:liquid_trash_can"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D91E51CC1CE968"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.25d
+		}
+		{
+			description: [
+				"Permet de lié un bloc à l'Entangled block, même interdimension."
+				""
+				"Pour se faire, faites un clic droit avec l'Entangled Binder (ou shift clic droit si pas possible) sur le bloc / machine / ce que vous voulez. Puis posez l'Entangled block à l'endroit que vous voulez, et faites un clic droit dessus avec votre Binder. Et voilà, l'Entangled Block est \"devenu\" l'équivalent du premier bloc sur lequel vous aviez cliqué. Pratique pour avoir accès à du stockage interdimension par exemple !"
+			]
+			id: "43162806F60C5AD0"
+			rewards: [{
+				id: "52B4E818D4BD0A16"
+				item: {
+					Count: 1
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "036A503A1DCA9D97"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69131AA0D85A1DD2"
+					item: {
+						Count: 1
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Entangled"
+			x: -1.25d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Ce mod permet de créer des tours à mob personnalisées. Le &4GM Chicken Feed&r permet d'obtenir un oeuf de mob. Pour l'obtenir, faites un clic droit avec un coton tige (&4Mob Swab&r) sur le mob souhaité, puis craftez le &4GM Chicken Feed&r et donnez le à un poulet."
+				""
+				"Le &4GM Chicken Feed Cursed&r permet d'obtenir un oeuf spécial qui, lorsqu'un clic est effectué sur de la terre, de l'herbe ou du mycelium, la convertie en terre maudite sur 5*5 blocs, ce qui fera spawn en continu des mobs agressifs liés à la dimension et au biome dans lesquels vous vous trouvez."
+				""
+				"Le &4Nutritious Chicken Feed&r agit pareil que la version &4Curse&r, mais invoquera à la place des monstres et animaux passifs comme les créatures du mod &4Mythic Mount&r par exemple, ainsi que de l'herbe. Pensez à enlever l'herbe sur la Grass Convertie, sinon, elle n'invoquera plus rien."
+				""
+				"L'&4Ender Inhibitor&r permet, quand à lui, d'empêcher les téléportations dans un certain rayon."
+			]
+			id: "4D68067906944EC9"
+			rewards: [{
+				count: 4
+				id: "353B6076B9E075DC"
+				item: "minecraft:egg"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EE52E289EC718E4"
+					item: "mob_grinding_utils:gm_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "6C6AA15F2A9DBCA3"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+				{
+					id: "3CF2359DFA03192F"
+					item: "mob_grinding_utils:ender_inhibitor_on"
+					type: "item"
+				}
+				{
+					id: "27CF29B99486B449"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "01A134A4834D1F55"
+					item: "mob_grinding_utils:mob_swab"
+					type: "item"
+				}
+			]
+			title: "Mob Grinding Utils"
+			x: -6.5d
+			y: -3.25d
+		}
+		{
+			description: [
+				"Des fours qui vont vite et qui sont upgradables. "
+				""
+				"Le \"&4Cooktime&r\" inscrit sur le four indique le temps qu'il prend à cuir un item. Cette valeur est indiquée en tick, soit 20 ticks = 1 sec."
+				""
+				"Avec l'&4Upgrade Generator&r, il pourra produire de l'énergie avec du combustible, mais ne pourra plus cuir d'items."
+			]
+			id: "3D4CA50A72A5AFD7"
+			rewards: [{
+				id: "4AB36EAA0CDBC963"
+				item: "minecraft:coal"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A74E4F5572EF452"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			id: "2DD4FA4D77F87660"
+			rewards: [{
+				count: 4
+				id: "0F2720B28B5671DF"
+				item: "minecraft:coal"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E98B641D2518620"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DD4FA4D77F87660"]
+			id: "1F5F5CB999D7E32C"
+			rewards: [{
+				count: 8
+				id: "6BFC4F9DE2717313"
+				item: "minecraft:coal"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1456BBEDDB785807"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F5F5CB999D7E32C"]
+			id: "6CFBF0B71B4C42EF"
+			rewards: [{
+				count: 16
+				id: "56352CF7EA9E07CF"
+				item: "minecraft:coal"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E1C95D3036D72A"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CFBF0B71B4C42EF"]
+			id: "11B721239FE2BEF3"
+			rewards: [{
+				count: 32
+				id: "0ED70D595CE1E94E"
+				item: "minecraft:coal"
+				random_bonus: 32
+				type: "item"
+			}]
+			tasks: [{
+				id: "43213ED9C4341913"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B721239FE2BEF3"]
+			id: "61137F37F39794EC"
+			rewards: [{
+				count: 64
+				id: "10E900141572402F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EF07DB41B136A2"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61137F37F39794EC"]
+			id: "6336E6168B09B260"
+			rewards: [{
+				count: 8
+				id: "3C7520111D6B3EFF"
+				item: "minecraft:coal_block"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1140B9897C25E241"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6336E6168B09B260"]
+			id: "22508E1E980CF54D"
+			rewards: [{
+				count: 16
+				id: "31148370B0AE6DF3"
+				item: "minecraft:coal_block"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DE5957E2553AD5C"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			description: ["Différentes augments qui transforment vos fours en machines plus complexes. L'augment Generator transforme vos fours en générateur électrique."]
+			id: "5E1934E1199BD9B5"
+			rewards: [{
+				count: 4
+				id: "36A89960BF2C6188"
+				item: "minecraft:coal"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29BA49419EDA94E3"
+					item: "ironfurnaces:augment_blasting"
+					type: "item"
+				}
+				{
+					id: "2B969C4559D9833D"
+					item: "ironfurnaces:augment_smoking"
+					type: "item"
+				}
+				{
+					id: "2BF95ADF99D0CDAD"
+					item: "ironfurnaces:augment_factory"
+					type: "item"
+				}
+				{
+					id: "4C2F9E76E6F975A8"
+					item: "ironfurnaces:augment_generator"
+					type: "item"
+				}
+				{
+					id: "7DAFC3923DB11882"
+					item: "ironfurnaces:augment_speed"
+					type: "item"
+				}
+				{
+					id: "2C562C1113368D10"
+					item: "ironfurnaces:augment_fuel"
+					type: "item"
+				}
+			]
+			title: "Augments"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			description: [
+				"Permet à vos fours de fonctionner avec de l'énergie en wifi. Pour cela, posez le Transmitter et alimentez le en énergie. Faites un clic droit avec le Receiver dessus, puis mettez le dans votre four."
+				""
+				"Attention, cela ne fonctionne pas avec l'upgrade factory !"
+			]
+			id: "3DB9ED12D1FF7F7B"
+			rewards: [{
+				count: 4
+				id: "6C52B6541F8EB7A6"
+				item: "minecraft:redstone"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5035A521075AD5B1"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "42449ECE84105754"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: ["Un moyen de récupérer les items qui trainent au sol. Il est configurable !"]
+			id: "035D6332C94A32F8"
+			rewards: [{
+				id: "73003AC31A70DA2F"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C39CEA66BADAF0"
+				item: "itemcollectors:advanced_collector"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.25d
+		}
+		{
+			description: [
+				"Littéralement un moyen d'automatiser tout ce qui concerne les plantes. Selon le terreau utilisé, cela peut produire plus ou moins vite. La version avec hopper permet de transmettre la production automatiquement dans l'inventaire en dessous de lui."
+				""
+				"Peut être coloré avec un colorant en cliquant dessus."
+				""
+				"Le &4Rich Soil&r, quant à lui, est la meilleure terre utilisable (hors créatif). Pour obtenir la version farmland, faites un clic droit avec une hoe sur le Rich Soil dans le Botany Pot."
+			]
+			id: "1DEA45302E47535C"
+			rewards: [{
+				id: "326E9C039830CDCB"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42BD8DD312A9B501"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+				{
+					id: "702B4AFE788E6381"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"1DEA45302E47535C"
+				"4D68067906944EC9"
+				"035D6332C94A32F8"
+				"43162806F60C5AD0"
+				"3DB9ED12D1FF7F7B"
+				"5E1934E1199BD9B5"
+				"22508E1E980CF54D"
+				"00DDE2EAFB75E375"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "6A0E7A7CE252E086"
+			rewards: [{
+				id: "7915D7E30D243B39"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:support"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "02F27E689B0F4D62"
+				title: "Soutien complété !"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+	]
+	title: "Soutien pour usines"
+}

@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée JAPOOOOON !!!",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "samurai_dynasty:kitsune"
+    },
+    "display": {
+        "scale": 0.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#FF55FF",
+        "base": "#FFFFFF"
+    }
+}

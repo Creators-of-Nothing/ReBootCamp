@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Progression",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "moa_decor_garden_:cerezo"
+    },
+    "display": {
+        "scale": 0.7,
+				"offset": {
+			"y": 3
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#529003",
+        "base": "#FFFFFF"
+    }
+}

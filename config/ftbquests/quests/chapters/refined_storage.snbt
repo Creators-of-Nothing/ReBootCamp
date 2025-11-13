@@ -1,0 +1,1133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "1921496FB68D5F69"
+	icon: "refinedstorage:creative_controller"
+	id: "62F70B4B1E06DE57"
+	images: [{
+		height: 8.0d
+		image: "kubejs:textures/ftbquests/refined.png"
+		rotation: 0.0d
+		width: 14.976744186046512d
+		x: -0.5d
+		y: -6.75d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6778803B8364AEFD"]
+			description: [
+				"C'est littéralement le &2coeur&r de &4Refined&r, sans lui, rien ne fonctionne. C'est le seul bloc qui nécessite de l'&2énergie&r pour fonctionner. Toutes les autres machines de &4Refined&r qui sont liés à ce &4Controller&r fonctionneront si ce dernier est alimenté."
+				""
+				"Les &4écrans&r et le &4Controller&r peuvent être colorés en faisant un &2clic droit&r avec un &4colorant&r dessus."
+			]
+			id: "1533F1C288682A1F"
+			rewards: [{
+				count: 4
+				id: "1D09FE2EE19B85E5"
+				item: "extendedcrafting:ender_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1BD6DB0DF06BE11E"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Controller"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["673B6B31B0117C11"]
+			description: [
+				"Permet de faire des crafts &2automatiquement&r en y plaçant des &4Patterns&r que l'on aura programmer à l'intérieur."
+				""
+				"Pour &2programmer&r un &4Pattern&r, il faut utiliser le &4Pattern Grid&r."
+				""
+				"Dirigé vers une &2machine&r (même d'un autre &4mod&r) ou un &2stockage&r, .. Ce &4Crafter&r enverra les items dans la &2machine&r ou le &2stockage&r."
+				""
+				"Ce premier &4Tier&r contient 9 emplacements de &4Patterns&r et à une &2Base Speed&r de x1."
+			]
+			id: "35459D7D2205AAC6"
+			rewards: [{
+				id: "7B13F39481F14E32"
+				item: "refinedstorage:processor_binding"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FA6216E2EA1FD92"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["35459D7D2205AAC6"]
+			description: ["Ce second &4Tier&r contient 27 emplacements de &4Patterns&r et à une &2Base Speed&r de x1."]
+			id: "4D184E22A98059E4"
+			rewards: [{
+				id: "103D88039B8F4094"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "622D3DDFBC8213B8"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["4D184E22A98059E4"]
+			description: ["Ce troisième &4Tier&r contient 45 emplacements de &4Patterns&r et à une &2Base Speed&r de x5."]
+			id: "4FB2731EF2AECAD5"
+			rewards: [{
+				id: "04817C125B534C30"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6375BB326F4F4016"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["4FB2731EF2AECAD5"]
+			description: ["Ce quatrième &4Tier&r contient 63 emplacements de &4Patterns&r et à une &2Base Speed&r de x25."]
+			id: "47FA5563FABB63D1"
+			rewards: [{
+				id: "3EC79FE2C731C774"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB133AF853A7F80"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["47FA5563FABB63D1"]
+			description: ["Ce cinquième &4Tier&r contient 81 emplacements de &4Patterns&r et à une &2Base Speed&r de x125."]
+			id: "0A6EFB728EFCB628"
+			rewards: [{
+				id: "1AE4800BA82F96EA"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50746DAC9137A6B4"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 9.25d
+		}
+		{
+			dependencies: [
+				"39FFD46F6C703FB0"
+				"0DA58DABB3FD815C"
+			]
+			description: [
+				"Une &4télécommande&r tout en un ! Il vous faudra de l'&2énergie&r (je vous conseille d'utiliser le mod &4Flux Network&r pour avoir de l'&2énergie en wifi&r). Pour la lier à votre &4Refined&r, faites un &2shift + clic droit&r avec la &4télécommande&r sur le &4Controller&r."
+				""
+				"Pour pouvoir l'utiliser, il vous faudra également un &4Wireless Transmitter&r."
+			]
+			id: "697E1AD03F3B4C06"
+			rewards: [{
+				id: "07B96B7FF6E82F4A"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "16B18B403F53AAE3"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["673B6B31B0117C11"]
+			description: [
+				"Permet de &2meilleures interactions&r entre les machines d'&4autres mods&r et &4Refined&r."
+				""
+				"Par exemple, une machine de &4Create&r a fini son craft. Pour que &4Refined&r &2reçoive&r et &2valide&r que le craft a bien été effectué, il faut envoyer le résultat du craft que &4Create&r a effectué dans une &4Interface&r lié à votre &2système de stockage&r."
+				""
+				"&4Note&r : il existe la &4Fluid Interface&r qui permet le &2transfert&r de &2liquides&r."
+			]
+			id: "7D4809DBDA508FF3"
+			rewards: [{
+				id: "3A59C5EE44E4B379"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DEE9B229812A81C"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["025E028C2CE6AE79"]
+			description: [
+				"Le &4Constructor&r permet de poser les blocs devant lui. Pour lui indiquer quel bloc poser, il suffit de faire un &2clic droit&r sur lui et de déposer le bloc en question dans le &2GUI&r (par exemple de la &4Stone&r). A présent, il posera automatiquement toute la &4Stone&r qui se trouve dans votre &2système de stockage&r, si il a la place de le faire."
+				""
+				"Le &4Destructor&r détruit le bloc devant lui. On peut placer des &4upgrades Silk Touch&r ou &4Fortune 3&r sur le &4Destructor&r."
+			]
+			id: "25A4E57D7819AA75"
+			rewards: [{
+				id: "7A80205A30963B9A"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DDBB8D14D037A0B"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["673B6B31B0117C11"]
+			description: ["Des &4cables&r qui permettent d'&2alimenter&r des systèmes lointains."]
+			id: "025E028C2CE6AE79"
+			rewards: [{
+				count: 12
+				id: "4B468C7081E6D853"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "05E384B0DD8FDC79"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: [
+				"Permet de créer des &2sous réseaux&r, même &2interdimension&r, sans avoir besoin de recréer un système &4Refined&r au complet ou de tirer des &4Cables&r sur 3km. "
+				""
+				"Le &4Transmitter&r doit être lié au &2système principal&r et accueillera la &4Network Card&r. Utilisez cette dernière sur le &4Receiver&r, en faisant un simple &2clic droit&r avec, pour lié le &2sous réseau&r."
+			]
+			id: "03BE8B51D2CC2A08"
+			rewards: [{
+				id: "1468875001F35317"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E414847EBFE7C7C"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "12B0B892315306D7"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+			]
+			title: "Network"
+			x: 3.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["673B6B31B0117C11"]
+			description: [
+				"Permet d'&2accélerer&r vos crafters et le &2transfert&r de vos &4Interfaces&r, ainsi que celui de vos &4Constructors&r / &4Destructors&r, et les &4Importers&r / &4Exporters&r."
+				""
+				"Les &4Crafters&r peuvent avoir jusqu'à &44 Speed Upgrade&r, mais pas de &4Stack Upgrade&r."
+				""
+				"Les &2autres machines&r citées ci-dessus peuvent avoir jusqu'à &43 ou 4 Speed Upgrade&r et &41 Stack Upgrade&r."
+			]
+			id: "2C3538C18AE7A3D9"
+			rewards: [{
+				id: "3E02F95D04525935"
+				item: "refinedstorage:speed_upgrade"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0311DE4490333A8B"
+					item: "refinedstorage:speed_upgrade"
+					type: "item"
+				}
+				{
+					id: "2815B78C019A360E"
+					item: "refinedstorage:stack_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: [
+				"Une &4antenne&r qui permet d'utiliser sa &4télécommande&r (= &4Wireless Universal Grid&r) &2partout&r et &2interdimension&r ... A condition d'y avoir poser quelques &4upgrades&r .."
+				""
+				"Cette &4antenne&r possède une &2portée de 16 blocs&r de base."
+			]
+			id: "1EB29B928FB14FBC"
+			rewards: [{
+				id: "74883915D4646E17"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B445683FF569F46"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 5.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1EB29B928FB14FBC"]
+			description: [
+				"La &4Range Upgrade&r permet de booster la portée de votre &4Transmitter&r de 8 blocs dans toutes les directions. Vous pouvez en installer jusque 4 dans un même &4Transmitter&r."
+				""
+				"L'&4Infinity Range Booster&r vous permet d'avoir accès à votre &4Refined&r partout, dans la &2dimension&r où se trouve votre &2système de stockage&r ! &4Attention&r : elle pompera &24000 RF/t&r pour fonctionner."
+				""
+				"La &4Dimension Card&r est la meilleure &2upgrade de distance&r, car elle permet à votre &4télécommande&r d'avoir accès à votre &4Refined&r, partout, dans &2toutes les dimensions&r. Cependant, elle est gourmande en énergie :&2 8.000 RF/t&r !"
+			]
+			id: "5DA70298474694C7"
+			rewards: [{
+				id: "58047CFC9EFAB27A"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "193163A18339337F"
+					item: "refinedstorage:range_upgrade"
+					type: "item"
+				}
+				{
+					id: "22098A1F5870DB0B"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "0EE8DA9137B911D8"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: ["Permet de &2voir&r et d'&2utiliser&r les fluides du réseau."]
+			id: "39FFD46F6C703FB0"
+			rewards: [{
+				id: "446E24F18410204B"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09F0ACEADD1120BF"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["35459D7D2205AAC6"]
+			description: [
+				"Permet d'utiliser des &4Patterns&r à placer dans vos &4Crafters&r pour qu'ils craftent vos items &2sur demande&r. Le Pattern Grid possède 2 modes :"
+				""
+				"- celui où &2Processing&r est décoché : il correspond à tout ce qui peut se faire depuis une &4table de craft&r"
+				"- celui où &2Processing&r est coché : il correspond à tout ce qui ne se fait pas depuis une &4table de craft&r (&4ex&r: un four, une machine, etc). Pour ce mode, il suffit d'indiquer ce qu'il faut comme &2items&r / &2fluides&r à gauche, et le &2résultat&r à droite. L'ordre n'a pas d'importance. Aussi, si votre recette contient 2 items identiques, vous pouvez les &2stacker ensemble&r pour gagner une place d'inventaire."
+				""
+				"La coche &2Exact&r permet d'utiliser les &2items précis&r : par exemple, si vous ne la cochez pas, et que vous souhaitez &2automatiser le craft&r d'un &4coffre&r en utilisant &48 planches&r, &4Refined&r utilisera &2tout type&r de planches pour créer votre &4coffre&r. A l'inverse, si vous cochez &2Exact&r, il utilisera les planches présent dans le &4Pattern&r."
+				""
+				"&n&4Note&r&r : vous n'êtes pas obligé d'avoir les items physiquement pour créer un Pattern, vous pouvez utiliser JEI pour le créer."
+			]
+			id: "68AF62439DBF1558"
+			rewards: [{
+				id: "521A20E0D154F9A8"
+				item: "refinedstorage:pattern"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B9EFFB0AAFEEBC6"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: ["Pour voir les &4crafts&r que vous demandez à vos &4Crafters&r se dérouler devant vos yeux (et &2voir si il y a un soucis&r)."]
+			id: "23353F96C45F63B2"
+			rewards: [{
+				id: "6FA4060EE7AB2019"
+				item: "refinedstorage:pattern"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "25CD0569E1439829"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35459D7D2205AAC6"]
+			description: ["Permet de voir tous les &4Crafters&r ainsi que les &2crafts&r qu'ils peuvent réaliser."]
+			id: "08FC2787B7BEB7B9"
+			rewards: [{
+				id: "3AD0300BDE7A008D"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6913F454529A4A96"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: ["Permet de &2voir&r les &2items&r du réseau et de faire des &2crafts&r avec."]
+			id: "0DA58DABB3FD815C"
+			rewards: [{
+				id: "6803A49479B721F4"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08E855C1617C3DC2"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["025E028C2CE6AE79"]
+			description: [
+				"L'&4Exporter&r permet d'envoyer des items de &4Refined&r à un autre &2inventaire&r (coffre, machine, etc). Il faudra lui dire quel items / fluides envoyer en faisant un &2clic droit&r sur l'&4Exporter&r et en lui donnant les &2items&r / &2liquides&r correspondant. Pour les &2liquides&r, utilisez un &4seau&r rempli du &2liquide&r correspondant."
+				""
+				"L'&4Importer&r permet de recevoir des items d'un &2inventaire&r à &4Refined&r."
+				""
+				"Les deux fonctionnent de manière &2automatiques&r, sans avoir besoin de donner l'ordre de le faire."
+			]
+			id: "63E419BD73466A83"
+			rewards: [{
+				id: "6910093AF19FE8AA"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7493B5F30A81911E"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			title: "Importer / Exporter"
+			x: -7.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["63E419BD73466A83"]
+			description: ["Permet plus de &2filtres&r."]
+			id: "1F81E5C7F23F7FF1"
+			rewards: [{
+				id: "2A92EED2FFCD33E4"
+				item: "extrastorage:advanced_exporter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "241B044567875BEA"
+				item: "extrastorage:advanced_importer"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["4B18BA18B3F25A57"]
+			description: ["Il permet d'accueillir les &4disquettes&r de stockage. En faisant un &2clic droit&r dessus, vous pourrez voir à quel point vos &2disquettes&r sont remplies, et si il est temps d'en &2ajouter&r de nouvelles."]
+			id: "15D631FA69368ABB"
+			rewards: [{
+				id: "696E08385FBFBBCD"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			tasks: [{
+				id: "775D07EBBAADB6D7"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["15D631FA69368ABB"]
+			description: [
+				"Voici la plus petite &4Part de disquette&r que vous pouvez faire. Plus vous les &2améliorer&r, et plus vous pourrez &2stocker d'items&r / &2de fluides&r."
+				""
+				"Seule, elle ne sert à rien, il vous faudra la crafter avec un &4Storage Housing&r."
+				""
+				"&n&4Note&r&r : pour les habituer de Refined, nous avons &2simplifiés&r le système de disquettes pour éviter d'avoir à créer &410.000 Parts&r différents. Ainsi, les &4disquettes d'Items&r et &4de Fluides&r se font à partir des &4mêmes Parts&r. Ca ne sera sans doute pas le cas dans les &2Modpacks&r des autres créateurs de contenus."
+			]
+			id: "3D53EBE17B824D7A"
+			rewards: [{
+				id: "52FFB4197BFAA637"
+				item: "refinedstorage:processor_binding"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "01AC6651008181E0"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3D53EBE17B824D7A"]
+			id: "0DB572208EB79D31"
+			rewards: [{
+				id: "757B1EBB5E612708"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FC74DCED8E0B6B7"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0DB572208EB79D31"]
+			id: "544A8A255EEE625B"
+			rewards: [{
+				id: "53F071E6249DD299"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27407E3BC17BF929"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["544A8A255EEE625B"]
+			id: "62E79B23123D4594"
+			rewards: [{
+				id: "73201EAE8C035BFD"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D126E7947CB9B4A"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["62E79B23123D4594"]
+			id: "741F402A61D6B252"
+			rewards: [{
+				id: "4BE537624A7D8E89"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3239A97B8EBE35B2"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["741F402A61D6B252"]
+			id: "2E4EABE39D62C561"
+			rewards: [{
+				id: "06DEE01B632FDC3A"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "068DE3B10668F959"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["2E4EABE39D62C561"]
+			id: "743C350FD24A22C4"
+			rewards: [{
+				id: "0EDB157466218140"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4172A7A481B22B27"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0A6EFB728EFCB628"
+				"1F81E5C7F23F7FF1"
+				"25A4E57D7819AA75"
+				"697E1AD03F3B4C06"
+				"68AF62439DBF1558"
+				"08FC2787B7BEB7B9"
+				"7D4809DBDA508FF3"
+				"23353F96C45F63B2"
+				"2C3538C18AE7A3D9"
+				"03BE8B51D2CC2A08"
+				"5DA70298474694C7"
+				"566290D767BB51F1"
+				"795BB712169C4DA3"
+				"058450FB1C77AAEA"
+				"5DFD2D2C40A0BEAC"
+				"3243D43B96B40228"
+				"7D2EA128A38639BC"
+				"315C083B731A5B66"
+				"13A6C52AA9294E58"
+				"21FD8B32083C476E"
+				"50174B80825AC8C8"
+				"57BD5F492224B5C0"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "5DE3BC5FD22C52AC"
+			rewards: [{
+				id: "306ABFA301DF9C53"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:refined"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "51BA6937600B3FD0"
+				title: "Refined finie !"
+				type: "checkmark"
+			}]
+			title: "Refined complété !"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["743C350FD24A22C4"]
+			id: "4DD2596254D6CDAD"
+			rewards: [{
+				id: "72537ED1A1240366"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E3B809C2FDACC17"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4DD2596254D6CDAD"]
+			id: "0EC7C2256F99459B"
+			rewards: [{
+				id: "7324513BD6009F3C"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28F5FCBEF36BA0B1"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0EC7C2256F99459B"]
+			id: "26F4D6DB8A1091F2"
+			rewards: [{
+				id: "517D91CE08F71835"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BDA2F2E43089B9C"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26F4D6DB8A1091F2"]
+			id: "259F7C56A1A175EC"
+			rewards: [{
+				id: "7720AE13318EAB07"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6986B21721AC7F0A"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["259F7C56A1A175EC"]
+			description: ["Cette &4Part&r peut contenir un nombre &2infini d'Items&r / &2Fluides&r."]
+			id: "566290D767BB51F1"
+			rewards: [{
+				id: "336E75B194D64C68"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34BD1E4F52898C86"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: [
+				"Cette partie vous explique comment fonctionne le &2système de stockage&r."
+				""
+				"&l&n&4ATTENTION :&r Ne mettez pas les &4Spawners d'Apothesis&r à l'intérieur de votre &2système de stockage&r, au risque qu'il plante et que tous les items à l'intérieur soit &4irrécupérables&r ! Les autres items devraient aller."
+				""
+				"&n&4Détail du pourquoi&r&r : Evitez d'y ranger les items qui possèdent beaucoup de &2TAGs&r sur eux, comme les &4spawners d'Apotheosis&r. Pour savoir si un item possède beaucoup de &2TAGs&r, vous pouvez appuyez sur &2F3 + H&r pour voir le détail des items. &2F3 + H&r pour annuler la vision des détails."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "4B18BA18B3F25A57"
+			rewards: [{
+				id: "38074BCA10C9227C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1B0A119502B34F4E"
+				title: "Stockage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Cette partie vous explique comment fonctionne les &2autocrafts&r."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "673B6B31B0117C11"
+			rewards: [{
+				id: "71B0EC6C55990DEB"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7B8960DB8E61E008"
+				title: "Autocraft"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Voici différents &2outils&r pour vous aider à mieux gérer &4Refined&r."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "24D4E97B140F0293"
+			rewards: [{
+				id: "0EA5A82ED5DB6D0D"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2741038089D081E1"
+				title: "Gestion de Refined"
+				type: "checkmark"
+			}]
+			title: "Outils"
+			x: 3.75d
+			y: 1.75d
+		}
+		{
+			description: [
+				"&4Refined Storage&r est le mod de &2stockage ultime&r ! Vos &2items&r et vos &2liquides&r pourront être &2stockés&r dans des &4disquettes&r, ce qui sera bien plus compact qu'une salle des coffres gigantesques, n'est-ce pas ?"
+				""
+				"&4Refined&r permet également de réaliser des &2crafts automatisés&r très simplement. "
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "6778803B8364AEFD"
+			rewards: [{
+				id: "1AE2D4221BFFE028"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7C9EC8CB47F90259"
+				title: "Refined Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D53EBE17B824D7A"]
+			description: [
+				"Le &4Storage Housing&r est le boitier qui contient la &4Part&r de votre &4disquette&r. Il vous permet de créer une &2disquette fonctionnelle&r, à insérer dans le &4Disk Drive&r. Avec, vous pourrez &2stocker vos items&r à l'intérieur."
+				""
+				"Le &4Fluid Storage Housing&r est identique au &4Storage Housing&r, mais pour les &2liquides&r."
+			]
+			id: "058450FB1C77AAEA"
+			rewards: [{
+				id: "3B0337188CA11F1F"
+				item: "extradisks:advanced_storage_housing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "203DD344F9D6FC08"
+				item: "refinedstorage:storage_housing"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4B18BA18B3F25A57"]
+			description: ["L'&4External Storage&r permet de créer des stockages &2hors disquettes&r, mais toujours accessibles. Il suffit de le diriger vers un &2stockage&r, comme un &4Barrel&r par exemple, pour que &4Refined&r puisse en lire le contenu. Si vous lui adresser une &2priorité élevée&r, il placera les items en priorité à l'intérieur, plutôt que dans vos &4disquettes&r."]
+			id: "795BB712169C4DA3"
+			rewards: [{
+				id: "7B781CC569CCC68D"
+				item: "betterend:dragon_tree_barrel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F161B2EA2C50044"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6778803B8364AEFD"]
+			description: [
+				"Si votre but est de juste &2stocker vos ressources&r, voici ce qui est &4nécessaire&r :"
+				""
+				"- Le &4Controller&r : c'est le bloc de base et qui lie tout le système. Il a besoin d'&2énergie&r pour fonctionner"
+				"- L'&4External Storage&r / le &4Disk Drive&r : je vous renvoie à la partie dédiée, dans &2Stockage&r"
+				"- Si vous utilisez le &4Disk Drive&r : il vous faudra au moins une &4disquette&r !"
+				"- Le &4Crafting Grid&r : c'est un &2écran&r qui vous permettra de voir ce que &2contient votre stockage&r. Vous pourrez interagir avec les items, et même faire des crafts !"
+				""
+				"Et c'est tout ! C'est le &2strict minimum&r pour faire fonctionner &4Refined&r et avoir un &2stockage infini&r de vos items, mais vous pouvez faire bien mieux ! Pour cela, je vous conseille de lire les autres quêtes."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "5DFD2D2C40A0BEAC"
+			rewards: [{
+				id: "67EE902D0C519C88"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "114B988DF5215772"
+				title: "Pour bien débuter"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35459D7D2205AAC6"]
+			description: [
+				"Sur cette image, vous pouvez voir &2deux parties&r :"
+				""
+				"- la &2partie de gauche&r montre deux &4Crafters&r, placés dans n'importe quel sens, et qui peuvent faire des crafts que vous pourriez faire dans une table de craft (= Processing décoché dans le &4Pattern Grid&r)"
+				""
+				"- la &2partie de droite&r montre un Crafter dirigé vers une machine quelconque (ici un &4Millstone&r de &4Create&r) : lorsque vous activerez un craft qui nécessite le &4Millstone&r, le &4Crafter&r enverra les &2ingrédients&r dans le &4Millstone&r qui les transformera en &2poudre&r. Le résultat du craft passe dans une &4Chute&r de &4Create&r pour l'envoyer dans une &4Interface&r, qui l'enverra dans votre &2système de stockage&r. Cette méthode de craft correspond, dans le &4Pattern Grid&r, au mode &2Processing&r lorsque ce dernier est coché."
+				""
+				"{image:kubejs:textures/ftbquests/crafter.png width:200 height:100 align:center}"
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "3243D43B96B40228"
+			rewards: [{
+				id: "75A67D5471278F12"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "277A769FC7881335"
+				title: "Comment fonctionne les Crafters ?"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["63E419BD73466A83"]
+			description: ["Cet item se place au niveau des &2filtres&r des &4Exporters&r par exemple. Il permet, en faisant un &2clic droit&r avec, d'avoir plus d'emplacement de &2filtre&r et un &2meilleur contrôle&r sur ceux-ci."]
+			id: "7D2EA128A38639BC"
+			rewards: [{
+				id: "2CB9851E9AE2B333"
+				item: {
+					Count: 1
+					id: "refinedstorage:filter"
+					tag: {
+						Icon: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+					}
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "67B9DD28F2806F92"
+				item: {
+					Count: 1
+					id: "refinedstorage:filter"
+					tag: {
+						Icon: {
+							Count: 1b
+							id: "minecraft:air"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: [
+				"Le &4Security Manager&r permet de paramétrer qui peut utiliser votre système &4Refined&r, et jusqu'à quel point. Pour se faire, il faut faire un &2clic droit&r avec une &4Security Card&r sur un &2joueur&r pour obtenir \"&2son ADN&r\", puis, l'insérer dans le &4Security Manager&r et faire les &2paramètres&r souhaités. Lorsque cela est fait, il suffit de placer la &4Security Card&r dans l'inventaire du &4Security Manager&r, tout en haut."
+				""
+				"&n&4Note&r&r : Pour avoir votre &2propre ADN&r, il suffit de faire un &2clic droit&r avec une &4Security Card&r dans le &2vide&r."
+			]
+			id: "13A6C52AA9294E58"
+			rewards: [
+				{
+					id: "0863A49C3B9A770A"
+					item: "refinedstorage:security_card"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "73194999BFFFCEFE"
+					item: {
+						Count: 1
+						id: "refinedstorage:security_card"
+						tag: {
+							Owner: "1d1f6c56-d248-4c70-acab-ab7f88b3eb0a"
+							OwnerName: "Herobrine"
+							Permission_0: 1b
+							Permission_1: 1b
+							Permission_2: 1b
+							Permission_3: 1b
+							Permission_4: 1b
+							Permission_5: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0014881D427ADBDA"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: ["Très simple, c'est un &2écran&r qui vous indique en temps réel le &2nombre d'items affiché&r à l'intérieur de votre &4Refined&r. Pour le &2configurer&r, il suffit de faire un &2clic droit&r avec l'item sur le &4Storage Monitor&r."]
+			id: "315C083B731A5B66"
+			rewards: [{
+				id: "02CBDD3B18A49C4A"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75B0F42C236B8792"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63E419BD73466A83"]
+			description: [
+				"Il s'agit d'une &4Upgrade&r qui permet, si placé dans un &4Exporter&r, d'envoyer des &2items qui nécessite un craft&r vers un stockage, depuis &4Refined&r."
+				""
+				"Par exemple : vous souhaitez avoir une &2réserve&r de &4Sticks&r dans un &2coffre&r ou dans une &2machine&r, mais vous ne voulez pas devoir faire la commande à &4Refined&r à chaque fois. Dans ce cas :"
+				""
+				"- &nétape 1&r : &2programmer&r le craft du &4Stick&r via le &4Pattern Grid&r, et placez le &4Pattern&r dans un &4Crafter&r"
+				"- &nétape 2&r : placez un &4Exporter&r vers votre &2coffre&r / &2machine&r"
+				"- &nétape 3&r : insérez le &4Crafting Upgrade&r dans l'&4Exporter&r"
+				""
+				"A présent, tant que votre &2coffre&r / &2machine&r possède de la place pour accueillir des &4Sticks&r, alors &4Refined&r craftera automatiquement des &4Sticks&r et les y enverra !"
+			]
+			id: "21FD8B32083C476E"
+			rewards: [{
+				id: "037C162DA998F58A"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60CFE59D4F6DE4CF"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["15D631FA69368ABB"]
+			description: [
+				"Le &4Disk Manipulator&r permet de &2transférer&r les items / liquides :"
+				""
+				"- d'un &4Disk&r à un autre"
+				"- de &4Refined&r à un &4Disk&r précis"
+				"- d'un &4Disk&r à &4Refined&r"
+			]
+			id: "50174B80825AC8C8"
+			rewards: [{
+				id: "446328D4A1ACD67A"
+				item: "botania:cosmetic_thinking_hand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B7525A15A0E632C"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["24D4E97B140F0293"]
+			description: [
+				"Il s'agit d'un &2Addon&r aux mods &4Refined Storage&r et &4CookingForBlockheads&r."
+				""
+				"Ce dernier est un &2Mod de nourriture&r, qui utilise une &2cuisine&r pour fonctionner. Le soucis, c'est qu'il faut &2remplir&r les &4placards&r, le &4frigo&r, etc ... d'&2ingrédients&r manuellement pour fonctionner correctement. Avec &4Refined Cooking&r, fini les galères d'approvisionnement ! Les &2ingrédients&r viendront directement de votre &4Refined&r ! Pour se faire, vous devez :"
+				""
+				"- poser une &4Kitchen Station&r sur un des meubles de votre &2cuisine&r"
+				"- poser un &4Kitchen Access Point&r sur votre &4Refined&r"
+				"- lié les deux, comme pour un &2Network&r, avec une &4Kitchen Network Card&r"
+				""
+				"Et c'est tout ! A présent, lorsque vous souhaiterez utiliser votre &4Cooking Table&r pour créer un plat, les &2ingrédients&r seront &2importés&r directement depuis votre &4Refined&r !"
+				""
+				"Attention que les items &2resteront&r dans leur &2machine de craft&r (ex: le &4four&r), il faudra donc les &2sortir soi-même&r ou avec un &4Importer&r sur une &4Interface&r pour les récupérer dans votre &2stockage&r."
+				""
+				"A noter qu'il s'agit d'un &2Network&r, et fonctionne donc exactement pareil. Vous pouvez donc lié la &4Kitchen Station&r à d'autres &2machines&r &4Refined&r si vous le souhaitez."
+			]
+			id: "57BD5F492224B5C0"
+			rewards: [{
+				id: "54BB859E3A77585E"
+				item: "refinedcooking:kitchen_network_card"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "034751FAE059F11C"
+					item: "refinedcooking:kitchen_station"
+					type: "item"
+				}
+				{
+					id: "43FC6BC8420E6B82"
+					item: "refinedcooking:kitchen_access_point"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+	]
+	title: "Refined Storage"
+}

@@ -1,0 +1,1412 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "malum"
+	group: "1921496FB68D5F69"
+	icon: "malum:spirit_crucible"
+	id: "65BAE78C3F7773A7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Malum&r est un mod de &2magie noire&r très facile d'accès. Il permet de créer des &2équipements&r et des &2lieux de magie&r gérer par des &2totems&r grâce à des âmes nommées &4Spirits&r, que vous récupèrerez en tuant différentes créatures."
+				""
+				"Pour débuter ce mod, il vous faudra trouver dans l'&4Overworld&r des &2arbres&r et des &2minerais&r spéciaux."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "1FC559726296A520"
+			rewards: [{
+				id: "363AD8D362F71091"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1960CB20422295B7"
+				title: "Malum"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73ED78E4A927C26E"
+				"1BDF549D1A65111D"
+				"6BD6FEEDB10926E7"
+				"66C231621F144819"
+				"3E0ACF858AFDDEC3"
+				"11BEB864EC285D64"
+				"13A55717DA24F855"
+				"587A3D1C3CCCEB8E"
+				"24D8BC0EAC27A2C5"
+				"72C8B869459CB8AE"
+				"38C82C944B7EA212"
+				"68B8195DA78C1579"
+				"17F45E60FE269A38"
+				"728A8420D184900C"
+				"528837A254626F5E"
+				"2D7102824B088CFD"
+				"04E9E66B60A013F4"
+				"79FFE7F8AFA2C250"
+				"12D88751A3113BD4"
+				"3438DC93498CACC8"
+				"6621441FF4AB101F"
+				"61C0EC057D9E2375"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "668A908AD07675A3"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3739B535BAE95E66"
+				title: "Malum complété !"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["495A844216CC0C93"]
+			description: [
+				"Cette &4arme&r est obligatoire pour commencer le Mod. En &2achevant&r certaines créatures avec, tu pourras obtenir des &4Spirits&r, ainsi que certains &2loots spéciaux&r. Les Spirits sont la &2base&r des crafts et des &2rituels&r du Mod. Tu peux en obtenir de plusieurs types sur une même créature."
+				""
+				"Les &4Scythes&r sont &2enchantables&r, voici par quoi :"
+				""
+				"- &4Animated&r -> permet d'augmenter la &2vitesse d'attaque&r de la &4Scythe&r"
+				"- &4Rebound&r -> en faisant &2clic droit&r avec la &4Scythe&r en main, tu peux la jeter comme un &2Boomerang&r. Incompatible avec &4Ascension&r"
+				"- &4Ascension&r -> en faisant &2clic droit&r avec la &4Scythe&r en main, tu t'élèves dans les airs en faisant une attaque autour de toi. Tant que tu touches une créature que tu attaques, tu ne prends pas de &2dégâts de chute&r. Incompatible avec &4Rebound&r"
+				"- &4Replenishing&r -> "
+				"- &4Haunted&r -> augmente les &2dégâts magiques&r de la &4Scythe&r"
+				"- &4Spirit Plunder&r -> permet d'augmenter le nombre de &4Spirits&r que tu peux obtenir"
+			]
+			id: "1E9454045A898691"
+			rewards: [{
+				id: "37035AFC25F3B744"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50642CE956B338C3"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FC559726296A520"]
+			description: ["C'est le &2principal minerais&r du Mod. Vous le trouverez dans l'&4Overworld&r."]
+			id: "495A844216CC0C93"
+			rewards: [
+				{
+					id: "6F5B040422DC9AA2"
+					item: "malum:soulstone_ore"
+					type: "item"
+				}
+				{
+					id: "78587A9453B74EA3"
+					item: "malum:deepslate_soulstone_ore"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A73B6C7FF706810"
+					item: "malum:raw_soulstone"
+					type: "item"
+				}
+				{
+					id: "2E6C50CE7FEACD1F"
+					item: "malum:processed_soulstone"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2créatures passives&r."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "73A0FB3CFF049C45"
+			rewards: [{
+				id: "1BE579313136FE38"
+				item: "malum:sacred_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "04CFD3994BDDD427"
+				item: "malum:sacred_spirit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2créatures agressives&r lié à la &2nécromancie&r, comme les &4morts vivants&r, les &4Sorcières&r, les &4Evokers&r, les &4Squelettes&r, les &4Zombies&r, etc ..."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "7AD627229E7D3F6C"
+			rewards: [{
+				id: "4C0D1FED2E5BD81C"
+				item: "malum:wicked_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ABE6E4427A70C7A"
+				item: "malum:wicked_spirit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur tout ce qui est affilié à la &2magie&r, comme les &4Evokers&r, les &4Sorcières&r, les &4Ravagers&r, les &4Vex&r, etc ..."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "2FFDC844E60631D4"
+			rewards: [{
+				id: "6462C7180BCC7A09"
+				item: "malum:arcane_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "70F462F2EECF2B41"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2Endermens&r."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "6EF00304EDEB2A24"
+			rewards: [{
+				id: "2CABC39550D1B2B4"
+				item: "malum:eldritch_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E0393EB169CAF5B"
+				item: "malum:eldritch_spirit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2créatures qui peuvent voler&r ou ont une &2forte mobilité&r."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "0A25D417FDC9AF86"
+			rewards: [{
+				id: "7FF2E57CBB4FCD3C"
+				item: "malum:aerial_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "244185C1B8B7A45B"
+				item: "malum:aerial_spirit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2créatures aquatiques&r."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "48C46253C0050133"
+			rewards: [{
+				id: "1E75FC1112110E91"
+				item: "malum:aqueous_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "73BAD4C42EDE62D3"
+				item: "malum:aqueous_spirit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2créatures de l'Overworld&r."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "4B6601AAC12907C4"
+			rewards: [{
+				id: "30D94AC63816BD01"
+				item: "malum:earthen_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A8CA5128AB1010D"
+				item: "malum:earthen_spirit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"S'obtient sur les &2créatures du Nether&r."
+				""
+				"N'hésites pas à consulter &4JEI&r pour savoir sur quelles créatures tu peux les obtenir."
+			]
+			id: "004A4EA46CED0718"
+			rewards: [{
+				id: "71C3F76457D12291"
+				item: "malum:infernal_spirited_glass"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "69EBA7563FEC4DE2"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FC559726296A520"]
+			description: ["C'est le &4bois&r d'un &2arbre&r qui se trouve dans l'&4Overworld&r. Vous allez en avoir besoin de beaucoup."]
+			id: "35FBEBD1661679B3"
+			rewards: [{
+				id: "3E707600EA79A7BD"
+				item: "malum:runewood_log"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "108A2C0532AD7802"
+				item: { Count: 4, id: "malum:runewood_log" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FBEBD1661679B3"]
+			description: ["Certaines &4bûches&r de ces arbres possèdent de la &4sève&r qui sort de la bûche. Pour l'&2extraire&r, il vous faudra faire un &2clic droit&r avec une hâche sur ces bûches pour l'&2écorcer&r, puis utiliser une &4bouteille vide&r dessus pour récolter la &4sève&r."]
+			id: "494C8F8A8AC363E6"
+			rewards: [{
+				id: "350F119B2C2D4AB5"
+				item: "minecraft:glass_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "55F9465B216CF527"
+					item: "malum:exposed_runewood_log"
+					type: "item"
+				}
+				{
+					id: "6EA5DE8A23BC5B85"
+					item: "malum:revealed_runewood_log"
+					type: "item"
+				}
+			]
+			x: -3.25d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"0A25D417FDC9AF86"
+				"48C46253C0050133"
+				"2FFDC844E60631D4"
+				"4B6601AAC12907C4"
+				"6EF00304EDEB2A24"
+				"004A4EA46CED0718"
+				"73A0FB3CFF049C45"
+				"7AD627229E7D3F6C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Il s'agit d'une &4table de craft&r spéciale : pour fonctionner, il faut placer l'item que l'on veut transformer sur la table en faisant un &2clic droit&r avec l'objet dessus. Faire de même avec les &4Spirits&r demandés. Ensuite, les autres objets demandés doivent être placé sur des &4Pedestals&r ou des &4Item Stands&r. Un &4Pedestal&r ou un &4Stand&r peut accueillir plusieurs items sur lui. "
+				""
+				"Les &4Pedestals&r et les &4Stands&r doivent être à &24 blocs ou moins&r du &4Spirit Altar&r pour fonctionner."
+				""
+				"Lorsque tout est placé, le craft s'&2activera automatiquement&r et prendra un certain temps."
+			]
+			id: "280A700EE8175659"
+			rewards: [{
+				count: 4
+				id: "2C7BA9AB1B71D395"
+				item: "malum:runewood_item_stand"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61D69627EB370F9F"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D2AD7E9D068708C"
+					item: { Count: 4, id: "malum:runewood_item_pedestal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["280A700EE8175659"]
+			description: ["Une nouvelle &2table de craft spéciale&r qui fonctionne exactement comme le &4Spirit Altar&r, mais en un peu plus simple. La &4Runic Workbench&r sert à créer des &4Runes&r que vous pourrez équiper dans vos &2Curios&r."]
+			id: "617976394B70730C"
+			rewards: [
+				{
+					id: "249C7D3DA55B1ACA"
+					item: "malum:aqueous_spirit"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "795802B7EC25E8E3"
+					item: "malum:sacred_spirit"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02C2E59F55BE27C1"
+				item: "malum:runic_workbench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["C'est une &4Scythe&r &2plus puissante&r que celle de base."]
+			id: "72C8B869459CB8AE"
+			rewards: [{
+				id: "5CAD9A0E276923C2"
+				item: "malum:soul_stained_steel_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B3837ACA6E32FB5"
+				item: {
+					Count: 1
+					id: "malum:soul_stained_steel_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.25d
+		}
+		{
+			dependencies: ["35FBEBD1661679B3"]
+			description: ["Ce &4charbon&r dure &2plus longtemps&r que le &4charbon Vanilla&r. Il peut cuir jusqu'à &216items&r au lieu de &28&r pour le &4charbon Vanilla&r."]
+			id: "73ED78E4A927C26E"
+			rewards: [{
+				id: "1BF2BEE3783B0E65"
+				item: "malum:arcane_charcoal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B009CF7AA39142C"
+				item: "malum:arcane_charcoal"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["494C8F8A8AC363E6"]
+			description: [
+				"Le &4Runic Sap&r vous donne un effet de &2Régénération&r pendant 8sec lorsque vous la buvez."
+				""
+				"La &4Runic Sapball&r est une simple &4Slimeball&r."
+			]
+			id: "1BDF549D1A65111D"
+			rewards: [{
+				id: "0CDE91C8CB6A28FE"
+				item: "malum:runic_sapball"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0EADAC660D331C10"
+					item: "malum:runic_sap"
+					type: "item"
+				}
+				{
+					id: "435511B6134728F7"
+					item: "malum:runic_sapball"
+					type: "item"
+				}
+			]
+			x: -4.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["35F40BBD182C1478"]
+			description: [
+				"Cette &4épée&r paraît plus faible que la précédente, bien qu'ayant les mêmes effets. Cependant, il n'en ai rien. En effet, elle possède un &2effet secret&r, qui dit que plus une créature possède de &4Spirits&r en elle, plus l'arme fera de &2dégâts magiques bonus&r."
+				""
+				"La formule est : dégâts magiques bonus = nombre de Spirit que la créature possède x2"
+			]
+			id: "13A55717DA24F855"
+			rewards: [{
+				id: "551534C52C5060DE"
+				item: "malum:eldritch_spirited_glass"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "50181F993E7157BB"
+				item: {
+					Count: 1
+					id: "malum:tyrving"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: -13.25d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Cette armure &2protège beaucoup&r son porteur, et possède un effet nommé &4Soul Ward&r, qui diminue à force de prendre des coups, mais réaugmente avec le temps. Cet effet permet de diminuer les &2dégâts magiques entrant de 90%&r et les &2dégâts physiques de 30%&r. "]
+			id: "24D8BC0EAC27A2C5"
+			rewards: [{
+				id: "246355E58D024BB3"
+				item: "malum:soul_stained_steel_plating"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "11FA1096B75D668B"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C3897EF19ECA26"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37B04FAF5B62DFD5"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "640C0585C9D9F255"
+					item: {
+						Count: 1
+						id: "malum:soul_stained_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.75d
+			y: -11.25d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Cette armure &2protège légèrement&r son porteur, mais permet d'&2augmenter les dégâts magiques&r infligés par ce dernier."]
+			id: "38C82C944B7EA212"
+			rewards: [{
+				id: "4025123D00D1AA3A"
+				item: "malum:spirit_fabric"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24E635B476DA054F"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69165AABD6C48A69"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "569FFCB7F6D2449D"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CDDD5A9CF8A268B"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: -11.25d
+		}
+		{
+			dependencies: ["280A700EE8175659"]
+			description: ["Chaque &4totem&r placé à 4 blocs ou moins d'un &4Spirit Altar&r permet d'améliorer la &2vitesse&r de ce dernier de &225%&r. Vous pouvez en placer &24 maximum&r."]
+			id: "3E0ACF858AFDDEC3"
+			rewards: [
+				{
+					id: "14A01EC35BABF201"
+					item: "malum:aerial_spirit"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "026F715DC1899367"
+					item: "malum:sacred_spirit"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "066DEC7D27AA2FBF"
+				item: { Count: 4, id: "malum:runewood_obelisk" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Ce &2grand sac&r permet de &2stocker automatiquement&r tous les &4Spirits&r que vous obtenez à l'intérieur."]
+			id: "68B8195DA78C1579"
+			rewards: [{
+				id: "32B2A7230F56634B"
+				item: "minecraft:soul_soil"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1124699830E3DCC5"
+				item: "malum:spirit_pouch"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -14.25d
+		}
+		{
+			dependencies: ["089A738B5B19CC48"]
+			description: [
+				"Il s'agit d'une &2alternative&r aux &4torches&r. Ils peuvent également être améliorer en &4\"vraies\" torches&r, et en &4brazier&r."
+				""
+				"Vous pouvez modifier la &2couleur&r de cette flamme en la mélangeant avec un &4colorant&r dans une &4table de craft&r. La version &4Iridescent&r permet de colorer le sommet de la flamme d'une autre couleur. Par défaut bleue, elle peut être changé comme la &2couleur&r de la flamme principale, en plaçant un &4colorant&r dans une table de craft."
+				""
+				"&n&4Note&r&r : une fois transformée en &4Iridescent&r, la couleur de la flamme principale ne peut plus être changée."
+			]
+			id: "528837A254626F5E"
+			rewards: [{
+				id: "69F2875864FBFD4E"
+				item: "malum:twisted_iridescent_ether_brazier"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F187670F7FC8BB6"
+				item: "malum:ether"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: [
+				"Le &4Repair Pylon&r fonctionne comme la &4Spirit Table&r, mais permet cette fois-ci de &2réparer entièrement&r un item grâce à des &4Spirits&r et au &2matériel&r correspondant à l'outils (du &4diamant&r pour une &4épée en diamant&r par exemple). Il permet également de &2réparer&r les &4Impetus&r."
+				""
+				"Pour se faire, placez le &2matériau&r demandé sur le &4Pylon&r en faisant un &2clic droit&r dessus. Faites de même avec les &4Spirits&r demandés. Enfin, placez l'objet à réparer sur un &4Stand&r ou un &4Pedestal&r. Le rituel va alors s'activer, mais il prendra un peu de temps pour se terminer."
+			]
+			id: "17F45E60FE269A38"
+			rewards: [{
+				id: "390F986D1F187106"
+				item: "malum:twisted_rock_item_pedestal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A13CF00E0282FC6"
+				item: "malum:repair_pylon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.25d
+		}
+		{
+			dependencies: ["280A700EE8175659"]
+			id: "2B2666D23FD4BE93"
+			rewards: [{
+				id: "7AA4F4FF5BE6CFE5"
+				item: "malum:arcane_spirit"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "587AF7BD88D29C3E"
+					item: "malum:spirit_crucible"
+					type: "item"
+				}
+				{
+					id: "0FD90AD96A89373D"
+					item: "malum:tuning_fork"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00A18AFDDBF0CC30"]
+			description: ["Cet &4Obelisk&r compte pour &45 Bookchelfs&r dans la &4table d'enchantement&r. Il vous en faut donc &26&r pour avoir une &4table d'enchantement&r de &2niveau 30&r."]
+			id: "04E9E66B60A013F4"
+			rewards: [
+				{
+					id: "4285212E9572DA28"
+					item: "malum:chunk_of_brilliance"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "44B6C7DBF7CAC0B9"
+					item: "minecraft:glass_bottle"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "204E6FC6736834F3"
+				item: "malum:brilliant_obelisk"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Il s'agit d'une &4Smithing Table&r spéciale, qui permet de &2customiser l'apparence&r des deux sets d'armure de &4Malum&r avec des &4Weaves&r. Il en existe une multitude, toutes craftables. Si vous souhaitez retirer une &4Weave&r de l'une de vos armures, placez la dans la &4Weaver's Workbench&r sans rien d'autres, et valider le craft."]
+			id: "2D7102824B088CFD"
+			rewards: [{
+				id: "19C5F1B398277584"
+				item: "malum:pride_prideweave"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "018455FB4C284FDE"
+				item: "malum:weavers_workbench"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -14.25d
+		}
+		{
+			dependencies: ["280A700EE8175659"]
+			description: [
+				"Les &2Totems&r sont une construction en bois qui permet d'&2infuser de la magie dans une zone&r. Ces &2Totems&r peuvent être de deux types en fonction du bois utilisé : "
+				""
+				"- Le &4Runewood&r permet de créer des &2rituels lumineux&r"
+				"- Le &4Soulwood&r permet de créer des &2rituels de corruptions&r"
+				""
+				"Pour obtenir la version &4Soulwood&r, il vous faudra accomplir un &2rituel&r : l'&4Undirected Rite&r."
+				""
+				"Pour accomplir un &2rituel&r, vous devez poser le &4Totem Base&r, puis placer jusqu'à &45 logs&r du bois correspondant au &4Totem Base&r. Ensuite, si vous regarder la recette de &4JEI&r via les &4Spirits&r, vous pouvez voir qu'ils sont placés sur chacunes des &4bûches&r. Pour cela, faites un &2clic droit&r sur l'une des &4bûches&r avec le &4Spirit&r correspondant pour la sculpter. Pour activer le rituel, vous devez faire un &2clic droit&r sur le &4Totem Base&r. Faites de même pour le désactiver, car sinon, le rituel se poursuivra indéfiniment. Vous pouvez l'activer ou le désactiver à votre guise &2sans aucun coût&r."
+				""
+				"La &2liste des rituels&r se trouve dans la quête après le &4Totemic Staff&r, au niveau du &4Soulwood Totem Base&r."
+			]
+			id: "052D34E53A61ED11"
+			rewards: [{
+				id: "1AF76EF193D601BA"
+				item: "malum:arcane_spirit"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FE77A4A2A9CC15A"
+					item: "malum:runewood_totem_base"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "30BA6F886BB67E77"
+					item: { Count: 5, id: "malum:runewood_log" }
+					type: "item"
+				}
+			]
+			title: "Totems"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["35FBEBD1661679B3"]
+			description: ["Ce sont les deux &4arbres&r du Mod que vous pouvez trouver naturellement dans l'&4Overworld&r. Designs différents, utilités identiques."]
+			id: "6BD6FEEDB10926E7"
+			rewards: [
+				{
+					id: "13A47E7C704CC05C"
+					item: "malum:runewood_sapling"
+					type: "item"
+				}
+				{
+					id: "31C58FE2D3F756C7"
+					item: "malum:azure_runewood_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27F2D042ECE4E399"
+					item: "malum:runewood_sapling"
+					type: "item"
+				}
+				{
+					id: "774D3D66555FABA2"
+					item: "malum:azure_runewood_sapling"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0490189FB881B7AE"]
+			description: [
+				"Vous les obtenez en plaçant une &4Runewood Sapling&r sur de la terre, près d'un &2Totem&r où l'&4Undirected Rite&r est actif. Vous pouvez les obtenir ensuite en &2cassant les feuilles&r de cet arbre."
+				""
+				"Tout comme le &4Runewood&r, il peut y avoir sur certaines bûches de la &2sève&r qui s'écoule."
+			]
+			id: "64F23C7C6696976C"
+			rewards: [{
+				id: "4086818507C6233A"
+				item: "malum:soulwood_growth"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CE9412FC01A2A1C"
+				item: "malum:soulwood_growth"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -8.75d
+		}
+		{
+			dependencies: ["052D34E53A61ED11"]
+			description: ["Lorsque tenu en main, ce &4Staff&r permet de voir la &2zone d'effet&r des &4Totems de Magie&r."]
+			id: "0490189FB881B7AE"
+			rewards: [{
+				id: "27466C78CA357048"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"The Stick of Truth\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07660A5E5E67D71D"
+				item: "malum:totemic_staff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: [
+				"Il existe de nombreux équipements à placer dans les &4Curios&r. Parmi eux, tout un arsenal de colliers, de ceintures, et d'anneaux dont voici l'utilité :"
+				""
+				"- &4Belt of prospector&r : les explosions ne détruisent plus les items au sol. Si vous explosez un minerais par exemple, le résultat fonctionnera comme si vous aviez un effet     &2Fortune III&r"
+				"- &4Belt of the magebane&r -> plus de protection magique et permet de se rendre &2invisible&r auxprès des mobs à moins de les attaquer"
+				"- &4Belt of starved&r -> donne l'effet de potion &2Glutonny&r -> + de dégâts magiques mais donne &2Hunger&r quand on collectes des &4Spirits&r"
+				""
+				"- &4Ring of hoarder&r -> téléporte le résultat d'une explosion sur soi"
+				"- &4Ring of esoteric spoils&r -> drop davantage de &4Spirits&r"
+				"- &4Ring of the demolitionist&r -> les explosions sont plus grosses"
+				"- &4Ring of curativ talent&r -> quand on drop des &4Spirits&r, vous recevez du soin"
+				"- &4Ring of arcane prowess&r -> à chaque drop de &4Spirit&r, vous recevez de l'&2Xp&r bonus"
+				"- &4Ring of alchemical mastery&r -> les effets de potions négatives ont une &2durée réduite&r, et les positives, &2augmentées&r"
+				"- &4Ring of desperate voracity&r -> la &4Rotten Flesh&r nourrit davantage et augmente la &2Gluttony&r"
+				"- &4Ring of Manaweaving&r -> permet d'augmenter la vitesse de régénation de l'effet &2Soulward&r de l'armure en &4Soulstained Steel&r"
+				""
+				"- &4Necklace of the tidal affinity&r -> permet de nager plus vite et donne l'effet &2conduit power&r"
+				"- &4Necklace of the narrow edge&r -> + de dommage de la &4Scythe&r, augmente les effets d'&2Ascension&r (une attaque de zone autour de soi qui te fait voler) et &2Rebound&r (boomerang), mais cela désactive l'attaque en zone de la &4Scythe&r (les enchants sont incompatibles entre eux)"
+				"- &4Necklace of blissful harmony&r -> réduit la &2zone d'aggro&r des mobs"
+				"- &4Necklace of the Mystic Mirror&r -> lorsque l'on inflige des dégâts magiques, cela &2déclenche les effets&r qui ne s'activent normalement qu'à la collecte des &4Spirits&r"
+			]
+			icon: "malum:necklace_of_tidal_affinity"
+			id: "728A8420D184900C"
+			rewards: [{
+				id: "0DFD680DC6E42DAD"
+				item: "malum:gilded_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2126B19FEE660ECE"
+				title: "Belts + Rings"
+				type: "checkmark"
+			}]
+			title: "Belts, Rings et Neckless"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["617976394B70730C"]
+			description: [
+				"Avant de pouvoir équiper vos &4Runes&r, il vous faudra des &2emplacements&r de &4Runes&r dans vos &2Curios&r. Pour les débloquer, il faudra que vous équipier des &4Broochs&r. Il en existe 4 différentes, mais vous ne pouvez pas équiper plusieurs fois la même :"
+				""
+				"- la &4Runic Brooch&r vous retire un emplacement d'anneau mais vous offre deux emplacements de Runes"
+				"- l'&4Elaborate Brooch&r vous retire un emplacement de collier (=Neckless) mais vous offre un emplacement de ceinture (=Belt)"
+				"- la &4Glass Brooch&r vous retire 20% de vos points de vie maximum, mais vous offre deux emplacements de Runes"
+				"- la &4Gluttonous Brooch&r vous force à consommer plus de nourriture, mais vous offre un emplacement de ceinture supplémentaire"
+				""
+				"&n&4Astuce&r :&r si vous ne savez pas à quoi correspond le mod &4Curios&r, il y a un tuto dans le chapitre &2Bienvenue&r."
+			]
+			icon: "malum:elaborate_brooch"
+			id: "0C4EEB0EE9ACF828"
+			rewards: [{
+				id: "7CC801B8D3DC8889"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "40AC7A3F085DF254"
+				title: "Broochs"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["0C4EEB0EE9ACF828"]
+			description: [
+				"Les &4Runes&r sont des équipements à placer dans vos &2Curios&r. Pour les équiper, il vous faudra au préalable une &4Brooch&r, comme expliqué précédemment, ou utiliser l'emplacement &2Joker Curio&r. La plupart des runes ont une description lorsque vous passez votre souris dessus, mais d'autres non, donc voici les explications manquantes :"
+				""
+				"- &4Rune of Motion&r -> augmente votre vitesse de +20%"
+				"- &4Rune of Loyalty&r -> augmente votre portée de un bloc"
+				"- &4Rune of Warding&r -> vous donne un effet de Resistance"
+				"- &4Rune of Haste&r -> augmente votre vitesse d'attaque de 20%"
+				"- &4Rune of Aether&r -> diminue votre gravité, et vous permet donc de sauter plus haut"
+				"- &4Rune of Sea&r -> vous donne un effet de Lure pour appater les poissons"
+				"- &4Rune of Arena&r -> augmente les dommages que vous effectuer de 2 points"
+				"- &4Rune of Hells&r -> si vous prenez feu, alors le feu s'éteint et vous recevez un léger soin"
+				""
+				"&n&4Attention&r&r : les &4Runes&r identiques ne &2se cumulent pas&r."
+			]
+			icon: "malum:rune_of_culling"
+			id: "66C231621F144819"
+			rewards: [{
+				id: "0DE19C9DB2774BDA"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5B95C45279AD5CC0"
+				title: "Runes"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["132BDEDB9C71580D"]
+			description: ["C'est un &2conteneur&r qui peut contenir une &2quasi infinitié&r de &4Spirits&r à l'intérieur. Une &4Jar&r ne peut contenir qu'un type de &4Spirit&r."]
+			id: "587A3D1C3CCCEB8E"
+			rewards: [{
+				id: "354C924A7363A67D"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "09248C80EEEAA7B2"
+				item: { Count: 8, id: "malum:spirit_jar" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: -13.25d
+		}
+		{
+			dependencies: ["2B2666D23FD4BE93"]
+			description: ["Le &4Catalyzer&r permet d'augmenter la &2vitesse&r du &4Crucible&r en lui donnant du &2combustible&r."]
+			id: "11BEB864EC285D64"
+			rewards: [{
+				id: "4292BDAB2166A9E6"
+				item: "minecraft:coal"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "29C9E10988FE33FD"
+				item: "malum:spirit_catalyzer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Il s'agit d'un lingot d'or un peu spécial qui vous permettra de créer de &2puissants objets&r ainsi que la &4Runic Workbench&r."]
+			id: "132BDEDB9C71580D"
+			rewards: [{
+				id: "6A04E08D1FFFB65C"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51032D7435764503"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["280A700EE8175659"]
+			description: ["Il s'agit des &2principaux&r crafts utiles qui nécessitent le &4Spirit Altar&r."]
+			id: "12FC01DEB8F6E593"
+			rewards: [{
+				id: "1613551FB4B64E9C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6EE4484E31F55D02"
+				title: "Crafts utiles"
+				type: "checkmark"
+			}]
+			title: "Crafts utiles du Spirit Altar"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Il s'agit d'une &4bonne épée&r, capable de dropper les &2objets spéciaux&r comme une &4Scythe&r."]
+			id: "35F40BBD182C1478"
+			rewards: [{
+				id: "508AF855AB02A10E"
+				item: "malum:processed_soulstone"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B9180EED6057657"
+				item: {
+					Count: 1
+					id: "malum:soul_stained_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Ce &2minerais&r se trouve dans l'&4Overworld&r. Il permet, entre autre, de pouvoir créer des &4bouteilles d'xp&r. Le &4Chunk of Brilliance&r peut également se &2manger&r pour donner de l'&4xp&r."]
+			id: "00A18AFDDBF0CC30"
+			rewards: [
+				{
+					id: "19997D57BAFDFA9F"
+					item: "malum:brilliant_stone"
+					type: "item"
+				}
+				{
+					id: "1BA4F2570E772BEA"
+					item: "malum:brilliant_deepslate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "701D768C51430C33"
+				item: "malum:cluster_of_brilliance"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -13.25d
+		}
+		{
+			dependencies: ["2B2666D23FD4BE93"]
+			description: ["Il s'agit d'un minerais d'or un peu spécial, qui ne se trouve qu'&2en dessous de la couche 0&r de l'&4Overworld&r."]
+			id: "09AA1C20C792A8AA"
+			rewards: [{
+				id: "33DF32CAF221F68C"
+				item: "malum:cthonic_gold_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AEEAB01F9F2C3E5"
+				item: "malum:cthonic_gold"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["12FC01DEB8F6E593"]
+			description: ["Il s'agit d'un &2combustible&r, un &2minerais&r que vous ne trouvez que dans le &4Nether&r."]
+			id: "089A738B5B19CC48"
+			rewards: [{
+				id: "56DDD4FEB2D50229"
+				item: "malum:blazing_quartz_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3012505B8505B729"
+				item: "malum:blazing_quartz"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -13.25d
+		}
+		{
+			dependencies: ["64F23C7C6696976C"]
+			description: ["Cet objet s'obtient en cassant les &4herbes&r et la &4terre corrompue&r par un &2Totem&r qui a activé l'&4Undirected Rite&r."]
+			id: "79FFE7F8AFA2C250"
+			rewards: [{
+				id: "5B2408A1024514F3"
+				item: "malum:blighted_gunk"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "023A86B49C7F2188"
+				item: "malum:blighted_gunk"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1E9454045A898691"]
+			description: [
+				"Ces loots sont &2spéciaux&r, et ne peuvent être obtenus qu'avec la &4Scythe&r ou les &4épées de Malum&r. Voici la liste de drop :"
+				""
+				"- la &4Rotting Essence&r se drop sur les &2Zombies&r"
+				"- le &4Grim Talc&r se drop sur les &2Squelettes&r"
+				"- l'&4Alchemical Calx&r se drop sur les &2Sorcières&r"
+				"- l'&4Astral Weave&r se drop sur les &2Phantoms&r"
+				"- le &4Warp Flux&r se drop sur les &2Endermens&r"
+			]
+			id: "12D88751A3113BD4"
+			rewards: [{
+				id: "5992E6FD8C9380B3"
+				item: "minecraft:rotten_flesh"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "187DEC0879FC42FC"
+					item: "malum:rotting_essence"
+					type: "item"
+				}
+				{
+					id: "5257C5F1E45A4293"
+					item: "malum:grim_talc"
+					type: "item"
+				}
+				{
+					id: "04BB032805C339E7"
+					item: "malum:alchemical_calx"
+					type: "item"
+				}
+				{
+					id: "14B4A65A9383607E"
+					item: "malum:astral_weave"
+					type: "item"
+				}
+				{
+					id: "76C2B59E2CDEE98E"
+					item: "malum:warp_flux"
+					type: "item"
+				}
+			]
+			title: "Drops spéciaux"
+			x: 2.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["0490189FB881B7AE"]
+			description: [
+				"Il existe &213 rituels&r : 6 lumineux, 6 de corruptions et un spécial. En voici la liste ainsi que leurs effets :"
+				""
+				"- &4Undirected Rite&r -> il s'agit du rituel spécial. Il permet de convertir une zone en zone corrompue. Pour connaître la liste des blocs, ils se trouvent dans &4JEI&r, onglet \"&2Unchained Rite&r\". Le &4Blight Soil&r se propage en faisant un &2clic droit&r avec de la &4Bonemeal&r dessus."
+				""
+				"- &4Rite of Warding&r -> Donne un effet de Résistance sur le Totem normal, et un effet d'augmentation de l'attaque sur le Totem corrompu"
+				"- &4Rite of Destruction&r -> Détruit, devant le totem une zone de 5*5*1, tous les blocs en les dropant. La version corrompu rempli le même espace de cobblestones."
+				"- &4Rite of Haste&r -> donne Haste et augmente la vitesse d'attaque. La version corrompu permet d'éteindre toutes les flammes et brûlures"
+				"- &4Rite of Smelting&r -> cuit tout les blocs dans une zone de 5*5*1 devant le totem. Améliore la vitesse des fours à proximité avec le totem corrompu"
+				"- &4Rite of Healing&r -> soigne dans une zone les entités alliées. Le corrompu permet de faire grandir plus vite les animaux"
+				"- &4Rite of Growth&r -> permet de faire grandir les plantes plus vite. La version corrompue nourrit les bêtes automatiquement pour la reproduction"
+				"- &4Rite of Loyalty&r -> Augmente la portée. Le corrompu augmente la quantité de poisson péchés"
+				"- &4Rite of Sapping&r -> Permet d'améliorer la vitesse de l'écoulement des liquides des dripstone. Le corrompu transforme les zombies proches en drowned"
+				"- &4Rite of Motion&r -> Donne speed. Le corrompu donne un effet anti gravité, comme sur la Lune"
+				"- &4Rite of Gravity&r -> Fait tomber tout les blocs comme si c'était du sable. Ne fonctionne pas sur tout les blocs (ceux qui ne peuvent pas être silk touch comme le feu de camp). Le corrompu fait lentement partir l'insomnie du joueur. Utilise si vous n'utilisez pas de lits."
+				"- &4Rite of Decay&r -> fais tomber les mobs hostiles à un demi coeur. Le corrompu donne speed, force et resistance aux hostiles"
+				"- &4Rite of Exorcism&r -> tue les entités à un demi coeur. Sur le corrompu, tue les animaux en trop dans une zone"
+			]
+			id: "3438DC93498CACC8"
+			rewards: [{
+				id: "7F54144C1F169427"
+				item: "malum:eldritch_spirit"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Liste des Rituels ici"
+			tasks: [{
+				id: "116B8E06DEB04DE4"
+				item: "malum:soulwood_totem_base"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -11.25d
+		}
+		{
+			dependencies: ["64F23C7C6696976C"]
+			description: [
+				"Cette &2potion&r donne un effet de &2Force&r."
+				""
+				"La &4Sapball&r sert de Slimeball."
+			]
+			id: "6621441FF4AB101F"
+			rewards: [{
+				id: "6E37B9442E1CC6EF"
+				item: "malum:cursed_sapball"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "079C2B66191ADBF0"
+					item: "malum:cursed_sap"
+					type: "item"
+				}
+				{
+					id: "3816628AFCF879DB"
+					item: "malum:cursed_sapball"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09AA1C20C792A8AA"]
+			description: [
+				"Les &4Impetus&r sont des outils possédant une &2durabilité.&r Il en existe de deux sortes :"
+				""
+				"- l'&4Alchemical&r qui permet de transmuter un objet en un autre"
+				"- les &4métalliques&r, qui permettent de générer des &4Nodes&r que l'on peut ensuite transformer en ressources comme du &4fer&r ou de l'&4or&r par exemple"
+			]
+			id: "61C0EC057D9E2375"
+			rewards: [{
+				id: "52448E6C0CA9E5A2"
+				item: "malum:infernal_spirit"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Transmutation et ressources infinies"
+			tasks: [
+				{
+					id: "5AFA8E81F85DCB1B"
+					item: {
+						Count: 1
+						id: "malum:alchemical_impetus"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15A469ABF94477C3"
+					item: {
+						Count: 1
+						id: "malum:iron_impetus"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Impetus"
+			x: -5.5d
+			y: -10.75d
+		}
+		{
+			dependencies: ["1FC559726296A520"]
+			id: "68DC4A973D7C6B7D"
+			invisible: true
+			rewards: [{
+				id: "078AED731A2B5E5D"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5647916547C5C16F"
+				item: "malum:umbral_spirit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["68DC4A973D7C6B7D"]
+			id: "167EE2309C1AC215"
+			invisible: true
+			tasks: [{
+				id: "267C292A38A5B5A7"
+				item: "malum:encyclopedia_esoterica"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			id: "607F043193061810"
+			tasks: [{
+				id: "5FDD64FD6EEB8DA5"
+				item: "malum:the_device"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			id: "74DADBDB0EE553A3"
+			tasks: [{
+				id: "3216E6B593FEC60D"
+				item: "malum:the_vessel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.25d
+		}
+		{
+			id: "4BDF9BAB1E9DD1CB"
+			tasks: [{
+				id: "0438BB60D43130D9"
+				title: "Êtes-vous sûr d'avoir fini ... ?"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.25d
+		}
+	]
+	title: "Malum"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "conseils"
+	group: "520987ECA1C88A3B"
+	icon: "create:clipboard"
+	id: "5862FB81C4269EC6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Conseils"
+}

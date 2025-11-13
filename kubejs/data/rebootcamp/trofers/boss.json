@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Boss",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "minecraft:warden"
+    },
+    "display": {
+        "scale": 0.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#00AAAA",
+        "base": "#FFFFFF"
+    }
+}

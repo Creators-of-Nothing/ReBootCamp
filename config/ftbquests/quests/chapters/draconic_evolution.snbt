@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "5583654A1516B98A"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				energy: {
+					energy: 0
+				}
+				module_host: {
+					modules: [ ]
+					properties: {
+						mining_speed: {
+							hud: 1b
+							value: 1.0d
+						}
+					}
+					provider_id: [I;
+						355071150
+						1660899313
+						-1268728133
+						-992095227
+					]
+				}
+			}
+		}
+		id: "draconicevolution:chaotic_staff"
+	}
+	id: "05E1F6A41DD3F54D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Draconic Evolution"
+}

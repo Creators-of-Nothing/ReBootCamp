@@ -1,3 +1,10 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "520987ECA1C88A3B", title: "Introduction" }
+		{ id: "1ACD3872D20FC6C3", title: "Arbres de progression" }
+		{ id: "0A9A25D57F12D946", title: "Technologie" }
+		{ id: "1921496FB68D5F69", title: "Magie" }
+		{ id: "5583654A1516B98A", title: "End Game" }
+		{ id: "48E8FA999D758C15", title: "Vrac" }
+	]
 }

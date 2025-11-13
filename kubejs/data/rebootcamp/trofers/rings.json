@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Rings",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "ringsofascension:ring_flight"
+    },
+    "display": {
+        "scale": 1.3,
+		"offset": {
+			"y": 1.5
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#55FFFF",
+        "base": "#FFFFFF"
+    }
+}

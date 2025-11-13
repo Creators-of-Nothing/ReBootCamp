@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapitre_2__magie"
+	group: "1ACD3872D20FC6C3"
+	icon: "botania:magenta_shiny_flower"
+	id: "4396D835A8D97854"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Magie"
+}

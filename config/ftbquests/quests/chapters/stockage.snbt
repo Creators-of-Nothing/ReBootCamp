@@ -1,0 +1,662 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stockage"
+	group: "48E8FA999D758C15"
+	icon: "minecraft:chest"
+	id: "4B660318AEF02264"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/chest.png"
+			rotation: 0.0d
+			width: 5.289473684210526d
+			x: 4.25d
+			y: 3.5d
+		}
+		{
+			height: 5.317365269461078d
+			image: "kubejs:textures/ftbquests/back.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Un simple sac que vous pouvez placer dans vos Curios, et ouvrir avec une touche. Il peut également être posé dans le monde, en s'accroupissant, puis clic droit sur le sol."]
+			id: "2020F3EDEB55246E"
+			rewards: [{
+				id: "218649AFBF043B74"
+				item: "minecraft:leather"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB549451FC37711"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2020F3EDEB55246E"]
+			description: ["Plus grand !"]
+			id: "7BE2E91F338D5955"
+			rewards: [{
+				id: "202AC416CB0F392D"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A940099BB03C881"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BE2E91F338D5955"]
+			description: ["Plus gros !"]
+			id: "4736485F5315CC07"
+			rewards: [{
+				id: "267628AFA2B3192E"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC42F32E534F735"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4736485F5315CC07"]
+			description: ["Hummm ..."]
+			id: "0C79D89B9CFD48C3"
+			rewards: [{
+				id: "56D10E6DFDB6E923"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "12731587B4510507"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C79D89B9CFD48C3"]
+			description: ["FUCK YEAH !"]
+			id: "39BE83A9946B3DEF"
+			rewards: [{
+				id: "4126D66094C6A148"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "111BF80037FEEFFF"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2020F3EDEB55246E"]
+			description: ["Tu peux mettre pleins d'upgrades dans ton sac, et plusieurs fois la même si tu veux !"]
+			id: "609C88D69A3DED6E"
+			rewards: [{
+				id: "40A1CA60F4DBD10F"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B93C6DEDB274D70"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["609C88D69A3DED6E"]
+			description: ["Une upgrade de stockage."]
+			id: "04C120BBB3133C6B"
+			rewards: [{
+				id: "291467B5E6F634C8"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A27931AB394C4B"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04C120BBB3133C6B"]
+			description: ["Toujours plus !"]
+			id: "0772214563E91BC1"
+			rewards: [{
+				id: "18AA1D95E1F00934"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DC478CB4CA35650"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0772214563E91BC1"]
+			description: ["Toujours plus loin !"]
+			id: "29ADA981B113B1F8"
+			rewards: [{
+				id: "5397D25CCEE5DF49"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6126D90B960A2538"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["29ADA981B113B1F8"]
+			description: ["Toujours plus fort !"]
+			id: "08487397C34A3DF6"
+			rewards: [{
+				id: "22F3B8509F338FC6"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "083C2F33BE627FD1"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -6.0d
+		}
+		{
+			description: ["Existe en version chest et shulker, c'est un barrel pour contenir des choses. On peut y mettre des upgrades comme pour les sacs, &4mais pas les mêmes !&r"]
+			id: "4D9F7A3E4E7B434A"
+			rewards: [{
+				id: "4B998A5AF9AF587A"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "74733B6DFB5E8B86"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6818B1F80752C6A2"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53FE8F9F36AC422F"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_2"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "529AEC8292546CDC"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_3"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23D0A1F4BC0AAF6E"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_4"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D9F7A3E4E7B434A"]
+			id: "2D356FB87AD32152"
+			rewards: [{
+				id: "7D4889CA7E9A7A96"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "17F634ECD3FB1170"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D356FB87AD32152"]
+			id: "19CD5F53A9FC8971"
+			rewards: [{
+				id: "796110FCACFFA57D"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "419AA50151F37338"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19CD5F53A9FC8971"]
+			id: "7DA54DAB4AC3D402"
+			rewards: [{
+				id: "57343C765295FC31"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "05617452CD19DA3F"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DA54DAB4AC3D402"]
+			id: "207BE6DA7699CF77"
+			rewards: [{
+				id: "617DC63DD3692894"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "781284AC371A87D1"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: ["Ars Nouveau possède un système de stockage similaire à Refined Storage, mais qui arrive plus tôt en jeu. Je vous invite à aller voir le chapitre Ars Nouveau, partie Storage Lectern pour en savoir plus, et à consulter le livre de Ars Nouveau."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "19F198E6CD85EEA1"
+			rewards: [{
+				id: "306F139077F20E21"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6813BB482E6D825D"
+				title: "Stockage via Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D9F7A3E4E7B434A"]
+			description: ["Le Storage Controller permet de lié tout les Limited Storage entre eux. Si vous collez un Link sur un coffre ou un barrel, et que vous liez ce link au controller, alors le controller pourra le \"voir\"."]
+			id: "3688A0670E4B581A"
+			rewards: [{
+				id: "63081C858461BDBF"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "02454F8F8408766A"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "436C6415B41A93F8"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+				{
+					id: "14EE7646B10BAAEA"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4D9F7A3E4E7B434A"]
+			description: ["C'est avec ça que vous pourrez faire vos upgrades de coffres, barrels, et shulkers."]
+			id: "6AF04F01DC2D3C66"
+			rewards: [{
+				id: "4CA22FBF06851029"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73160CF5BE2E1DF8"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Un Enderchest avec un code couleur ! Pour changer les couleurs, accroupissez vous avec un colorant et colorez les bandes avec la couleur souhaitée. Si vous faites la même opération avec un diamant, il sera lié à vous. Si vous faites la même opération avec un Ender Pouch, il prendra toutes les propriétés de l'Ender Chest lié."]
+			id: "7595F623ED5E0C2C"
+			rewards: [{
+				id: "63498AAD54AF81AF"
+				item: {
+					Count: 1
+					id: "enderchests:ender_pouch"
+					tag: {
+						open: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FFF0BFF3E13193E"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			description: ["Un Ender Tank avec un code couleur ! Pour changer les couleurs, accroupissez vous avec un colorant et colorez les bandes avec la couleur souhaitée. Si vous faites la même opération avec un diamant, il sera lié à vous. Si vous faites la même opération avec un Ender Bucket, il prendra toutes les propriétés de l'Ender Chest lié et pourra donc déverser le fluide de l'Ender Tank."]
+			id: "77AACAAA81BADAE6"
+			rewards: [{
+				id: "3FB70C83160EE207"
+				item: {
+					Count: 1
+					id: "endertanks:ender_bucket"
+					tag: {
+						code: "000"
+						mode: "normal"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DDAEAD10AB5BE37"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6AF04F01DC2D3C66"]
+			id: "7EF5312119536AD0"
+			rewards: [{
+				id: "71EB8B74244B82B6"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "130C742BF5AD18B0"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EF5312119536AD0"]
+			id: "0A7ACE8C206BD73E"
+			rewards: [{
+				id: "6DE1365B99494AFB"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ED25AD025F411A2"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A7ACE8C206BD73E"]
+			id: "54A1EBF53738934F"
+			rewards: [{
+				id: "68259909B4189073"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B243EB1788050CE"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54A1EBF53738934F"]
+			id: "136D3E13AEC47642"
+			rewards: [{
+				id: "244A72DCAC6F83E9"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F876A74E3722373"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6AF04F01DC2D3C66"]
+			description: ["Permet de compresser des items. En gros, si vous mettez neuf lingots de fer dans un barrel avec cette upgrade, il vous proposera neuf lingots de fer et un bloc de fer."]
+			id: "6AD9DE7B5EBB032C"
+			rewards: [{
+				id: "1E37B91A4E03B266"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60AF9C979D341538"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AF04F01DC2D3C66"]
+			description: ["Permet de supprimer les items excédentaires."]
+			id: "152A7E3B71EBCA57"
+			rewards: [{
+				id: "0E013206A3EC9B7B"
+				item: "minecraft:obsidian"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "26A7EC963167BC95"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["609C88D69A3DED6E"]
+			description: ["Mettre des sacs dans des sacs dans des sacs dans des sacs ..."]
+			id: "661401765F8D4699"
+			rewards: [{
+				id: "2E4F9D79B3BC33A1"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "583A2B6FD1A980EC"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["609C88D69A3DED6E"]
+			description: ["Une table de craft intégrée à votre sac !"]
+			id: "77D0CD6057550E0B"
+			rewards: [{
+				id: "0A3949AC3F85F710"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04FFE7291820CCCE"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"19F198E6CD85EEA1"
+				"77D0CD6057550E0B"
+				"661401765F8D4699"
+				"77AACAAA81BADAE6"
+				"7595F623ED5E0C2C"
+				"3688A0670E4B581A"
+				"152A7E3B71EBCA57"
+				"6AD9DE7B5EBB032C"
+				"136D3E13AEC47642"
+				"08487397C34A3DF6"
+				"207BE6DA7699CF77"
+				"39BE83A9946B3DEF"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "00DEA1892E788E39"
+			rewards: [{
+				id: "2CCB088CC69A8A1A"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:stockage"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6523B9CB5B79C4C5"
+				title: "Storage fini !"
+				type: "checkmark"
+			}]
+			title: "Storage complété !"
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+	title: "Stockages Early"
+}

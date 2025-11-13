@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Cataclysm",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "cataclysm:ignis"
+    },
+    "display": {
+        "scale": 0.25
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#FFFF55",
+        "base": "#FFFFFF"
+    }
+}

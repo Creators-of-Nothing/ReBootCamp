@@ -1,0 +1,23 @@
+{
+    "name": {
+        "text": "Trophée Stockage",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "sophisticatedbackpacks:diamond_backpack",
+        "nbt": "{borderColor:6386377,clothColor:3847130}"
+    },
+    "display": {
+        "scale": 0.75,
+		"offset": {
+			"y": 2.5
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#C511F2",
+        "base": "#FFFFFF"
+    }
+}

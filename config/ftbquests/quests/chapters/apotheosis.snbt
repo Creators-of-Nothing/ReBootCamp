@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "0A9A25D57F12D946"
+	icon: "apotheosis:ender_library"
+	id: "45D523E39BAB6C92"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/table.png"
+			rotation: 0.0d
+			width: 11.866666666666667d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/spawner.png"
+			rotation: 0.0d
+			width: 4.9222222222222225d
+			x: -12.5d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Sur ce pack, les Spawners sont récupérables avec une pioche Silk Touch. Lorsque cela est fait, utilisez la touche &4&lU&r&r sur le Spawner pour connaître toutes les upgrades que vous pouvez lui ajouter, et ainsi, améliorer et personnaliser votre Spawner. Idéal pour une ferme à mob en combo avec le mod &4Mob Grinding Utils&r (voir section &aSoutien pour Usines&r pour en savoir plus)."
+				""
+				"Pour avoir un oeuf de mob et vous permettre de changer le spawn d'un mob, vous avez deux solutions : Mob Grinding Utils avec le Mob Swab ou l'enchantement Capturing."
+				""
+				"&4&nP.S.&r :&r Pour avoir Silk Touch, il vous faut une table d'enchantement de niveau 150 ! Il n'est pas non plus trouvable dans les coffres !!"
+			]
+			icon: "minecraft:spawner"
+			id: "5FD97281F8C6C964"
+			rewards: [{
+				id: "45465ABD77228E02"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "40B0F13EA45435BF"
+				type: "checkmark"
+			}]
+			title: "Spawner"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77BC8A845F25EA92"]
+			description: [
+				"Permet le stockage de tout les livres enchantés ! Vous pouvez même y ranger des livres qui contiennent plusieurs enchantements !"
+				""
+				"Lorsque cela sera fait, vous pourrez personnaliser votre livre enchanté !"
+			]
+			id: "62DADAA12BE5D319"
+			rewards: [{
+				id: "16FB23E226807EAA"
+				item: "minecraft:chiseled_bookshelf"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "102E79A6A9B7388B"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77BC8A845F25EA92"]
+			description: [
+				"Ce pack contient Apotheosis : la limite d'enchantement est donc dépassé et peut atteindre le niveau 200 en fonction des bibliothèques à proximité. Pour atteindre le niveau 200 et avoir le moins d'aléatoire possibles, il vous faut :"
+				""
+				"Eterna : 50/50"
+				"Quanta : 100% avec une rectification de 100%"
+				"Arcana : 100%"
+				""
+				"Vous pourrez obtenir ces stats avec les bibliothèques que je vous demande."
+			]
+			id: "502AA55EC4B9198F"
+			rewards: [{
+				id: "4FB04052D4EB9612"
+				item: "minecraft:book"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1B3AB4E7DD4062FE"
+					item: "apotheosis:beeshelf"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B6180E428D62729"
+					item: "apotheosis:rectifier_t3"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1DB9730869017068"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "7EA2E3785D265A48"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+			]
+			title: "Puissance maximale !"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D13FFF9024B7993"]
+			description: ["Cette table permet de détruire les outils et les gems pour avoir des ressources à utiliser dans la Reforging Table. Pour avoir vos premières poudres, écrasez deux de vos gems avec une enclume. Si vous détruisez des items d'Apotheosis dans cette table, vous obtiendrez des \"Materials\" qui vous serviront dans la Reforging Table et qui correspondent à leur niveau de rareté. Si vous sacrifiez un item de rareté Mythic, vous obtiendrez un Material Mythic."]
+			id: "3C91A000741ADF08"
+			rewards: [{
+				id: "48E1FBE66D0F0E76"
+				item: "apotheosis:gem_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "24CBD7EF8FB345D6"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C91A000741ADF08"]
+			description: [
+				"Cette table permet de transformer un équipement en version Apothéosis, donc runable avec les gems. Il vous faut ainsi :"
+				""
+				"- Mettre l'équipement que vous souhaitez transformer (ça peut être un équipement basique !)"
+				""
+				"- Lui donner de la gem dust, qui servira un peu comme le Lapis Lazuli dans la table d'enchantement Vanilla"
+				""
+				"- Un \"Material\" qui servira de cataliseur. Vous obtiendrez un équipement avec des affixes équivalents à la rareté du Material. Si vous mettez donc un Material Mythic, vous aurez une sélection d'affix Mythic."
+			]
+			id: "6F76EC6447329F85"
+			rewards: [{
+				id: "287D6F6A69CC9815"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1D501F960B84FA0C"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Apotheosis permet de créer des équipements personnalisés ! Dans les coffres de donjon, vous trouverez parfois des équipements avec des bonus spéciaux et des Sockets. Ces derniers servent à runer votre équipement avec une des nombreuses gems que vous pourrez trouver dans le monde. Pour runer un équipement, il suffit de placer l'équipement souhaité avec la gem dans une Smithing Table."
+				"{image:kubejs:textures/ftbquests/apo.png width:100 height:100 align:1}"
+			]
+			id: "2D13FFF9024B7993"
+			rewards: [{
+				id: "704871A649B9445A"
+				item: "apotheosis:explosive_arrow"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Mettez un GEM et un Poce Bleu"
+			tasks: [{
+				id: "0F48352E2627972A"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Une petite table d'enchantement, parfait pour être mieux équipé !"
+				""
+				"&n&4Astuce&r&r : La plupart des enchantements possèdent une description, regardez les dans JEI."
+			]
+			id: "77BC8A845F25EA92"
+			rewards: [{
+				count: 4
+				id: "0E5CD5467956E9BD"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "43717CA5ED0671F1"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"502AA55EC4B9198F"
+				"62DADAA12BE5D319"
+				"5FD97281F8C6C964"
+				"6F76EC6447329F85"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "5071C07F4B71FB31"
+			rewards: [{
+				id: "786937F1D25E7713"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:enchantement"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "578052F0B1C98274"
+				title: "Apotheosis fini !"
+				type: "checkmark"
+			}]
+			title: "Enchantement complété !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "11856EB360D89B5F"
+			tasks: [
+				{
+					id: "1861105706D2E24B"
+					item: "draconicevolution:disenchanter"
+					type: "item"
+				}
+				{
+					id: "44DC290AC37AFBC7"
+					item: "disenchanting_table:disenchanting_table"
+					type: "item"
+				}
+			]
+			x: -4.75d
+			y: -2.5d
+		}
+	]
+	title: "Apotheosis et Mob Farm"
+}

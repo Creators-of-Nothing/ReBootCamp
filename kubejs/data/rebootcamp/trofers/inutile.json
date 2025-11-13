@@ -1,0 +1,20 @@
+{
+    "name": {
+        "text": "Trophée Inutile",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "minecraft:iron_chestplate",
+		"nbt": "{Trim:{material:\"minecraft:redstone\",pattern:\"ancient_aether:ancient\"}}"
+    },
+    "display": {
+        "scale": 1.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AA0000",
+        "base": "#FFFFFF"
+    }
+}

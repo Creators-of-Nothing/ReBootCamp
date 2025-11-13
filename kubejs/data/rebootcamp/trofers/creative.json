@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Creative",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "createchromaticreturn:radiant_glow_saber"
+    },
+    "display": {
+        "scale": 0.5,
+		"offset": {
+			"y": 6
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#FF55FF",
+        "base": "#FFFFFF"
+    }
+}

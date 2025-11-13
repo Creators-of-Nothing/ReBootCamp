@@ -1,0 +1,1778 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "abre_de_progression"
+	group: "48E8FA999D758C15"
+	icon: "minecraft:oak_sapling"
+	id: "4F32AA0BA984286F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["58BD74FB35B5D80F"]
+			description: [
+				"On commence en douceur, vous devez simplement ramasser du bois. "
+				""
+				"Remarquez que la quête \"clignotte\" et change les objets que vous devez obtenir. Cela veut juste dire que n'importe quel bûche de bois fera l'affaire."
+				""
+				"Lorsqu'une quête possède un sous-titre \"&4Découverte de ...&r\", il vous est conseillé de regarder le chapitre qui lui est associé."
+			]
+			id: "1D9C6B7823AAABBD"
+			rewards: [{
+				count: 8
+				id: "5644267C4F63BBDD"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte du Vanilla"
+			tasks: [{
+				count: 8L
+				id: "0376D9F12A1C94C2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Logs"
+				type: "item"
+			}]
+			title: "Le commencement"
+			x: -4.5d
+			y: 1.125d
+		}
+		{
+			dependencies: ["65BE112731C520D1"]
+			description: ["N'hésitez pas à vous balader. Modfart est un modpack où l'exploration est très importante. Prenez votre temps pour trouver l'endroit de votre future base :)"]
+			id: "433916669123FE7F"
+			rewards: [{
+				id: "5B5B52018733D191"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "L'heure de l'exploration"
+			tasks: [
+				{
+					id: "2975729C12274851"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D24202FA2E0B92D"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "499C2156073EADE0"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64265D89F4C65683"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "L'âge de pierre"
+			x: -0.25d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Ce livre de quête m'a pris &4plusieurs dizaines&r d'heures à réaliser. De nombreuses informations s'y trouvent. Egalement, certains mods ont réalisé leur propre livre d'explication (cependant, ils sont en anglais)."
+				""
+				"N'hésitez pas à jeter un oeil aux différentes quêtes. La &4curiosité&r sera votre meilleure arme pour venir à bout de ce modpack."
+				""
+				"Je vous offre un livre qui contient tout les livres que les moddeurs ont créé pour leur mod. Vous pouvez faire un clic droit puis sélectionner un des livres pour le lire en faisant un clic droit. Un clic gauche, et vous récupérerez l'&4Eccentric Tome&r."
+				""
+				"Si vous souhaitez y ajouter le &4livre de quête&r, vous devez placer l'&4Eccentric Tome&r et le livre de quête dans une table de craft."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "58BD74FB35B5D80F"
+			rewards: [{
+				id: "1328CC5C276BB956"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							aether: {
+								0: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+							}
+							alexscaves: {
+								0: {
+									Count: 1b
+									id: "alexscaves:cave_book"
+								}
+							}
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							buildinggadgets2: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+									}
+								}
+							}
+							cyclic: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "cyclic:guide_book"
+									}
+								}
+							}
+							dimdungeons: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							extendedcrafting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "extendedcrafting:guide"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							parcool: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "parcool:parcool_guide"
+									}
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1b
+									id: "rftoolsbase:manual"
+								}
+							}
+							sebastrnlib: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+									}
+								}
+							}
+							simplyswords: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "simplyswords:runic_grimoire"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							twilightdelight: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "twilightdelight:twilight_guide"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "525A954C51BA785A"
+				title: "Lis le livre de quête"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["433916669123FE7F"]
+			description: ["N'hésitez pas à vous protéger un peu mieux, même si vous ne perdez pas votre stuff, les monstres ne vous feront pas de cadeau."]
+			id: "4613EFC25477FC41"
+			rewards: [{
+				id: "5B9096E42FB46A7A"
+				item: "minecraft:iron_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E400767B13A44A0"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A51EAB6B9B892ED"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D144BC5CD5831F8"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DE9FF98D12ADA5D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "L'âge du fer"
+			x: 2.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["433916669123FE7F"]
+			description: [
+				"Un simple sac que vous pouvez placer dans vos Curios, et ouvrir avec une touche. Il peut également être posé dans le monde, en s'accroupissant, puis clic droit sur le sol."
+				""
+				"Vous pouvez l'améliorer pour pouvoir transporter encore plus d'items !"
+			]
+			id: "2524E59057D52BBE"
+			rewards: [{
+				id: "1836101296328EF2"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte du Stockage Early"
+			tasks: [{
+				id: "6113229DAA0740EB"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["433916669123FE7F"]
+			description: ["Le &4Sleeping Bag&r est un lit portatif qui ne set pas votre spawn, mais passe quand même la nuit."]
+			id: "227EF0355E244F8F"
+			rewards: [{
+				id: "0546C00D0CECB6B4"
+				item: "moa_decor_toys:fantasma"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AC963923D80D596"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sleeping Bag"
+			x: 0.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6CFCF77758DEA088"]
+			description: [
+				"Permet d'accumuler autant de pouvoir différents que vous voulez au détriment de votre consommation de nourriture. Si vous possedez le &4totem de Saturation&r, alors, vous ne perdrez plus jamais de nourriture !"
+				""
+				"Sur ce pack, les effets néfastes qui affectent les autres ont été enlevé, ainsi que le flight pour des raisons d'équilibrages."
+				""
+				"Pour équiper un &4totem&r, il faut faire un clic droit avec. Cela vous ouvrira une interface. Cliquez sur le pouvoir pour le décaller de votre côté. Cependant, cela vous coûtera un peu d'xp pour l'équiper. Pour le déséquiper, faites de même avec votre &4Ability Bottle&r. "
+			]
+			id: "664BB6539ED5CAD3"
+			rewards: [{
+				id: "739F5D44D4542851"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "29D8E46CF5AED5C7"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_bottle"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4613EFC25477FC41"]
+			description: [
+				"Un moyen de trouver les &4biomes&r que vous voulez. Vous pouvez trier les biomes par nom, par source (à quel mod ils appartiennent), par dimension, et par groupe."
+				""
+				"&nAttention&r : Ne fonctionne pas pour les biomes du mod Alex's Caves."
+			]
+			id: "6CFCF77758DEA088"
+			rewards: [{
+				id: "6113D2B6253F96D2"
+				item: "minecraft:cherry_sapling"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte des équipements"
+			tasks: [{
+				id: "08A1975E3CC4C2D5"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.375d
+		}
+		{
+			dependencies: ["4613EFC25477FC41"]
+			description: ["Vous allez enfin pouvoir miner de l'&4obsidienne&r, et vous rendre dans le &4Nether&r !"]
+			id: "50D71C54FC0DF489"
+			rewards: [{
+				id: "759A77E95B0FA7A7"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3909217FADE48678"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["50D71C54FC0DF489"]
+			description: [
+				"Il existe &4treize dimensions&r dans Modfart, que je trie du &2plus facile&r au &2plus difficile&r :"
+				""
+				"- &4Monde minage&r -> Il y a trois types de monde minage : &2Overworld&r, &2Nether&r, et &2End&r. Rien ne peut y spawn. Il s'agit de trois mondes plats bourrés de minerais !"
+				"- &4Void&r -> Un monde &2vide&r où rien de spawn. Il y fait &2éternellement jour&r. Pratique si vous souhaitez réaliser une base volante, ou planquer vos machines !"
+				"- &4Overworld&r -> Le monde de base dans lequel vous évoluerez le plus souvent."
+				"- &4Nether&r -> Un monde rempli de &2lave&r et de &2danger&r, un milieu où vous évoluez comme si vous étiez dans une grotte infinie."
+				"- &4Dimensional Dungeon&r -> Un donjon où vous pouvez récupérer quelques ressources Vanilla comme des &2diamants&r."
+				"- &4Undergarden&r -> Un monde ressemblant beaucoup au &2Nether&r dans sa forme, avec d'étranges créatures, parfois sympathiques et prêtes à &2échanger&r avec vous, et d'autres &2agressives&r. Un &2donjon&r y est présent, avec un petit &2boss&r à l'intérieur."
+				"- &4Bumblezone&r -> Une dimension remplie d'&2abeilles&r ! Attention à respecter leurs volontés, sinon, elles vous agresseront ! Evitez de récolter du miel devant eux. Si vous volez, ce monde est un peu plus facile."
+				"- &4Twilight&r -> Un monde que les anciens connaissent, composés de nombreux biomes différents, avec à chaque fois un &2boss&r à l'intérieur. Si vous pouvez voler, cette dimension est bien plus facile."
+				"- &4End&r -> Repaire de l'&2Ender Dragon&r et des &2Endermen&r. Si vous volez, cette dimension est bien plus facile. Si ce n'est pas le cas, faites attention au &2Void&r !"
+				"- &4Aether&r -> Un savant mélange entre l'&2End&r et la &2Twilight Forest&r. Des îles volantes avec &2quatre boss&r à affronter ! Un peu plus difficile d'accès que l'&2End&r, mais si vous tombez dans le vide, vous atterirez dans l'&2Overworld&r."
+				"- &4Otherside&r -> Un lieu où se terre l'horrible &2Warden&r. Cette fois, il vous faudra du bon équipement pour venir à bout de ce lieu, et de l'unique &2donjon&r qui s'y trouve."
+			]
+			id: "0CD4EC272820804A"
+			rewards: [{
+				id: "1E66A285DA3CC27E"
+				item: "minecraft:crying_obsidian"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte des dimensions"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5BDBA2538169B4A5"
+				title: "Visite le Nether"
+				type: "dimension"
+			}]
+			title: "Rendez-vous dans le Nether"
+			x: 6.375d
+			y: -1.875d
+		}
+		{
+			dependencies: ["0CD4EC272820804A"]
+			description: [
+				"Tuer l'&4Ender Dragon&r, c'est cool. Mais nous n'allons pas nous arrêter là !"
+				""
+				"Si vous avez peur de tomber dans le vide, sachez qu'il existe des moyens de &4voler&r. En début de jeu, vous avez des &4jetpacks&r ! "
+				""
+				"Egalement, si vous tombez dans le vide, votre &4corps&r se générera quand même, vous ne perdrez rien :)"
+			]
+			id: "399E3B6C85470E05"
+			rewards: [{
+				id: "7CD9AF3E6E92AA12"
+				item: "cyclic:eye_redstone"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "76BC91E0520F5311"
+				title: "Visite l'End"
+				type: "dimension"
+			}]
+			title: "Rendez-vous dans l'End"
+			x: 9.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["50D71C54FC0DF489"]
+			description: [
+				"Une petite table d'enchantement, parfait pour être mieux équipé !"
+				""
+				"&n&4Astuce&r&r : La plupart des enchantements possèdent une description, regardez les dans JEI."
+			]
+			id: "670BD7081EB4B171"
+			rewards: [{
+				id: "08DA469D126FBC69"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte de l'enchantement"
+			tasks: [{
+				id: "5F424814B38BD0D7"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 3.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B2B4FA09D0858C0"]
+			description: [
+				"Vous allez devoir tuer un Warden pour accéder à &4Refined Storage&r."
+				""
+				"Le Warden est un monstre qui n'apparaît que dans le &4Deep Dark&r, à proximité des &4Shriekers&r. "
+				""
+				"Bonne chance."
+			]
+			id: "397D0B4FF139ADE7"
+			rewards: [{
+				id: "0EC2CEDA44B26EFC"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			subtitle: "Le silence des agneaux"
+			tasks: [{
+				id: "74371DDE9F0D7ABA"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6C39090169113782"]
+			description: [
+				"Des fours qui vont vite et qui sont upgradables. "
+				""
+				"Le \"&4Cooktime&r\" inscrit sur le four indique le temps qu'il prend à cuir un item. Cette valeur est indiquée en tick, soit 20 ticks = 1 sec."
+				""
+				"Avec l'&4Upgrade Generator&r, il pourra produire de l'énergie avec du combustible, mais ne pourra plus cuir d'items."
+			]
+			id: "29B9C6BF8F210094"
+			rewards: [{
+				count: 8
+				id: "17ACEC4270779E86"
+				item: "minecraft:coal"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte du Soutien pour usines"
+			tasks: [{
+				id: "188358F014633BA0"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -4.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4613EFC25477FC41"]
+			description: [
+				"&4Create&r est un mod Low Tech, dont les machines fonctionnent à l'énergie cinétique."
+				""
+				"N'oublies pas qu'en passant ta souris sur un objet, et en restant appuyé sur la &4touche Z&r, tu auras une vidéo explicative de chaque item !"
+				""
+				"L'Andesite est le bloc de base de Create, récoltes en beaucoup, tu vas en avoir besoin !"
+			]
+			id: "32528F506975D012"
+			rewards: [{
+				count: 8
+				id: "59355B74FF95F6C1"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte de Create"
+			tasks: [{
+				count: 8L
+				id: "03811A141A4E3578"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.375d
+			y: 3.375d
+		}
+		{
+			dependencies: ["115C534AFCED55F4"]
+			description: ["C'est le moment de montrer à ce boss de quel bois vous êtes fait !"]
+			id: "25E638D60FD54CD4"
+			rewards: [{
+				id: "5EEB28FFE9BCD76F"
+				item: "moa_decor_holidays:estrella_navidena"
+				type: "item"
+			}]
+			subtitle: "Tuer un Wither"
+			tasks: [{
+				id: "7BB0C5ACF241C566"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"25E638D60FD54CD4"
+				"397D0B4FF139ADE7"
+			]
+			description: ["C'est littéralement le coeur de Refined, sans lui, rien ne fonctionne. C'est le seul bloc qui nécessite de l'énergie pour fonctionner. Toutes les autres machines de Refined qui sont liés à ce controller fonctionneront si ce dernier est alimenté."]
+			id: "0B8698A1515DC982"
+			rewards: [{
+				id: "0CEBD366549FE340"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte de Refined Storage"
+			tasks: [{
+				id: "7A06C74030E01846"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 7.875d
+			y: -5.25d
+		}
+		{
+			dependencies: ["32528F506975D012"]
+			description: ["Les &4Sifters&r sont une machines qui permettent d'obtenir tout un tas de minerais, entre autre ! Certains crafts nécessitent la version &4Brass&r pour fonctionner."]
+			id: "04B712D33D88B125"
+			rewards: [{
+				count: 64
+				id: "63B4383498729EBA"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "Ressources infinies"
+			tasks: [
+				{
+					id: "036AD3C5DB39921C"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "2465D7A5EF4BBB72"
+					item: {
+						Count: 1
+						id: "createsifter:string_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1D9C6B7823AAABBD"]
+			description: ["Une table de craft pour créer encore plus d'objets ! "]
+			id: "65BE112731C520D1"
+			tasks: [{
+				id: "135312634D7AB158"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Table de craft"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32528F506975D012"]
+			description: ["Cette machine vous servira à réaliser des &4plaques&r, qui seront utiles dans beaucoup d'aspects de &4Modfart&r."]
+			id: "6C39090169113782"
+			rewards: [{
+				id: "4B8AEFC886E8AE42"
+				item: "createcasing:creative_depot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E1B738264DA4FF8"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"04B712D33D88B125"
+				"6162EB0E03414135"
+			]
+			description: [
+				"Le crusher permet de briser vos items. "
+				""
+				"C'est également la première étape pour &4&lSEXTUPLER&r&r vos minerais."
+				""
+				"N'hésitez pas à regarder comment faire dans la partie associée, chapitre &4Mekanism&r :)"
+			]
+			id: "218FF35EC991DF8C"
+			rewards: [{
+				id: "2110BCFB8DFCB37E"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Duplication des minerais"
+			tasks: [
+				{
+					id: "6848EFC4FBED8451"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "20041820B4D7A09D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:modfart/clumps"
+						}
+					}
+					title: "Clumps"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0CD4EC272820804A"]
+			description: ["Vous allez avoir besoin de tuer un &4Wither Boss&r pour accéder à &4Refined Storage&r, qui est un système de stockage centralisé."]
+			id: "115C534AFCED55F4"
+			rewards: [{
+				count: 4
+				id: "7508AD0AD4156A75"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "55188A1299BFBBB9"
+				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["0CD4EC272820804A"]
+			description: [
+				"Il va falloir trouver un biome &4Deep Dark&r pour y affronter un &4Warden&r !"
+				""
+				"Vous pouvez le trouver grâce au &4Nature Compass&r."
+			]
+			id: "3B2B4FA09D0858C0"
+			rewards: [{
+				id: "7CDA672EAD2D6711"
+				item: "minecraft:white_wool"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk_shrieker"
+				id: "0D8301631FAFA896"
+				title: "Visite le Deep Dark"
+				type: "biome"
+			}]
+			title: "Visite du Deep Dark"
+			x: 9.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["399E3B6C85470E05"]
+			description: [
+				"Pour avoir cet oeil, tu peux t'aider du livre du mod &4Alex's Mobs&r, et sinon, voici les explications :"
+				""
+				"- Tuez des mouches (&4Fly&r) pour avoir des maggots."
+				"- Craftez un &4Crimson Moskito Larva&r"
+				"- Posez un bloc de &4Capsid&r (trouvable sur les &4Enderiophages&r dans l'&4End&r) et placez y la &4Larva&r, puis patientez."
+				"- Vous obtiendrez un &4Void Worm&r, que vous devrez jetez dans le &4Void&r de l'&4End&r, puis affrontez le &4Void Worm&r."
+				"- Lorsque vous l'aurez vaincu, il y aura une zone où il fera spawn son loot."
+			]
+			id: "25A4EF5BB80EF6F6"
+			rewards: [{
+				id: "067588490D60EB9B"
+				item: "ends_delight:dragon_breath_soda"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte des Challenges"
+			tasks: [{
+				id: "3F49BE86BEA2737A"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			x: 12.375d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"25A4EF5BB80EF6F6"
+				"28276F2BB662F591"
+			]
+			description: [
+				"Le meilleur anneau, il vous offre le &4vol en créatif&r !"
+				""
+				"&4&nNote&r&r : Certains items demandés pour crafter certains anneaux sont difficiles d'accès, ou pas assez évident si vous ne connaissez pas les mods. &4Pas de panique&r, dans le chapitre dédiés, je vous ai indiqué la marche à suivre pour obtenir ces objets."
+			]
+			id: "058C06DC9B802278"
+			rewards: [{
+				id: "4E2747984F19DA83"
+				item: {
+					Count: 1
+					id: "candlelight:gold_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte des Rings of Ascension"
+			tasks: [{
+				id: "344B16CC955A4A10"
+				item: "ringsofascension:ring_flight"
+				type: "item"
+			}]
+			x: 16.125d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B8698A1515DC982"]
+			description: ["Il permet d'accueillir les disquettes de stockage."]
+			id: "7620B3CA6ACC0B52"
+			rewards: [{
+				id: "0F2BA348147B7681"
+				item: "refinedstorage:silicon"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A928C0168C4089B"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 9.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7620B3CA6ACC0B52"]
+			description: ["Permet de voir les items du réseau et de faire des crafts avec."]
+			id: "707161483FC44AB3"
+			rewards: [{
+				id: "5CF8CD1D09CA6287"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E0AE0C75F5BBBF"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7620B3CA6ACC0B52"]
+			description: [
+				"Une simple disquette de stockage. Idéal pour ranger tout votre bordel !"
+				""
+				"&4Attention&r : Evitez de ranger les items qui possèdent beaucoup de TAG sur eux, comme les spawners."
+			]
+			id: "21519FB2C5E83CAE"
+			rewards: [{
+				id: "1C82893232952670"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			tasks: [{
+				id: "182C369C832CBD56"
+				item: {
+					Count: 1
+					id: "refinedstorage:16k_storage_disk"
+					tag: {
+						Id: [I;
+							922686581
+							-28948863
+							-1821816153
+							-1871372517
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4EDFEF903484E23F"]
+			description: [
+				"Ce lingot se pêche &4&nuniquement&r&r avec votre canne à pêche !"
+				""
+				"Vous obtiendrez parfois des coffres en &4Neptumium&r, qui contiennent forcément un outil / pièce d'armure en &4Neptumium&r. Pour avoir un lingot, il faudra cuir un de ces items dans un four."
+			]
+			id: "5B574AA14A5A9890"
+			rewards: [{
+				id: "117C6508F88DB0A6"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A6BB04CDD04A83"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4EDFEF903484E23F"]
+			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec &4@Torchmaster&r."]
+			id: "2B24DBA2DE6627C0"
+			rewards: [{
+				id: "36B360EC48E4684F"
+				item: "nethersdelight:propelplant_torch"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Se protéger des monstres"
+			tasks: [{
+				id: "1DBFE79E1A4118FA"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78AD7691D5BA1974"]
+			description: ["Il s'agit du chemin le plus direct pour accéder à la duplication infinie d'absolument &4TOUT&r les items que vous possédez."]
+			id: "3CF79923E93C753A"
+			rewards: [{
+				id: "2D086388F47F7BC4"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6F4E0200EC41DE2F"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			x: 18.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["36E72DE95803FBEF"]
+			description: [
+				"Permet de gérer l'énergie en Wifi. Utilisez le controller pour créer votre propre network. Avec lui, vous pourrez décider si l'énergie peut se transmettre à votre personnage ou non, et dans quelle partie de l'inventaire."
+				""
+				"Le &4Plug&r envoie l'énergie depuis votre source (comme par exemple les éoliennes de Mekanism), le &4Point&r la réceptionne et la transmet à la machine ou au cable à laquel il est lié."
+			]
+			id: "0FEAAEDBE6022162"
+			rewards: [{
+				count: 4
+				id: "61F9BB22153DF05C"
+				item: "fluxnetworks:flux_dust"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5830C604C9B67124"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "6ABCE633EA38C017"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "0B9753D84988F5CB"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "Energie en WIFI"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EDFEF903484E23F"]
+			description: ["&4Eidolon&r est un mod de magie qui utilise les &4morts vivants&r pour fonctionner. &l&4&nPrécision&r :&r&r ce mod est en Work in Progress, mais est suffisament complet déjà pour vous proposer une bonne expérience :)"]
+			id: "69AEA1B66C0ECA47"
+			rewards: [{
+				count: 2
+				id: "31D6FA5EB0ED5D1D"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte de Eidolon"
+			tasks: [{
+				count: 2L
+				id: "292BFCCBAC8C67A6"
+				item: {
+					Count: 2
+					id: "eidolon:pewter_blend"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.125d
+		}
+		{
+			dependencies: ["4EDFEF903484E23F"]
+			description: [
+				"Ton premier livre de sort. Il te permet de lancer des sorts de tier 1. Pour l'ouvrir, configurez une touche pour l'ouvrir quand vous l'avez en main. Vous pouvez configurer une touche pour ouvrir une roue des sorts."
+				""
+				"La page principale de ce livre vous permet de créer vos sorts personnalisés. Pour créer votre premier sort, vous devez commencer par lui donner une forme : c'est le mode de déclenchement du sort. Ensuite, vous pouvez, soit l'amplifier puis lui donner un effet, soit lui donner un effet et l'amplifier, etc ... La seule limite est votre imagination ! Plus votre sort est complexe, plus il coutera du mana. Vous gagnez du mana max ou de la régen mana, vous avez les enchantements, ou les armures du mod."
+			]
+			id: "5B54D434E5377CA0"
+			rewards: [{
+				id: "4EFC818AE7B7C505"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte de Ars Nouveau"
+			tasks: [{
+				id: "7AC157F268828836"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 10.875d
+			y: 1.125d
+		}
+		{
+			dependencies: ["5B54D434E5377CA0"]
+			description: [
+				"Il s'agit du stockage de la &4Source&r. La &4Source&r sert à faire fonctionner vos machines."
+				""
+				"Si un générateur de &4Source&r se trouvent à proximité (5 blocs max), il remplira la &4Jar&r. Cette dernière peut contenir jusqu'à 10.000 unités de Source."
+			]
+			id: "4D5E428E6732EAD6"
+			rewards: [{
+				id: "0F27A845548AB9ED"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29B97B823A7537D9"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D5E428E6732EAD6"]
+			description: [
+				"Génère de la Source en lui donnant de la nourriture. Plus la nourriture est de bonne qualitée, plus elle génère de Source. Les Sources Berry en donne beaucoup."
+				""
+				"Accessoirement, cet item convertira la terre autour de lui en mycélium et génèrera des champignons autour de lui."
+			]
+			id: "424CB3EC5334A492"
+			rewards: [{
+				id: "59D646E1161DB5D8"
+				item: "minecraft:mycelium"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "10904A25FD68E8C4"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 15.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["424CB3EC5334A492"]
+			description: ["L'&cImbuement Chamber&r vous permet d'obtenir vos &4Sources Gems&r. Si vous lui donnez de la Source, il ira plus vite. Pour faire de plus gros crafts, il faut l'entouré de &4piedestaux&r."]
+			id: "635A6245ED9B35A9"
+			rewards: [{
+				id: "3A36771E0C55E7D0"
+				item: "ars_nouveau:source_gem"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "174A1A797519B904"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["635A6245ED9B35A9"]
+			description: [
+				"Cet objet possède un grand nombre de craft possible (Armure, Enchantement, et Crafts divers), tous indiqué sur &4JEI&r. Vous pouvez mettre n'importe quels &4Pedestals&r autour de lui dans un rayon de 3 blocs. Pour le faire fonctionner, il a besoin du &4Arcane Core&r en dessous de l'&4Enchanting Apparatus&r."
+				""
+				"Il peut également créer des livres et outils enchantés ! Mais par exemple, si vous voulez tranchant 3, il faudra commencer par le 1, puis le 2, et enfin le 3 !"
+			]
+			id: "28276F2BB662F591"
+			rewards: [{
+				id: "6229AFA871ED0706"
+				item: "ars_nouveau:source_berry_roll"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "52DDB94828AD93E6"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "7ABC9F3C884E25F0"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3678285292C3955B"
+					item: { Count: 4, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4613EFC25477FC41"
+				"36E72DE95803FBEF"
+			]
+			description: ["Il s'agit de la porte d'entrée du mod. Il permet de transformer des objets en d'autres, à l'aide \"carburant\", comme de la redstone, de l'or, ... Le carburant \"enrichi\" en donne plus."]
+			id: "6162EB0E03414135"
+			rewards: [{
+				id: "4141E8849F31E4E8"
+				item: "mekanism:enriched_redstone"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Découverte de Mekanism"
+			tasks: [{
+				id: "09E8D3303F3B670C"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 2.625d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5B574AA14A5A9890"
+				"28276F2BB662F591"
+				"783987451F60EDF7"
+			]
+			description: ["Les débuts du Créatif ! Vous allez enfin pouvoir accéder à des items cheatés !"]
+			id: "78AD7691D5BA1974"
+			rewards: [{
+				id: "46C481CFF17311DD"
+				item: "cfm:rainbow_sofa"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Découverte du Créatif"
+			tasks: [
+				{
+					id: "01A1AE700C6CDAB1"
+					item: "kubejs:mechanical_apparatus"
+					type: "item"
+				}
+				{
+					id: "7CBAAC6A98C5778C"
+					item: "kubejs:basical_apparatus"
+					type: "item"
+				}
+				{
+					id: "07885B014B71AA5D"
+					item: "kubejs:magical_apparatus"
+					type: "item"
+				}
+				{
+					id: "742D804C67B384AC"
+					item: "kubejs:vital_apparatus"
+					type: "item"
+				}
+				{
+					id: "7731F7D038DDE1AF"
+					item: "alexsmobs:rainbow_jelly"
+					type: "item"
+				}
+			]
+			x: 20.25d
+			y: 3.375d
+		}
+		{
+			dependencies: ["3CF79923E93C753A"]
+			description: ["Cet item vous permet d'obtenir vos premiers items &4Créatifs&r."]
+			id: "5B95739C02117E6A"
+			rewards: [{
+				id: "1F439B55237A8FB7"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "15BD73B8AD09F72C"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			x: 16.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5B95739C02117E6A"]
+			description: ["Avec lui, vous pouvez créer de nouveaux items &4Créatifs&r !"]
+			id: "4077447A785A332D"
+			rewards: [{
+				id: "510470E8BB587083"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				id: "2FC2A19AA394544F"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			x: 13.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4077447A785A332D"]
+			description: ["Permet de dupliquer les items à l'infini. Pour cela, cliquez dessus avec l'item à dupliquer, et placer un câble pour en sortir les copies."]
+			id: "2C637CDAFCC6EBC8"
+			rewards: [{
+				id: "4FEBD97FD8B5DE2B"
+				type: "xp"
+				xp: 2000
+			}]
+			tasks: [{
+				id: "5F53AB3AE3458A43"
+				item: "create:creative_crate"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2C637CDAFCC6EBC8"]
+			description: ["L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."]
+			id: "59DDEA26787009D9"
+			rewards: [{
+				id: "3A6A39AEB4D3C793"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "L'item ULTIME"
+			tasks: [{
+				id: "5BE1C466D1EB7B9F"
+				item: "mekanism:creative_bin"
+				type: "item"
+			}]
+			x: 9.375d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6162EB0E03414135"]
+			description: ["Vous allez en avoir besoin pour produire de l'antimatière. Cette dernière sert dans les crafts de fin de jeu."]
+			id: "6C5BA30915DD9F76"
+			rewards: [{
+				id: "0ED4D398424F4C45"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A4EA990752B3381"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					id: "2DF4652792B19BA4"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C5BA30915DD9F76"]
+			description: ["Vous allez en avoir besoin de beaucoup pour aller jusqu'à l'&4endgame&r du modpack. Prévoyez une production robuste."]
+			id: "783987451F60EDF7"
+			rewards: [{
+				id: "5B96D54888E2C2B8"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1328DDA3C89FF2B9"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["0CD4EC272820804A"]
+			description: [
+				"Cet item vous permettra d'améliorer votre stuff en diamant en stuff en Netherite !"
+				""
+				"Les Templates sont &4consommés&r à l'utilisation, mais sont &4duplicables&r !"
+			]
+			id: "6C62C7958B6FA9CF"
+			rewards: [{
+				id: "21B308DFC6E7DF86"
+				item: "minecraft:ancient_debris"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "6558D6137619A2B1"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Netherite Upgrade"
+			x: 7.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50D71C54FC0DF489"]
+			description: ["Pour la suite de la progression, je vous conseille d'avoir trouvé un lieu où vous poser, vous allez avoir besoin d'un peu de place si vous souhaitez avancé sur des mods comme &4Mekanism&r, &4Create&r, et &4Ars Nouveau&r."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "4EDFEF903484E23F"
+			rewards: [
+				{
+					id: "2FB61F40A07B3438"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5FF56765779AD8AB"
+					item: "fantasyfurniture:venthyr/bed_single"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Il est temps de se poser"
+			tasks: [{
+				id: "0EDF89EE8344C7DB"
+				title: "Maison"
+				type: "checkmark"
+			}]
+			x: 8.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["4EDFEF903484E23F"]
+			description: ["Il s'agit d'un magasin. Vous pouvez y obtenir toutes les graines et pousses d'arbre du jeu contre des émeraudes."]
+			id: "52BBB4474333ABA3"
+			rewards: [{
+				id: "7EC39B4A50523B99"
+				item: "minecraft:emerald"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "096AB4D4EFC8E69C"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["52BBB4474333ABA3"]
+			description: [
+				"Il existe pleins de mods de nourriture ! N'hésitez pas à en manger un maximum ! Vous pouvez voir celles que vous avez mangés ou non grâce au &4Food Book&r !"
+				""
+				"&4Note&r : Pour faire la Mousse au chocolat, tu dois poser le &4Cooking Pot&r sur un &4Stove&r du mod &2Candlelight&r."
+				""
+				"&n&4Rappel&r&r : Toutes les 10 nourritures, tu gagnes un coeur."
+			]
+			id: "30A56ACFEF93654D"
+			rewards: [{
+				id: "27CB9B61EBCA4D91"
+				item: "moa_decor_cookery:tarrodecerveza"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "335F683076F63414"
+					item: "pamhc2foodextended:cookoutmealitem"
+					type: "item"
+				}
+				{
+					id: "51EAF16CFD9614D2"
+					item: "bakery:croissant"
+					type: "item"
+				}
+				{
+					id: "30A2AAF22FEC0749"
+					item: "candlelight:chocolate"
+					type: "item"
+				}
+				{
+					id: "585EA64E08FF630E"
+					item: {
+						Count: 1
+						id: "vinery:knulp_wine"
+						tag: {
+							Year: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38247D15134F3B93"
+					item: "corn_delight:taco"
+					type: "item"
+				}
+				{
+					id: "7DF346B32D5B41AA"
+					item: "ends_delight:ender_noodle"
+					type: "item"
+				}
+				{
+					id: "36BA6C2BDE7814D3"
+					item: "twilightdelight:aurora_pie_slice"
+					type: "item"
+				}
+				{
+					id: "011DC909F4BA40E8"
+					item: "drinkbeer:beer_mug_pumpkin_kvass"
+					type: "item"
+				}
+				{
+					id: "7D8FF246D1C6F5A3"
+					item: "nifty:applepie"
+					type: "item"
+				}
+				{
+					id: "12E804DC0FE4C857"
+					item: "create_central_kitchen:chocolate_cake_slice"
+					type: "item"
+				}
+			]
+			title: "Nourriture"
+			x: 6.25d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"707161483FC44AB3"
+				"21519FB2C5E83CAE"
+				"59DDEA26787009D9"
+				"664BB6539ED5CAD3"
+				"2524E59057D52BBE"
+				"227EF0355E244F8F"
+				"218FF35EC991DF8C"
+				"0FEAAEDBE6022162"
+				"30A56ACFEF93654D"
+				"69AEA1B66C0ECA47"
+				"2B24DBA2DE6627C0"
+				"058C06DC9B802278"
+				"6C62C7958B6FA9CF"
+				"451B01DBDAA1B3A4"
+				"6AD7851AEB5DC993"
+				"5EB202C4800D46CC"
+				"3BF70B00E68905B4"
+				"77561FE4492FEDAA"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "7E8F5FDC2370D200"
+			rewards: [{
+				id: "5CD792D59C9DD508"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:progression"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "777E6B33728FC92C"
+				title: "Progression terminée"
+				type: "checkmark"
+			}]
+			title: "Progression complété"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EDFEF903484E23F"]
+			description: [
+				"Il existe trois façons principales de générer de l'énergie sur ce modpack :"
+				""
+				"- L'&4Alternator&r de &4Create&r qui transforme l'énergie cinétique du mod en &4RF&r (= Redstone Flux -> c'est l'unité universelle de l'énergie) -> &2facile&r."
+				"- Les fours de &4Iron Furnaces&r avec l'&4Augment Generator&r, qui permet de générer de l'énergie avec du combustible -> &2facile&r."
+				"- &4Mekanism&r et ses &4Solar Panels&r et &4Wind Mill&r -> &2avancé&r, mais produira bien plus d'énergie que les autres."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "36E72DE95803FBEF"
+			rewards: [{
+				count: 4
+				id: "6917EAC146A254DB"
+				item: "minecraft:redstone"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "41CC7512732B0967"
+				title: "Energie"
+				type: "checkmark"
+			}]
+			title: "Créer sa propre énergie"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["670BD7081EB4B171"]
+			description: ["Cet objet permet de donner un effet &4Indestructible&r à n'importe lequel de vos outils / armures. Pour cela, il faut le placer dans une enclume avec l'objet à rendre invincible."]
+			id: "451B01DBDAA1B3A4"
+			rewards: [{
+				id: "52E077381750F1E7"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Outils Incassables"
+			tasks: [{
+				id: "756CD32C29462662"
+				item: "create_unbreakable:irromolding"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29B9C6BF8F210094"]
+			description: ["Cette Wrench permet d'interagir avec les tuyaux du mod &4PipeZ&r. Accroupissez vous et clic droit avec la Wrench pour interagir avec les Pipes."]
+			id: "6AD7851AEB5DC993"
+			rewards: [
+				{
+					id: "6764C2431A611FCE"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "5A7757ECE6C81C3C"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "38FED8C3E37BD015"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "311DAFB61E7EDD64"
+					item: "pipez:gas_pipe"
+					type: "item"
+				}
+				{
+					id: "495E7FA8E676DCD8"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F604E7ADE85A386"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6CFCF77758DEA088"
+				"50D71C54FC0DF489"
+			]
+			description: ["Cette enclume permet de &4réparer&r tout ce qui possède de la &4durabilité&r avec de l'&4énergie&r"]
+			id: "0B526BB53F34630C"
+			rewards: [{
+				id: "42E6223D22A51778"
+				item: {
+					Count: 1
+					id: "simplyswords:diamond_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B28BDCBABA9404A"
+				item: "cyclic:anvil"
+				type: "item"
+			}]
+			title: "Réparer vos outils avec de l'énergie"
+			x: 3.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6C39090169113782"]
+			description: [
+				"Un bon moteur qui peut remplacer tes Water Wheels ou tes Moulins. Attention, il supporte très mal le stress, mais ils sont cumulables."
+				""
+				"Comme son nom l'indique, il a besoin d'électricité pour fonctionner."
+			]
+			id: "3BF70B00E68905B4"
+			rewards: [{
+				id: "5637078D51EA2849"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3048B353A1D3397E"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6C39090169113782"]
+			description: ["Cet objet permet de créer de l'énergie électrique (&4RF&r) à partir de l'énergie cinétique de &4Create&r"]
+			id: "5EB202C4800D46CC"
+			rewards: [{
+				id: "6CF02F3CD948B4E4"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F6DBD3E21AE1291"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6162EB0E03414135"]
+			description: [
+				"Ce panneau solaire produit peu d'énergie, mais il peut être améliorer jusqu'à la version Créative. "
+				""
+				"&n&4Astuce&r&r : si vous le placez dans le Monde Void, alors il générera de l'énergie 24/24, car il y fait éternellement jour."
+			]
+			id: "77561FE4492FEDAA"
+			rewards: [{
+				id: "24BD655CB2D426AD"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:solar_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "96000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1E368BFC155821"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:solar_generator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "19680"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 7.0d
+		}
+	]
+	title: "Arbre de progression"
+}

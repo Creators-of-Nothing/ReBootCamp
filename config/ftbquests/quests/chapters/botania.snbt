@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "1921496FB68D5F69"
+	icon: "botania:creative_pool"
+	id: "546719433212FB56"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Botania"
+}

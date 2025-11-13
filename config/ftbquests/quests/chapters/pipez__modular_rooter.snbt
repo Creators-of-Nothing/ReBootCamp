@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipez__modular_rooter"
+	group: "0A9A25D57F12D946"
+	icon: {
+		Count: 1
+		id: "entangled:block"
+		tag: { }
+	}
+	id: "09920A4C09EEB932"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7054D0BDBC854EA2"]
+			description: ["Cette &4Wrench&r permet d'interagir avec les tuyaux du mod &4PipeZ&r. &2Accroupissez vous&r et &2clic droit&r avec la &4Wrench&r pour interagir avec les Pipes. Faites le une première fois pour permettre au Pipe d'&2extraire&r la ressource depuis l'inventaire qui lui est lié. Faites le une seconde fois pour le &2déconnecter&r à l'inventaire qui lui est adjacent."]
+			id: "037778D57BB4958A"
+			rewards: [{
+				id: "32B06AD6E07571BE"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Péter un cable !"
+			tasks: [{
+				id: "2F1DE4529F9F144B"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			title: "Pipez"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["037778D57BB4958A"]
+			description: [
+				"Il existe 4 types de &4Pipes&r dans ce    mod :"
+				""
+				"- les &4Item Pipes&r permettent le transfert d'&2items&r"
+				"- les &4Fluid Pipes&r permettent le transfert des &2liquides&r comme l'eau ou la lave"
+				"- les &4Energy Pipes&r permettent le transfert d'&2énergie&r"
+				"- les &4Universal Pipes&r permettent le transfert des &2trois ressources&r en même temps"
+			]
+			id: "25603273B4DEB84D"
+			rewards: [{
+				id: "2C10232DC01DF040"
+				item: "pipez:universal_pipe"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "2CB97FD132DF8AD4"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "72E2F6E83AA443E3"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "526917493087EB9B"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "411843CDE40E8E05"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			title: "Pipes"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["037778D57BB4958A"]
+			description: [
+				"Des &4upgrades&r pour vos cables :"
+				""
+				"- Le &4niveau 1&r permet un contrôle avec la &2redstone&r"
+				"- Le &4niveau 2&r permet en plus de choisir le &2mode de distribution&r"
+				"- Le &4niveau 3&r permet en plus des deux précédents d'intégrer une &2whitelist&r ou une &2blacklist&r"
+				"- Le &4niveau 4&r permet en plus des trois précédents un &2transfert extrêment rapide&r"
+			]
+			id: "4811851845FC8E79"
+			rewards: [{
+				id: "3B98578543314DE3"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D6528C76709A234"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "6F9A895F576F2C9D"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+				{
+					id: "73045F612F1D5164"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+				{
+					id: "13BBED230B30BA07"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
+			title: "Pipe Upgrade"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7054D0BDBC854EA2"]
+			description: [
+				"L'&4Entangled Block&r permet de simuler la présence d'un bloc à un endroit autre. Par exemple, si vous avez une tour à mob dans le &2Nether&r, mais que vous souhaitez que les ressources du coffre soit dans l'&2Overworld&r, vous pouvez posez l'&4Entangled Block&r dans l'&2Overworld&r et en extraire les items avec un &4Pipe&r par exemple, comme si le coffre était à côté de vous."
+				""
+				"Comment faire ? Utilisez le &4Binder&r en faisant un &2shift + clic droit&r sur l'&2inventaire&r (=machine, coffre, etc ..) que vous souhaitez copier. Posez votre &4Entangled Block&r là où vous souhaitez, puis faites un &2clic droit&r avec le &4Binder&r sur l'&4Entangled Bloc&rk. La machine ou le coffre que vous avez copié apparaîtra dans l'&4Entangled Block&r. Vous n'avez plus qu'à utiliser un &4Pipe&r par exemple pour extraire les ressources de l'&2inventaire&r, comme si ce dernier était physiquement présent."
+			]
+			id: "33BADC4AE48D8DB5"
+			rewards: [{
+				id: "6BD3C18FD7911908"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Transfert Inter-Dimentions"
+			tasks: [
+				{
+					id: "2DC942CFC544C2D1"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75D62CE6C494F966"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			title: "Entangled"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Ce chapitre vous expliquera différentes façons de &2transporter&r des &2items&r, des &2fluides&r, ou de l'&2énergie&r à travers trois mods différents :"
+				""
+				"- &4Pipez&r"
+				"- &4Modular Routers&r"
+				"- &4Entangled&r"
+				""
+				"D'autres mods possèdent leurs propres &2tuyaux&r ou façon de &2transférer&r les choses, comme &4Create&r et ses &4Pipes&r et &4Belts&r. Mais ceux-ci seront abordés dans leur chapitre dédié."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "7054D0BDBC854EA2"
+			rewards: [{
+				id: "0B72EA3AFD203E50"
+				item: "create:fluid_pipe"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Pleins de tuyaux !"
+			tasks: [{
+				id: "064EEFDB0CA6D6D3"
+				title: "Pipes"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4811851845FC8E79"
+				"4F4A5AC977F7B158"
+				"33BADC4AE48D8DB5"
+				"2401C6F6B97FD80D"
+				"25603273B4DEB84D"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "33ADAF82EFE29B86"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "03355B1E01B4CE85"
+				title: "Complétions"
+				type: "checkmark"
+			}]
+			title: "Pipes complété !"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7054D0BDBC854EA2"]
+			description: [
+				"Il s'agit de la &2machine de base&r du mod, celle qui permet de faire tout les &2transferts&r. A elle-seule, elle ne sert à &2rien&r, il va falloir l'&2améliorer&r ! Cette machine permettra le &2transfert&r de ressource en &2Wifi&r. Par défaut, un &4Router&r pourra &4seulement&r &2transférer&r des items."
+				""
+				"Il existe de nombreux &4Modules&r et &4Upgrades&r, comme la possibilité de &2transférer&r des &2liquides&r ou de l'&2énergie&r, mais je m'attarderais sur les plus importants. Sachez qu'ils sont tous décrit dans le livre du mod : &4Modular Routers Manual&r."
+				""
+				"Vous pouvez faire un &2clic droit&r avec un &4Module&r en main pour ouvrir un &4GUI&r qui permet de configurer une &2WhiteList&r ou une &2Blacklist&r."
+				""
+				"Le &4Camouflage Upgrade&r permet, en ayant au préalable fait un &2shift - clic droit&r sur un bloc, de transformer le &4Router&r en la copie du bloc duquel vous avez interagi."
+			]
+			id: "559A8DEC3C20DDF9"
+			rewards: [{
+				id: "491CA5A35952CC4F"
+				item: {
+					Count: 1
+					id: "modularrouters:camouflage_upgrade"
+					tag: {
+						modularrouters: {
+							BlockStateName: {
+								Name: "biomeswevegone:overgrown_stone"
+								Properties: {
+									snowy: "false"
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Transfert en Wifi"
+			tasks: [{
+				id: "5C87B1DDA27E63DF"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			title: "Modular Routers"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559A8DEC3C20DDF9"]
+			description: ["Comme leur nom l'indique, ce sont des &4Upgrades&r qui permettent d'améliorer la &2vitesse&r de transfert des ressources, et si le &4Router&r peut les transférer par &2stack&r. Un &4Router&r peut accueillir jusqu'à &49 Speed Upgrades&r et &46 Stack Upgrades&r."]
+			id: "2401C6F6B97FD80D"
+			rewards: [
+				{
+					id: "0EC8E242A789FEA8"
+					item: "modularrouters:speed_upgrade"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2257ABAF3FF403D6"
+					item: "modularrouters:stack_upgrade"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "0A482A9C42A990FA"
+					item: { Count: 9, id: "modularrouters:speed_upgrade" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3F0597EDBA043B1B"
+					item: { Count: 6, id: "modularrouters:stack_upgrade" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["559A8DEC3C20DDF9"]
+			description: [
+				"Pour qu'un &4Router&r puisse interagir avec des inventaires, il faut :"
+				""
+				"- Un &4Puller&r qui va &2amener&r les ressources d'un inventaire jusqu'au &4Router&r"
+				"- Un &4Sender&r qui va &2envoyer&r les ressources du &4Router&r jusqu'à un nouvel inventaire"
+				""
+				"Pour &2configurer&r les &4Pullers&r et &4Senders&r, il suffit juste de faire un &2Shift-clic droit&r sur les inventaires avec lesquels vous souhaitez interagir."
+				""
+				"&n&4Exemple&r :&r vous souhaitez &2transférer&r les items d'un &4coffre&r d'une tour à mob dans un &2système de stockage centralisé&r. Très simple : vous utilisez le &4Puller&r sur le &4coffre&r de la tour à mob, puis le &4Sender&r sur le &2coffre centralisé&r, et vous donnez ces deux &4upgrades&r à votre &4Router&r. Fini !"
+			]
+			id: "4F4A5AC977F7B158"
+			rewards: [
+				{
+					id: "7475F23BB26B20F5"
+					item: "modularrouters:sender_module_3"
+					type: "item"
+				}
+				{
+					id: "331FDB4950F8A4C6"
+					item: "modularrouters:puller_module_2"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C6E9AC487ECB539"
+					item: {
+						Count: 1
+						id: "modularrouters:sender_module_3"
+						tag: {
+							modularrouters: {
+								Target: {
+									Face: 5b
+									InvName: "block.sophisticatedstorage.chest"
+									Pos: {
+										dim: "minecraft:overworld"
+										pos: {
+											X: -478
+											Y: 139
+											Z: 66
+										}
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D5B96F0A6C63525"
+					item: "modularrouters:puller_module_2"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.5d
+		}
+	]
+	title: "Pipes"
+}

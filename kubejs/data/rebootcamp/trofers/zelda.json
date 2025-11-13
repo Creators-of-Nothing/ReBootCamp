@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Zelda",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "mastersword:triforce"
+    },
+    "display": {
+        "scale": 1.0,
+				"offset": {
+			"y": 3
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#fff120",
+        "base": "#FFFFFF"
+    }
+}

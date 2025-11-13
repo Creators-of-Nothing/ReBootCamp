@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Ars Nouveau",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "ars_nouveau:creative_source_jar"
+    },
+    "display": {
+        "scale": 1.2
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AA00AA",
+        "base": "#FFFFFF"
+    }
+}
