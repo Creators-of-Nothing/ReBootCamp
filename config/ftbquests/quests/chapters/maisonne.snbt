@@ -1,0 +1,367 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "maisonne"
+	group: "48E8FA999D758C15"
+	icon: "fantasyfurniture:venthyr/bed_single"
+	id: "40B633D69B85E403"
+	images: [{
+		height: 5.0d
+		image: "kubejs:textures/ftbquests/bed.png"
+		rotation: 0.0d
+		width: 6.197916666666666d
+		x: -5.5d
+		y: 2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Pensez à scroll vers le bas !&r Il existe pleins de mods de décoration sur ce pack, n'hésites donc pas à taper dans la barre de recherche de &4JEI&r : &4@NomDuMod&r. Cette liste nomme les mods principaux de décoration, mais parfois, certains mods qui ne sont pas centrés sur la décoration rajoutent des objets décoratifs, n'hésites pas à vérifier :"
+				""
+				"- Additional Lanterns"
+				"- Additionl Lights"
+				"- Alex's Caves"
+				"- Amendments"
+				"- AntiBlocksReChiseled"
+				"- Better Archeology"
+				"- Biomes O' Plenty"
+				"- Chipped"
+				"- Connected Glass"
+				"- Create"
+				"- Decorative Railings"
+				"- Delight"
+				"- Domum Ornamentum"
+				"- 'Dustrial Decor"
+				"- Enlightend"
+				"- Endless Biomes"
+				"- Even Better Amethyst"
+				"- Fantasy's Furniture -> tout se craft dans la &4Furniture Station&r avec des planches, de la Cobblestone, et de la Clay"
+				"- Floral Enchantment"
+				"- FramedBlocks"
+				"- Furnish"
+				"- Gardens of the Dead"
+				"- Glassential Renewed"
+				"- Handcrafted"
+				"- [Let's Do]"
+				"- Macaw's"
+				"- Magic Vibe Decorations"
+				"- ManyIdeas"
+				"- Meadow"
+				"- MOA DECOR"
+				"- More Concrete"
+				"- MrCrayfish's Furniture Mod"
+				"- Naturalist"
+				"- NiftyBlocks"
+				"- Night Lights"
+				"- Nosiphus Furniture Mod"
+				"- Platforms"
+				"- Rechiseled"
+				"- Skinned Lanterns"
+				"- Stoneworks"
+				"- Straw Statues"
+				"- Supplementaries"
+				"- Twigs"
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "2276E6E36CE4E6D3"
+			rewards: [{
+				id: "41FA978C6EB391BB"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7913DD041752DC78"
+				title: "Décoration"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Un mod de cuisine. Pour avoir la Cow in a Jar, placez une Jar sous une vache, et écrasez la avec une enclume. Vous aurez une production de lait infinie qui peut être extrait via un câble."
+				""
+				"Le sink permet d'avoir de l'eau à l'infini. Peut être extrait via un câble."
+			]
+			id: "1C153A9705DF6EC5"
+			rewards: [{
+				id: "4AE903A242EE1FE4"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			subtitle: "Du lait et de l'eau à l'infini"
+			tasks: [
+				{
+					id: "713FDD059F86A3D3"
+					item: "cookingforblockheads:cow_jar"
+					type: "item"
+				}
+				{
+					id: "0945BD88C7DDC4BA"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			title: "CookingForBlockheads"
+			x: 0.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2276E6E36CE4E6D3"]
+			description: ["Un bon moyen de construire. Consomme de l'énergie."]
+			id: "33D071362877DCA7"
+			rewards: [
+				{
+					count: 64
+					id: "3183104BC65B228D"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "18C7B5914BA37EF7"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D94D30CAE8B46C7"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "711611EB8782E067"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "044F1F6F99275E62"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5FB99F0BC762F310"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C5B969D6BABA2E1"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			title: "Building Gadgets"
+			x: -0.25d
+			y: 2.0d
+		}
+		{
+			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec &4@Torchmaster&r."]
+			id: "2D3AB5E2D9D753EA"
+			rewards: [
+				{
+					id: "6A654C89AE119C7F"
+					item: "minecraft:torch"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5F19FA5BCB3F0F4C"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "695247E050B0E9BF"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn, mais passe quand même la nuit."
+				""
+				"Le Hammoc permet de passer le jour."
+			]
+			id: "2655A092B94CC321"
+			rewards: [{
+				count: 2
+				id: "4855051EEBC19939"
+				item: "comforts:rope_and_nail"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "640BDC3609F3AEFB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "05BC39EFC963EE27"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+			]
+			title: "Nous rompichâmes"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Un moyen de téléportation verticale."]
+			id: "266845707E978BD1"
+			rewards: [{
+				id: "5CC960FA2B3D3420"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0FE276C3F99DCF"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Vous réviez d'un portail personnalisé pour traverser les dimensions, de la forme, qu'il soit vertical ou horizontal, et de la couleur de votre choix ? C'est parfait, ce mod est fait pour vous ! Il nécessite de l'énergie à l'utilisation. "
+				""
+				"Le &4Target Device&r permet de sélectionner l'endroit où vous voulez vous téléporter. Il suffit de vous accroupir et de faire un clic droit pour le configurer. Donnez un nom à votre point de téléportation puis ajouter le à votre &4Device&r."
+				""
+				"Créez ensuite votre portail comme vous le souhaitez (forcément en 2 dimensions), avec une &4Cell&r pour l'énergie, un &4Stabilizer&r qui servira de centre de contrôle, des &4Frames&r et d'une &4Target Cell&r."
+				""
+				"Faites un clic droit sur le &4Stabilizer&r pour l'allumer une première fois. Puis, faites un clic droit avec votre &4Device&r en main sur le &4Stabilizer&r pour configurer le portail. Ajoutez le(s) point(s) de téléportation qui vous intéresse."
+				""
+				"Enfin, activez le portail en faisant un clic droit sur le &4Stabilizer&r. Si vous souhaitez changer de destination sur un portail qui en contient plusieurs, il suffit de cliquer sur le &4Stabilizer&r et de faire &4\"Change Target\"&r. Sélectionnez la destination voulue, et c'est fini."
+				""
+				"&4Note :&r lorsque vous aurez allumé votre portail, allez dans l'onglet \"Change Target\". Cliquez sur le petit carré de couleur (à côté du mot &4\"Random\"&r) pour sélectionner la couleur de votre portail. Vous pouvez également faire un clic droit avec un colorant pour colorer le portail. "
+			]
+			id: "6B27CB3F6A4CAEE6"
+			rewards: [{
+				id: "1DFBA411850B688A"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "568DE313526E0A29"
+					item: "wormhole:portal_frame"
+					type: "item"
+				}
+				{
+					id: "4265C992237A4197"
+					item: {
+						Count: 1
+						id: "wormhole:portal_stabilizer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C383EA866A13DD8"
+					item: "wormhole:advanced_target_cell"
+					type: "item"
+				}
+				{
+					id: "4E48593B3369AB65"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "03D98931B805E1CB"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_target_device"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Wormhole"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2655A092B94CC321"
+				"1C153A9705DF6EC5"
+				"2D3AB5E2D9D753EA"
+				"266845707E978BD1"
+				"6B27CB3F6A4CAEE6"
+				"33D071362877DCA7"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "2B9069629B5A6ABA"
+			rewards: [{
+				id: "0AA697A056D13EC4"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:maison"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "11ADB523C0235E5E"
+				title: "Maisonnées complété !"
+				type: "checkmark"
+			}]
+			title: "Maisonnée complété !"
+			x: -5.5d
+			y: -1.0d
+		}
+	]
+	title: "Maisonnée"
+}

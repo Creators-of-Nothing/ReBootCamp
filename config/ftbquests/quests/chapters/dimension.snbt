@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimension"
+	group: "48E8FA999D758C15"
+	icon: "minecraft:end_portal_frame"
+	id: "69134C09A36EFA96"
+	images: [{
+		height: 5.0d
+		image: "kubejs:textures/ftbquests/portal.png"
+		rotation: 0.0d
+		width: 3.6944444444444446d
+		x: -3.5d
+		y: 5.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:obsidian"
+			id: "67BB99D58054E451"
+			rewards: [{
+				id: "39125152746E19E3"
+				item: "minecraft:obsidian"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:obsidian"
+				id: "4C5FA009E6235F5A"
+				type: "dimension"
+			}]
+			title: "Visite le Nether"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "3A58E2FE8C566938"
+			rewards: [{
+				id: "3F71D1E257D1A69A"
+				item: {
+					Count: 1
+					id: "enderchests:ender_pouch"
+					tag: {
+						open: 0b
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "476F61D8DBD721FA"
+				type: "dimension"
+			}]
+			title: "Visite l'End"
+			x: 1.875d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Trouver une forteresse du Nether."]
+			id: "5189A0FD522ED5F9"
+			rewards: [{
+				id: "4C5677013DCDC6C6"
+				item: "minecraft:nether_wart"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "53E4421093797255"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: [
+				"S'équiper avec une full armure en Netherite. "
+				""
+				"&4Attention :&r les Templates sont consommés à l'utilisation, mais sont duplicables !!"
+			]
+			id: "01EFD5A1FC58FFF5"
+			rewards: [{
+				id: "30B80830CB5E967F"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6178B1D42008C0F0"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Renvoyez une boule de Ghast à un Ghast."]
+			id: "1815F8A8224185E7"
+			rewards: [{
+				id: "7E3D7AA531E31BD7"
+				item: "minecraft:ghast_tear"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				icon: "minecraft:ghast_tear"
+				id: "7C98934CD23685A7"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Visiter tout les biomes &4Vanilla&r du Nether."]
+			id: "5C96F2D3B60E2692"
+			rewards: [{
+				id: "490BD909E6BDD787"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:soul_speed"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "0F044F0C916B6851"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			description: ["Trouves une paire d'Elytra."]
+			id: "101EFE607C8C32A9"
+			rewards: [{
+				id: "2B0AB7DE72735E04"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3CF7731F9B523EAA"
+				type: "advancement"
+			}]
+			x: -0.25d
+			y: 1.5d
+		}
+		{
+			description: ["Un moyen d'aller dans le void, où il fait éternellement jour."]
+			id: "2551113A8C70F913"
+			rewards: [{
+				id: "66106C61AE788BCA"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "64962B58952F7660"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"101EFE607C8C32A9"
+				"2551113A8C70F913"
+				"5189A0FD522ED5F9"
+				"1815F8A8224185E7"
+				"5C96F2D3B60E2692"
+				"01EFD5A1FC58FFF5"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "4BAE8105E427FBF1"
+			rewards: [{
+				id: "4ECD2A31270EB94D"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:dimensions"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "246BC20725A681AA"
+				title: "Dimensions complété !"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+	title: "Dimensions"
+}

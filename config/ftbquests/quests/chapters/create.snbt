@@ -1,0 +1,1478 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "0A9A25D57F12D946"
+	icon: "create:wrench"
+	id: "3D71719278E5606A"
+	images: [
+		{
+			height: 3.0d
+			image: "create:item/blaze_cake"
+			rotation: 20.0d
+			width: 3.0d
+			x: -6.75d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/potato.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/blaze.png"
+			rotation: 15.0d
+			width: 5.1098901098901095d
+			x: 6.25d
+			y: 5.75d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Le &4Clipboard&r est juste un &2bloc note&r où tu pourras afficher les tâches à réaliser. Il peut être &2posé&r sur toutes surfaces."]
+			id: "33560AAD94EE5A55"
+			rewards: [{
+				id: "55A9510C71E407AB"
+				item: "create:andesite_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C0030663C74A6C"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "Clipboard"
+			x: 4.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["&4Create&r utilise de l'&2énergie mécanique&r pour activer ses machineries. Si tu es désespéré, ou que tu veux faire un craft rapide sans t'embêter, cet objet est fait pour toi !"]
+			id: "30FE9B8E85F5C991"
+			rewards: [{
+				id: "55D4E07CCFC8C58C"
+				item: "minecraft:oak_log"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C26AC8CA6BACE0"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Manuel ?!"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Ceci te permettra d'&2utiliser&r, &2déplacer&r, et &2accélerer&r ou &2réduire&r la &2vitesse&r d'une machine. Tout comme IRL, si tu enchaines un &4petit Cogwheel&r, puis un &4grand&r, cela &2accélerera&r la machine, et &2inversement&r dans le cas &2contraire&r."]
+			id: "03D8746ACE4DF78A"
+			rewards: [{
+				count: 8
+				id: "08254479E237C1AE"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "3A5121F7985E1EBB"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "583DF4EE000311DF"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "351681A582215B10"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Les bases"
+			x: 4.0d
+			y: -12.25d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Les &4Gearbox&r te permettent un meilleur contrôle tes usines."]
+			id: "63AF0964A44899CD"
+			rewards: [{
+				id: "1294F77341A6FC6D"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			subtitle: "TOP GEAR !"
+			tasks: [
+				{
+					id: "7B6DDF9C6F464555"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "007A4FF14FF877C2"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: [
+				"Les &4Water Wheels&r sont une bonne &2énergie mécanique&r de base. La version &4large&r tourne plus lentement, mais supporte mieux le &2stress&r. Si tu mets de la &4Soul Sand&r sous la &4Water Wheel&r, les bulles qui remonteront &2accéleront&r la roue !"
+				"{image:kubejs:textures/ftbquests/waterwheel.png width:100 height:100 align:1}"
+			]
+			id: "7E51EE75825ED530"
+			rewards: [{
+				id: "63B5CA81C30E2F18"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B759D90EC5AA342"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "19774113D230CE69"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "Un bon début"
+			x: -5.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Les &4moulins à vent&r sont l'énergie la plus puissante en début de jeu. Ils ont une &2grande force&r et sont &2modulaires&r. Plus tu ajouteras de voiles, et plus le moulin tournera vite et subira moins le stress. Tu peux ajouter jusqu'à     &4128 voiles&r !"]
+			id: "0A5BA5686ADD6AD0"
+			rewards: [{
+				count: 4
+				id: "72C4B054DA45A085"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "Don Quichotte"
+			tasks: [
+				{
+					count: 8L
+					id: "56D33961EF357ECF"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "3307A7F3FC3DB1C4"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			title: "Des moulins à vent"
+			x: -6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Cet objet te permettra de &2contrôler la vitesse&r de tes usines sans avoir besoin d'ajouter des engrenages superflus."]
+			id: "1A98268B9FBDE257"
+			rewards: [{
+				id: "3365C58C88643399"
+				item: "create:brass_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Gota go fast !"
+			tasks: [{
+				id: "65E67856EBAB0A72"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: [
+				"Un bon &4moteur&r qui peut remplacer tes &4Water Wheels&r ou tes &4Moulins&r. Attention, il supporte très mal le &2stress&r, mais ils sont cumulables."
+				""
+				"Comme son nom l'indique, il a besoin d'&2électricité&r pour fonctionner."
+			]
+			id: "5F64CCE2106FEA61"
+			rewards: [{
+				id: "3E5FE799DDC49063"
+				item: "create:brass_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D54DCAA6B52A548"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Permet d'écraser des ressources en d'autres."]
+			id: "1873C0E0BEDDC008"
+			rewards: [{
+				id: "13FBAC33522B5E40"
+				item: "create:cogwheel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E2599C26710AE6D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Si vous êtes à côté de la &4plaque&r, ou que vous en ayez besoin, cet objet est fait pour vous !"
+				""
+				"Au dessus d'un &4Basin&r, il permet de &2compacter&r des objets."
+			]
+			id: "3C1868D46F599D2D"
+			rewards: [{
+				id: "79AC9246E7DA938D"
+				item: "create:golden_sheet"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CE0392EEA6D206"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Parfois, on a besoin d'allonger certaines choses : le &4Rolling Mill&r vous permettra de créer des &4Rods&r et des &4Wires&r."]
+			id: "24AB33D36230AFD1"
+			rewards: [{
+				id: "0D0E923D40C6D85C"
+				item: "createaddition:copper_rod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E8EDB4559D0819"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Le &4Mixer&r permet de mélanger des items entre eux dans le &4Basin&r. Attention, selon les mélanges, il vous faudra une certaine température apportée par le Blaze Burner. Pour le remplir, il suffit de &2clic droit&r sur un &4Blaze&r ou sur un &4spawner à blaze&r avec le &4Blaze Burner vide&r."
+				""
+				"Le &4Blaze Burner&r mange toute sorte de combustibles (ou utiliser un &4Straw&r dessus pour qu'il accepte les liquides), mais si vous voulez le &2Super Heated&r, il faudra lui donner des &4Blazes Cake&r."
+			]
+			id: "4E6AAC128C410184"
+			rewards: [{
+				id: "1F69AE2474DAFD5D"
+				item: "moa_decor_toys:blaze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "21C48526C8E4BD41"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "164252B696770396"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "1C8D3B5560D08A69"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Vous réviez d'une &2ferme automatique&r ? C'est chose faite ! Le &4Harvester&r permet de &2récolter&r et de &2planter&r vos &2cultures&r. Il peut même être mis dans l'eau pour, par exemple, récolter automatiquement du &4Kelp&r."
+				""
+				"La &2Saw&r permet de scier le bois. Pratique dans une &2usine&r, mais peut-être utilisé également pour farmer automatiquement les &2arbres&r dans une &2ferme&r. &4Attention&r : il ne replantera pas, il faut utiliser des &4Deployers&r pour cela."
+				""
+				"Le &4Portable Storage Interface&r permet de lier deux machines entre elles, pour qu'elles se transfèrent les items entre elles."
+			]
+			id: "2C4EB289C5FECE47"
+			rewards: [{
+				id: "1949FF2D709C491F"
+				item: "minecraft:wheat_seeds"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6122DAF82111613C"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "5B7881CB9E255952"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "19EBB8A46796A755"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
+			title: "Champs automatisés"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Le &4Deployer&r permet de :"
+				""
+				"- poser des items"
+				"- faire certains crafts"
+				"- utiliser des items si vous lui donnez l'item en question"
+				"- attaquer si vous lui donnez une épée"
+			]
+			id: "5C1DF396430009E4"
+			rewards: [{
+				id: "20CFFD9745A4007D"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			subtitle: "Juste un doigt"
+			tasks: [{
+				id: "23A1B4285D53233B"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Les &4Crafters&r sont une sorte de table de craft, à assembler soi-même. Les formes à réaliser sont indiqués grâce à &4JEI&r. A noter que chaque crafter possède un sens, et que pour valider un craft, toutes les &2flèches&r doivent se diriger vers une &2sortie principale&r."]
+			id: "0991F1702983203E"
+			rewards: [{
+				id: "1D4C857E5E9169E6"
+				item: "create:brass_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				count: 21L
+				id: "5C6C191C25C7CF43"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0991F1702983203E"]
+			description: ["Permet de &2concasser&r des objets encore plus fort !"]
+			id: "326D2ACE50925864"
+			rewards: [{
+				id: "14E50967C17988ED"
+				item: "create:experience_nugget"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0F28A508393160E7"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["De la &2colle&r pour &2lier&r les blocs entre eux ! "]
+			id: "7BEB742299606DC1"
+			rewards: [{
+				id: "576EF3C77A177840"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DCD1A907E5AD10D"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Pratique pour &2poser&r un item sans avoir à le jeter au sol. Un &4Depot&r peut accueillir un &2stack&r d'un même item. Les items posés dessus ne &2despawn jamais&r."]
+			id: "67C52B580FF8229C"
+			rewards: [{
+				id: "2F706D5509F16C0E"
+				item: "create:depot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "486F26E2055710BB"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Permet de transférer les items &2verticalement&r d'un inventaire à un autre. Si tu utilises la &4Wrench&r dessus en faisant un simple &2clic droit&r avec, elle deviendra &2transparente&r, ce qui te permettra de voir les items passer à travers."]
+			id: "4DF4BF839C774278"
+			rewards: [{
+				id: "168D6405C09A0D5D"
+				item: "create:chute"
+				type: "item"
+			}]
+			subtitle: "Chute dans le peloton !"
+			tasks: [{
+				id: "70C414362653A91F"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Permet de sortir les items d'un inventaire &2horizontalement&r."]
+			id: "2D1338443588FD6A"
+			rewards: [{
+				id: "00C11CBDC22A77A4"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B2B06B1D9C67435"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: [
+				"Les &4Belts&r sont utilisées pour deux choses : "
+				""
+				"- comme tapis roulant pour amener les items d'un point A à un point B."
+				"- pour transférer la rotation entre deux shafts."
+				""
+				"Si vous faites clic droit avec un &4Casing&r en main sur vos &4Belts&r, elles gagneront un petit support purement décoratif sans le consommer !"
+			]
+			id: "4753123B6345601C"
+			rewards: [{
+				count: 4
+				id: "0270479B8832BF09"
+				item: "create:belt_connector"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6769CB7F52C3453A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Quand vous n'avez pas assez de vos deux bras, créez en un troisième ! Il &2transférera&r les objets d'un inventaire à un autre de façon plus souple que les &4Belts&r."]
+			id: "02372505F3A5574D"
+			rewards: [{
+				id: "7678E622EF2868ED"
+				item: "create:brass_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8DB259F22475A9"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Depuis la &21.18&r, &4Create&r permet la conception de &2trains&r ! Que vous souhaitiez traverser le monde, ou transporter des items depuis l'autre bout de la base, les &2trains&r sont vos amis !"
+				""
+				"Pour créer un &2train&r, il vous faut :"
+				""
+				"- des &4Rails&r"
+				"- le train que vous aurez créez vous-même et auquel vous lié un &4Train Control&r"
+				"- de la &4Glue&r pour coller le tout ensemble"
+				"- deux &4Train Station&r pour qu'il puisse se déplacer d'un point A à un point B"
+				""
+				"Si vous placez un &4Seat&r, vous pouvez poser une &2entité&r dessus comme un &4Zombie&r par exemple, et lui donner un &4Train Schedule&r avec vos directives indiquées dessus, et le &2Train&r se déplacera automatiquement ! Fonctionne également en remplaçant le Seat par un &4Blaze Burner&r."
+			]
+			id: "169485A6CE91F6B5"
+			rewards: [
+				{
+					id: "0FA013ACEF30BC92"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "1D38CE552C6C0962"
+					item: "create:white_seat"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "59A584FE45EA6798"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "2548539D41BBBD9D"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "058002E1BFF8AD2F"
+					item: { Count: 4, id: "create:track" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["01545F51DCCEEB73"]
+			description: [
+				"Le &4Hose Pulley&r te permet de pomper n'importe quel fluide. Pour se faire, il faut descendre la pompe avec une hand crank par exemple jusqu'à atteindre le fluide. Dans le cas de l'eau, elle sera pompée à l'infini, car elle se régénère, mais pour la &4lave&r, si la pompe se trouve dans un lac de lave contenant plus de &210 000 buckets&r de lave, le jeu considèrera qu'il y en a à l'infini. Pour en être sûr, vous aurez un succès si cela arrive !"
+				""
+				"&n&4Astuce&r :&r pour avoir de la lave à l'&2infinie&r, rendez-vous dans le &4Nether&r. Mais n'oubliez pas de &2Chunk Load&r la zone où se trouve votre pompe pour qu'elle produise tout le temps."
+			]
+			id: "6DD5F2B95CCE54E6"
+			rewards: [{
+				id: "6A9F7CBD5FCA3279"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "De la lave à l'infini ?!"
+			tasks: [{
+				id: "090B4D492DE15BFA"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"De base, il permet d'attirer ou d'expulser des items devant lui. Plus il a d'&2énergie cinétique&r, plus il est puissant."
+				""
+				"De plus, selon ce qui se trouve devant lui, le &4Fan&r aura un comportement différent. Vous pouvez ainsi placer devant lui (ou sur lui) :"
+				""
+				"- un Campfire"
+				"- un Soul Campfire"
+				"- de la lave"
+				"- de l'eau"
+				""
+				"Utilisez &4JEI&r sur le &4Fan&r pour voir toutes les recettes possibles !"
+			]
+			id: "2FE5B07B3D72E1B3"
+			rewards: [{
+				id: "688C87283C7155FA"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			subtitle: "Votre plus grand Fan"
+			tasks: [{
+				id: "0DF3AB73DC001B86"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Le &4Spout&r permet de verser des &2liquides&r sur des items qui passe en dessous de lui, via les &4Belts&r ou via un &4Depot&r. Il n'a pas besoin d'énergie cinétique pour fonctionner."
+				""
+				"Pour le &2remplir&r, utilisez des &4Pipes&r. Il n'accepte pas les &4Buckets&r."
+			]
+			id: "5FE3791ABC495B30"
+			rewards: [{
+				id: "59954AC8A490D883"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EDCB9E5BD8C367B"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Je s'appelle Spout"
+			x: 0.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["En choissant la &2fréquence&r, tu peux transmettre un &2signal redstone&r jusqu'à &2128 blocs&r de distance !"]
+			id: "3CCB0B40B7272B28"
+			rewards: [{
+				count: 8
+				id: "78756B22B5589824"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1060739E52BF5E92"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Permet de transférer de l'&2énergie électrique&r dans des items."]
+			id: "4C1664069B886599"
+			rewards: [{
+				id: "4031DDECBE15C162"
+				item: "create:andesite_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "MORE POWAH !!"
+			tasks: [{
+				id: "4F0C0BD9CAFA8091"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["La &4Wrench&r de &4Create&r permet de modifier le comportement de certains blocs du mod, ainsi que leur &2rotation&r !"]
+			id: "02F97B175F30CDB0"
+			rewards: [{
+				id: "327F6446BC225BFC"
+				item: "create:cogwheel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E2A290F24AE1158"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Les &4Google Glass&r te permettront de voir la &2consommation&r et le niveau de &2stress&r de tes machines."]
+			id: "22788C9FBCA5F376"
+			rewards: [{
+				id: "64D0B6001225B212"
+				item: "create:andesite_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5501E300AD726E08"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -7.25d
+		}
+		{
+			description: [
+				"&4Create&r est un mod &2Low Tech&r, dont les machines fonctionnent à l'énergie cinétique."
+				""
+				"N'oublies pas qu'en passant ta souris sur un objet, et en restant appuyé sur la &4touche Z&r, tu auras une &2vidéo explicative&r de chaque item !"
+				""
+				"L'&4Andesite&r est le bloc de base de &4Create&r, récoltes en beaucoup, tu vas en avoir besoin !"
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "4CC96CF7BECB4DC9"
+			rewards: [{
+				count: 8
+				id: "2D8BE7AE183275BB"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Premières usines"
+			tasks: [{
+				count: 8L
+				id: "13E004A8D2795B14"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Ca commence toujours comme ça !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Voici une sélection basique de machines &4Create&r. Lorsque tu regarderas le craft de ces machines, certaines d'entre elles sont en version &2Brass&r. Au delà d'être plus chères, elles te permettront d'ajouter des &2filtres&r ! Idéal pour pouvoir sélectionner les opérations que tu veux faire. Egalement, elles transfèrent les items par &2stack&r, et non plus un par un."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "044A732DB52C6B8C"
+			rewards: [{
+				id: "38FB55891D5E104C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2EC4184110CD295E"
+				title: "Des machines"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["&4Create&r, c'est aussi &2envoyer&r des &2items&r, de la &2force cinétique&r, des &2animaux&r, ... D'un point A à un point B. Voici différents &2outils&r qui pourront t'aider."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "3B75B51AD1DE7D9D"
+			rewards: [{
+				id: "523E7941D7770A54"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7F35A85251C42965"
+				title: "Du mouvement"
+				type: "checkmark"
+			}]
+			title: "En avant !"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Juste une série d'outils qui pourront t'être utile dans ta découverte de Create."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "6827E33B6A9C1252"
+			rewards: [{
+				id: "4D7D7046076D5AFC"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "008B14C5DCFCD868"
+				title: "Des outils"
+				type: "checkmark"
+			}]
+			x: 2.625d
+			y: -9.75d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Pour fonctionner, les machines et outils de &4Create&r ont besoin d'&2énergie cinétique&r, que tu peux produire grâce à divers outils proposés dans cette partie. "]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "59B7D5A631C63F72"
+			rewards: [{
+				id: "008ADC281F845978"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "24BC29DB18DEAF55"
+				title: "De l'énergie cinétique"
+				type: "checkmark"
+			}]
+			title: "De l'énergie cinétique ?!"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E6AAC128C410184"]
+			description: ["Pour pouvoir activer ton &4Blaze Burner&r en mode &2Super Heated&r."]
+			id: "2C023A27F5760468"
+			rewards: [{
+				id: "7092B4E694CB4F45"
+				item: "create:blaze_cake"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Mode Super Say... Heated ?"
+			tasks: [{
+				id: "09694E87E086C9A4"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Le &4Void Motor&r est définissable par une &2fréquence&r. Il permet, si vous le reliez à une source d'énergie mécanique, de transmettre cette même énergie depuis un autre &4Void Motor&r possédant la &2même fréquence&r. Un même &4Void Motor&r peut accumuler l'énergie mécanique de plusieurs autres &4Void Motors&r."]
+			id: "1AB10E85D15C7E1E"
+			rewards: [{
+				id: "3FC58759250B238C"
+				item: "createutilities:void_steel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "79CF2B93C84DC193"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"30FE9B8E85F5C991"
+				"7E51EE75825ED530"
+				"0A5BA5686ADD6AD0"
+				"1A98268B9FBDE257"
+				"5F64CCE2106FEA61"
+				"1AB10E85D15C7E1E"
+				"33560AAD94EE5A55"
+				"03D8746ACE4DF78A"
+				"3CCB0B40B7272B28"
+				"22788C9FBCA5F376"
+				"7BEB742299606DC1"
+				"63AF0964A44899CD"
+				"02F97B175F30CDB0"
+				"4DF4BF839C774278"
+				"2D1338443588FD6A"
+				"4753123B6345601C"
+				"67C52B580FF8229C"
+				"02372505F3A5574D"
+				"2FE5B07B3D72E1B3"
+				"1873C0E0BEDDC008"
+				"6DD5F2B95CCE54E6"
+				"24AB33D36230AFD1"
+				"2C4EB289C5FECE47"
+				"2C023A27F5760468"
+				"326D2ACE50925864"
+				"4C1664069B886599"
+				"3C1868D46F599D2D"
+				"5C1DF396430009E4"
+				"169485A6CE91F6B5"
+				"7C1C12CE843F3145"
+				"1BEE215C5E71EE00"
+				"1B502463E1C468AF"
+				"129F2A10612096C8"
+				"613FD16A801A473F"
+				"4F67CD18EEB85799"
+				"506AF3EB2BF731AD"
+				"2DB12FDC8AEFD376"
+				"7A1991863EDCEB51"
+				"364FBBE42DB7B5D4"
+				"70C13D9FD3AF4B39"
+				"5E5A247EF8CE26D4"
+				"331684DBD7865749"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "0A494C9B538D82F4"
+			rewards: [{
+				id: "4F66DBF0AE5BC953"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:create"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5355F4B231C45CF9"
+				title: "Create complété !"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E6AAC128C410184"]
+			description: ["Un simple &2clic droit&r avec cette paille sur un &4Blaze Burner&r pour lui permettre d'accepter de prendre des &2liquides&r comme &2combustible&r."]
+			id: "7C1C12CE843F3145"
+			rewards: [{
+				id: "5056DB2491F03E26"
+				item: "minecraft:bamboo"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Carburants liquides"
+			tasks: [{
+				id: "532D51A61D4F3C2C"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: [
+				"&4Ars Creo&r est un addon de &4Create&r et &4Ars Nouveau&r. Ce mod ajoute deux fonctionnalités :"
+				""
+				"- Le &4Starbuncle Wheel&r qui est une roue aussi puissante qu'une &4Water Wheel&r, mais sans contrainte"
+				"- La possibilité d'accrocher les &4Spells Turrets&r de &4Ars Nouveau&r à des mécanismes comme des trains par exemple pour miner ou se défendre. Il s'agit ici d'une &2fonctionnalité&r, pas d'un craft."
+			]
+			id: "1B502463E1C468AF"
+			rewards: [{
+				id: "5679B090D28C7157"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18692FF15D3D02D0"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: [
+				"Cette objet permet, lorsqu'allimenter avec &4&lBEAUCOUP&r&r d'&2énergie cinétique&r, de voler comme en &2Créatif&r. Pratique pour voler dans votre base. Chaque RPM utilisé augmente d'un bloc la distance à laquelle vous pouvez voler, donc, plus ça va vite, plus vous volez loin."
+				""
+				"&n&4Attention&r :&r cela ne fonctionne &4QUE&r dans l'&2Overworld&r."
+			]
+			id: "69B5E8A3BD26B023"
+			rewards: [{
+				id: "5969DEA3AADF380D"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			subtitle: "Avoir le fly créa dans sa base"
+			tasks: [{
+				id: "08AB006C5603338C"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.75d
+		}
+		{
+			dependencies: ["69B5E8A3BD26B023"]
+			description: ["En équipant cet anneau dans vos &4Curios&r, vous obtiendrez le &4Fly Créatif&r, partout, tout le temps."]
+			id: "5FAB22902EFBC3CD"
+			rewards: [{
+				id: "4EFCB5D3368FCC09"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Avoir le Fly créa, partout !"
+			tasks: [{
+				id: "1570CDBC75114B37"
+				item: "balancedflight:ascended_flight_ring"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -10.25d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"&4Create : Central Kitchen&r est un addon de &4Create&r pour rendre les crafts du mod &4Farmer's Delight&r compatible avec les machines de &4Create&r, et ainsi, &2automatiser&r les crafts."
+				""
+				"Cet item permet de convertir les &4blazes burners&r pour permettre d'&2automatiser&r les crafts de &4Farmer's Delight&r."
+			]
+			id: "1BEE215C5E71EE00"
+			rewards: [{
+				id: "2F368EABDADF73BE"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63BCC6F62BD2FE28"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["38B989991B4E6B6A"]
+			description: ["Cet objet permet de créer de l'énergie électrique (&4RF&r) à partir de l'énergie cinétique de &4Create&r"]
+			id: "7A1991863EDCEB51"
+			rewards: [{
+				id: "1F3CCD0C3B5BAB75"
+				item: "createaddition:copper_spool"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F99B63FA81A940"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["392A6A6C4BCAE5DA"]
+			description: ["Il suffit de poser un &4connector&r sur une batterie et de le lier à une machine, et hop, votre machine est &2chargée&r ! Je vous conseille de passer directement par les larges connectors qui transfèrent plus de RF par tick."]
+			id: "608A4562148DDC19"
+			rewards: [{
+				id: "7EFF5E8048302A67"
+				item: "createaddition:large_connector"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13675311B4366231"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "0D6AA0870968E84F"
+					item: "createaddition:small_light_connector"
+					type: "item"
+				}
+				{
+					id: "3532CE288A4AD00D"
+					item: "createaddition:large_connector"
+					type: "item"
+				}
+			]
+			title: "Connectors"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38B989991B4E6B6A"]
+			description: ["Il s'agit d'une simple &4batterie&r, que vous pouvez &2aggrandir&r en les &2assemblant&r en forme cubique : 2*2*2 - 2*6*2 - 9*9*1 par exemple."]
+			id: "392A6A6C4BCAE5DA"
+			rewards: [{
+				id: "1F15B132F44F504E"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			subtitle: "Une grande batterie"
+			tasks: [{
+				id: "0F64C320742E6634"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["608A4562148DDC19"]
+			description: ["Se lie entre deux &4connectors&r. La version &4Copper&r n'accepte que les &4Smalls Connectors&r, alors que la version &4Electrum&r ou &4Gold&r s'accroche aux &4Larges Connectors&r."]
+			id: "2DB12FDC8AEFD376"
+			rewards: [{
+				id: "4C233C1BDBB5BEE8"
+				item: "createaddition:gold_spool"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C1A6AE818B5759F"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					id: "60D5D977A19357E2"
+					item: "createaddition:gold_spool"
+					type: "item"
+				}
+				{
+					id: "6C554A7BCA89B909"
+					item: "createaddition:electrum_spool"
+					type: "item"
+				}
+				{
+					id: "532EC65C348FCDDF"
+					item: "createaddition:festive_spool"
+					type: "item"
+				}
+			]
+			title: "Spools"
+			x: -6.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2BDA9F45B92620A5"]
+			description: [
+				"Il s'agit simplement d'une &4foreuse&r qui va miner les ressources (ici des &4minerais&r) pour vous en échange de &2beaucoup d'énergie cinétique&r. Il vous faudra l'alimenter également en &2liquide&r pour la faire tourner, et lui donner une &4Netherite Drill&r."
+				""
+				"Tout les &2gisements&r sont infinis, donc, dès que votre setup est complet, à vous les ressources !"
+			]
+			id: "1A12926F83C53C65"
+			rewards: [{
+				id: "1CF112E73983D2F7"
+				item: "minecraft:diamond_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C93E789CFA47C8E"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2BDA9F45B92620A5"]
+			description: [
+				"Il s'agit simplement d'une &4foreuse&r qui va miner les ressources (ici des &4liquides&r) pour vous en échange de &2beaucoup d'énergie cinétique&r. Il vous faudra l'alimenter également en &2liquide&r pour la faire tourner, et lui donner une &4Netherite Drill&r."
+				""
+				"Tout les &2gisements&r sont infinis, donc, dès que votre setup est complet, à vous les ressources !"
+			]
+			id: "364FBBE42DB7B5D4"
+			rewards: [{
+				id: "4A946B9962E3A78A"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_lava_vision"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5363F16B8B3CF52E"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["1A12926F83C53C65"]
+			description: ["Cette &4Drill&r permet de faire fonctionner les &4Drillings Machines&r et &4Fluid Well Extractors&r."]
+			id: "331684DBD7865749"
+			rewards: [{
+				id: "63D094E115BDFA48"
+				item: "minecraft:ancient_debris"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "793572177A27BDD2"
+				item: "createoreexcavation:netherite_drill"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["1A12926F83C53C65"]
+			description: [
+				"Cette baguette vous permettra de détecter les &2gisements&r. A chaque &2clic droit&r effectué, elle vous donnera, dans le &2tchat&r, un nombre de bloc. Il s'agit d'un mini jeu de \"&2chaud-froid&r\" où le but est de se rapprocher de &2zéro&r. Lorsque vous aurez atteint le &2chunk&r où se trouve le gisement, posez votre &4Drill&r et mettez-vous au boulot !"
+				""
+				"&n&4Attention&r :&r Vous pouvez poser la Drill sur un sol que vous aurez créé, mais il devra être en contact avec le sol du monde. Par exemple : si votre &2gisement&r se trouve dans l'océan, vous pouvez créer une plateforme en surface où vous poserez votre &4Drill&r, puis &4liez avec des blocs&r cette plateforme au sous-sol océanique."
+			]
+			id: "70C13D9FD3AF4B39"
+			rewards: [{
+				id: "52B0FD5405D681F2"
+				item: "minecraft:deepslate_diamond_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Tu es un sourcier Harry !"
+			tasks: [{
+				id: "7AD69242E4438CEC"
+				item: {
+					Count: 1
+					id: "createoreexcavation:vein_finder"
+					tag: {
+						isFiltered: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1A12926F83C53C65"]
+			description: ["Ce livre indiquera sur votre map où se trouve votre &2gisement&r, et donnera quelques infos qui vous permettront de les trier. Il suffit de faire un simple &2clic droit&r avec ce livre sur une &4Drilling Machine&r ou &4Fluid Well Extractor&r."]
+			id: "5E5A247EF8CE26D4"
+			rewards: [{
+				id: "5AF361CBC34BA2E3"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7920222680D4587F"
+				item: "createoreexcavation:vein_atlas"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Le &4Void Chest&r est définissable par une &2fréquence&r. Il permet de &2stocker&r son contenu à plusieurs endroits en même temps, comme un &4Ender Chest&r. Deux (ou plus) &4Void Chests&r ayant la même &2fréquence&r auront le même contenu, d'où l'on peut sortir automatiquement les items avec un &4Item Pipe&r ou une &4Chute&r par exemple."]
+			id: "129F2A10612096C8"
+			rewards: [{
+				id: "63D51C6D0F49A382"
+				item: "createutilities:void_steel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F2247705C1760E1"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Le &4Void Tank&r est définissable par une &2fréquence&r. Il permet de &2stocker&r son contenu à plusieurs endroits en même temps, comme un &4Ender Chest&r. Deux (ou plus) &4Void Tanks&r ayant la même &2fréquence&r auront le même contenu, d'où l'on peut sortir automatiquement les liquides avec un &4Fluid Pipe&r par exemple."]
+			id: "4F67CD18EEB85799"
+			rewards: [{
+				id: "11E703E442FA1714"
+				item: "createutilities:void_steel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "625A85463FDD6D03"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["38B989991B4E6B6A"]
+			description: ["La &4Void Battery&r est définissable par une &2fréquence&r. Il permet de &2stocker&r son contenu à plusieurs endroits en même temps, comme un &4Ender Chest&r. Deux (ou plus) &4Void Battery&r ayant la même &2fréquence&r auront le même contenu, d'où l'on peut sortir automatiquement l'énergie avec un &4Energy Pipe&r par exemple."]
+			id: "613FD16A801A473F"
+			rewards: [{
+				id: "757FD49E9FE751A1"
+				item: "createutilities:void_steel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "675D4D2EE8FA169C"
+				item: "createutilities:void_battery"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Vous en avez marre de &2miner&r vous-même vos &2minerais&r, et vous avez la flemme de créer un &2train&r qui mine les ressources en ligne droite, cette partie est faite pour vous !"]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "2BDA9F45B92620A5"
+			rewards: [{
+				id: "48D915BCFEDD7B9C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "43BB281BE76EFDD8"
+				title: "Miner sans pioche"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["&4Create&r sera votre probablement votre première &2source d'énergie électrique&r. Ca ne sera pas exceptionnel, mais suffisant pour débuter votre aventure."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "38B989991B4E6B6A"
+			rewards: [{
+				id: "2A25FA1F13E2813B"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1E54E4AB83F37A15"
+				title: "De l'électricité avec Create ?"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Il s'agit de la dernière grosse &2mise à jour&r de &4Create&r. Cette partie lui est consacrée."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "1BC3B718F7C628E8"
+			rewards: [{
+				id: "5E479044BE002E42"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Post Production"
+			tasks: [{
+				id: "324D498FD6C35321"
+				title: "Create Update 6"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Ces &4Pipes&r permettent de &2transférer&r les liquides d'un point A à un point B, à l'aide de la &4Mechanical Pump&r, qui elle-même fonctionne avec de l'&2énergie cinétique&r. Sans elle, aucun transfert de liquide n'a lieu."]
+			id: "12E19BE88C511E2E"
+			rewards: [{
+				count: 4
+				id: "41E07262A14405B8"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "Des Tuyaux"
+			tasks: [
+				{
+					count: 4L
+					id: "3963818AA3C1BB96"
+					item: { Count: 4, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "4E472B0D70E6AB55"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12E19BE88C511E2E"]
+			description: ["Il s'agit simplement d'une &2structure&r qui permet de stocker les liquides. Il peut être de très grande taille en additionnant plusieurs &4tanks&r entre eux."]
+			id: "01545F51DCCEEB73"
+			rewards: [{
+				id: "0A2268F0F147161F"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F55BE09BC82F7A1"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Une &4catapulte&r qui transfert tout entité d'un point A (la &4catapulte&r) à un point B, dans sa &2ligne de vue&r et sur la &2même ligne&r qu'elle."]
+			id: "506AF3EB2BF731AD"
+			rewards: [{
+				id: "7CED495EC83E60F5"
+				item: "createcasing:brass_depot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7421BD05BF1F0681"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+	]
+	title: "Create"
+}

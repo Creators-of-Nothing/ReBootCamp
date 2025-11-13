@@ -1,0 +1,23 @@
+{
+    "name": {
+        "text": "Trophée AFKafé",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:Afkafe}"
+    },
+    "display": {
+        "scale": 0.75,
+		"offset": {
+			"y": 2
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#5599EE",
+        "base": "#FFFFFF"
+    }
+}

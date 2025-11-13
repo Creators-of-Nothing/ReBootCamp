@@ -1,0 +1,662 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienvenue__d"
+	group: "520987ECA1C88A3B"
+	icon: "minecraft:spruce_hanging_sign"
+	id: "1BC4F0BE553BFA35"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bienvenue sur &n&l&3ReBootCamp&r&r&r, un projet regroupant des &4streamers&r de tous horizons pour qu'ils puissent découvrir et apprendre à jouer en moddé. Un serveur leur ai dédié pour cela ! &4ReBootCamp&r, c'est le nom du modpack, ainsi que celui de la troisième édition de cet événement. Le serveur est &4privé&r, cependant, le modpack est accessible à toutes et à tous."
+				""
+				""
+				"Ce &4livre de quête&r est un petit guide pour vous montrer ce qu'il est possible de faire sur ce modpack. Accessible aux &2débutants&r, il vous aidera à progresser dans la compréhension des mods et du moddé en général. &4Magie, Technologie, Combats Epiques, Décoration, Exploration&r : tout est pensé pour que quiconque puisse y trouver son bonheur. La finalité du pack : atteindre l'&4End Game&r qui vous permettra d'avoir des ressources à l'infini, ainsi qu'un &4stuff Créatif&r vous permettant d'être invincible !"
+				""
+				""
+				"Nous espérons que vous apprécierez votre séjour parmi nous :)"
+				""
+				"&n&4P.S.&r :&r Je vous conseille de laisser votre jeu en &4anglais&r, car la plupart des tutos que vous trouverez en jeu ou sur Youtube seront en anglais. J'utiliserais moi-même pas mal d'anglicismes dans ce livre de quête, en particulier pour désigner les items, mais les explications seront en &4français&r. Une version traduite en anglais de ce modpack sera prévue dans le futur, soyez patient :)"
+			]
+			icon: "minecraft:bamboo_hanging_sign"
+			id: "4FC2E0F9C883FA41"
+			rewards: [{
+				count: 10
+				id: "0FB3E7C7A71D11EA"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Pensez à scroll vers le bas"
+			tasks: [{
+				id: "22A674C105CBE937"
+				title: "Bienvenue !"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"N'importe quand, au cours de ton aventure, tu peux utiliser la commande &4&l/rtp&r&r pour te téléporter loin d'ici !"
+				""
+				"Lorsque tu seras installé ou si tu trouves un coin qui te plaît, différentes commandes existent :"
+				""
+				"- &4&n/sethome + nom :&r&r te permet de définir un point de téléportation"
+				"- &4&n/delhome + nom :&r&r te permet de supprimer un home"
+				"- &4&n/listhomes :&r&r permet de lister tes homes."
+				"- &4&n/home + nom :&r&r permet de te téléporter à la destination du dit home"
+				""
+				"&n&4Astuce&r :&r l'&2Ender lead&r que je vous offre permet de capturer une entité en faisant clic gauche dessus. Faites un clic droit sur un bloc pour la relâcher."
+			]
+			icon: "blue_skies:everdawn_portal"
+			id: "4C85B1EFC1349D0A"
+			rewards: [{
+				id: "1576480D90F00642"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F6F04583A7FA05"
+				title: "Coop ?"
+				type: "checkmark"
+			}]
+			title: "R(A)TP et home"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"&l&2FTB Team&r vous permettra de &3claim et chunk loader&r vos bases."
+				""
+				"Dans l'inventaire, tout en haut à gauche, cliquez sur &2My Team&r. Créez votre team, puis configurez la, via les &2Settings&r, pour pouvoir permettre l'interaction avec les blocs en publique. Cela permettra aux personnes d'utiliser les &4waystones&r."
+				""
+				"Si vous êtes joueurs, vous pouvez activer en publique le \"&2Block Edit Mode&r\" et le \"&2Entity Interact Mode&r\", mais attention aux pranks ;)"
+			]
+			icon: "artifacts:power_glove"
+			id: "2D6EE4C17B11BA8E"
+			rewards: [{
+				id: "5AB1B658AE285B27"
+				item: {
+					Count: 1
+					id: "minecraft:ladder"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Ape strong to...Ladder ?\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "694C378B9CA39CC2"
+				title: "FTB Team"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Les &2&lWaystones&r&r sont un bloc qui vous permet de vous téléporter d'une &4&lwaystone&r&r à une autre. De même avec les &4&lsharestones&r&r. Les &4&lwaystones&r&r et &l&4sharestones&r&r &ncolorés&r interagissent entre celles de même couleur."
+				""
+				"Sur ce modpack, ce moyen de téléportation arrive vers le &2milieu de jeu&r, mais pas d'inquiétudes, si vous souhaitez visiter les bases des autres joueurs, je vous offre une &4sharestone&r à chacun ! Vous pourrez ainsi vous organiser un petit &2world tour&r si vous le souhaitez, à partir du moment où la personne a posé sa &4Sharestone&r."
+			]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03EE5F5F01D746A8"
+			rewards: [{
+				id: "1730F859807ED97D"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			subtitle: "Un moyen de se téléporter"
+			tasks: [{
+				id: "692D2EF7840B97E9"
+				type: "checkmark"
+			}]
+			title: "Waystone et Sharestone"
+			x: -2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"&l&2JEI&r est le mod qui vous permet de voir tout les crafts sur la droite de votre inventaire. En passant votre souris sur l'item :"
+				""
+				"- appuyez sur &l&4R&r ou &l&4clic gauche&r pour voir la &2recette&r de l'objet si il y a."
+				"- appuyez sur &l&4U&r ou &l&4clic droit&r pour voir l'&2utilisation&r de l'objet si il y a."
+				"- appuyez sur &l&4A&r pour placer l'objet en &2bookmark&r sur la gauche de votre inventaire. Vous pouvez d'ailleurs faire un &2glissé-déposé&r sur vos items bookmarkés pour les ordonner."
+				""
+				"Lorsque vous souhaiterez voir comment se craft un objet, vous remarquerez qu'il y a des &2onglets&r en haut de l'interface. Chaque onglet correspond à une table de craft, un four, ou plus globalement, à une machine différente. Parfois, un objet se craft ou s'obtient plus facilement via une autre machine."
+				""
+				"Egalement, vous pourrez constater que des objets \"&4clignottent&r\" dans l'interface de craft. C'est normal, cela veut dire que l'item que vous désirez crafter peut se réaliser de plusieurs façons."
+				""
+				"Si vous vous sentez perdu : "
+				""
+				"- Lorsque vous regarder un objet dans votre inventaire, il possède un nom, une description, et en bas de l'interface : le &2nom du mod&r."
+				"- Dans la barre de recherche de JEI, vous pouvez taper : &4@NomDuMod&r. Cela vous montrera tout les objets liés à ce mod. Par exemple : @Minecraft vous montrera tous les objets Vanilla."
+			]
+			icon: "pipez:filter_destination_tool"
+			id: "05FD702600B8C791"
+			rewards: [{
+				id: "61B13C72093831C7"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D6E8246FBF68D39"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Il s'agit de notre &4&nsecond&r modpack ! N'hésitez pas à nous faire des  retours !"
+				""
+				""
+				"Ce modpack est un pack à &4progression fermée&r, vous serez donc, en partie, contraint de suivre un certain ordre de progression, si votre but est de finir le modpack. Il n'existe cependant pas de limite à votre imagination, si vous souhaitez juste créer la plus belle maison, ou faire de l'exploration, alors vous pouvez : vos objectifs sont votre fun. "
+				""
+				"Egalement, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure :p N'hésitez pas à consulter ce &2livre de quête&r et &2JEI&r pour vous aider !"
+				""
+				"Egalement, des mises à jour régulières surviendront, n'hésitez donc pas à lire le &4changelog&r et à réaliser une &4sauvegarde&r de votre monde avant chaque mise à jour."
+			]
+			icon: "create:clipboard"
+			id: "6F065F2761125377"
+			rewards: [{
+				id: "2595F944415A4B37"
+				item: "moa_decor_art:gafas_3d"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0401068D4B9F1180"
+				type: "checkmark"
+			}]
+			title: "Type de modpack"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: ["Dehors, le monde sera sans pitié avec vos nerfs ! Vous mourrez.. souvent, mais n'ayez crainte, votre &4cadavre&r vous attendra toujours avec vos items à l'intérieur :) Même si vous tombez dans le &4vide&r !"]
+			icon: "mcwholidays:sitting_skeleton"
+			id: "1672232E77007B5F"
+			rewards: [{
+				id: "561F744C9D9A4390"
+				item: "mcwholidays:gravestone"
+				type: "item"
+			}]
+			subtitle: "N'ayez plus peur de mourir"
+			tasks: [{
+				id: "0D3D340F61A58668"
+				title: "Aventure"
+				type: "checkmark"
+			}]
+			title: "No Mercy !"
+			x: -0.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: ["&l&2Simple Voice Chat&r permet de parler en vocal en jeu ! Appuyez sur la touche &l&4V&r (par défaut) pour configurer vos setups son."]
+			icon: "moa_decor_art:microfono"
+			id: "06FCED8DD4B1E13D"
+			rewards: [{
+				id: "5C62390E34318793"
+				item: "moa_decor_art:microfono"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CBC161B9B3CF977"
+				title: "Simple Voice Chat"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			description: ["Ces quêtes, indiquées par le petit symbole &4\"I\"&r, sont des quêtes explicatives. Elles sont là pour vous guider sur certaines spécificités du mod, ou si des sections sont en WIP."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "5B10B3822722E441"
+			rewards: [{
+				id: "180AC35472DD2218"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "05736D1F5C587AAE"
+				title: "Quête à engrenage"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -2.625d
+		}
+		{
+			dependencies: [
+				"5071C07F4B71FB31"
+				"68C46241A23C03D9"
+				"0A494C9B538D82F4"
+				"10D11C9AF21F216A"
+				"4BAE8105E427FBF1"
+				"300C409F8D74BDA2"
+				"2B9069629B5A6ABA"
+				"5DE3BC5FD22C52AC"
+				"6A0E7A7CE252E086"
+				"00DEA1892E788E39"
+				"03EE5F5F01D746A8"
+				"5B10B3822722E441"
+				"410C1DAACB4C2E64"
+				"0870E6F2F5C3759D"
+				"7E8F5FDC2370D200"
+			]
+			description: [
+				"Vous avez réussi à aller jusque là ! Toute l'équipe, ainsi que les &2GraduProut&r, vous félicite et espère que vous avez passé un agréable moment sur ce modpack. Il s'agissait pour nous de notre &4première expérience&r en tant que &4Créateurs&r, et espérons que vous le recommanderez à vos amis ! "
+				""
+				"A très bientôt, pour un prochain modpack !"
+				""
+				""
+				"&5Creators of Nothing&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "543088258D2EA27A"
+			rewards: [
+				{
+					id: "36F0AFDB40CD295E"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-afkafe"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CA3B47B3D42D492"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-glaedr"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "063A3FE7707FC0D5"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-gradulos"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D5AB62DC79F8436"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-proutegaz"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B06C793A9857C4F"
+					item: {
+						Count: 1
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-robina"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Ton Éternel Récompense ..."
+			tasks: [{
+				id: "2B379714D60501FC"
+				title: "Merci !"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Ce type de quête n'apparaît que lorsque vous complétez un chapitre. Une petite récompense vous y attend !"
+				""
+				"Si vous complétez tout les chapitres, alors une &4ULTIME&r récompense vous attendra dans ce chapitre !"
+			]
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "0870E6F2F5C3759D"
+			rewards: [{
+				id: "0A280EE026A79936"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "62E68DE15A2F3827"
+				title: "Complétions"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -2.625d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Si vous débutez, vous risquez de vous sentir perdu en ce qui concerne les contrôles du jeu. N'ayez crainte, elles sont personnalisables dans l'onglet \"&4Contrôles&r\", dans vos options. Lorsque vous êtes dans cet onglet, vous pouvez cliquer sur la touche que vous souhaitez changer, et soit changer la touche en appuyant dessus, soit en appuyant sur la touche &4Echap&r pour enlever la touche. Je vous conseille de n'utiliser que ces contrôles importants. En voici une liste non-exhaustive :"
+				""
+				"- &4Movement&r"
+				"- &4Gameplay&r -> &2Attack / Destroy&r, &2Pick Block&r, et &2Use Item / Place Block&r"
+				"- &4Inventairy&r"
+				"- &4Multiplayer&r -> &2List Player&r, et &2Open Chat&r"
+				"- &4Miscellaneous&r -> &2Advancement&r, &2Take ScreenShot&r, &2FullScreen&r, et &2Perspective&r"
+				"- &4FTB Quests&r -> vous permet d'ouvrir ce livre de quête avec une touche"
+				"- &4FTB Ultimine&r -> permet de miner jusqu'à 64 blocs identiques dans un certain rayon autour de vous. Il faut pour cela rester appuyer sur la touche pendant que vous cassez le bloc que vous visez. Pratique pour casser un arbre d'un coup !"
+				"- &4JEI (Hovering with Mouse)&r -> il s'agit de l'overlay qui se trouve à votre droite lorsque vous êtes dans un inventaire. En plaçant la souris sur un objet, la &2touche R&r vous permet de montrer sa recette, et la &2touche U&r, son utilisation dans un craft. La &2touche A&r, quant à elle, permet de le mettre dans un &2Bookmark&r, sur votre gauche. Pour l'enlever, réappuyez sur &2A&r en le visant avec la souris."
+				"- &4Jade&r -> c'est le petit carré qui affiche le nom de ce que vous regardez dans un cadre. Il est personnalisable grâce à la touche \"&2Open Config&r\""
+				"- &4JourneyMap&r -> c'est la minimap. Ne gardez que le fait de &2créer des Waypoints&r et de &2montrer la map entière&r. Les &2Waypoints&r sont des balises qui vous permettent de ne plus vous perdre !"
+				"- &4More Overlays Update&r -> La &2touche F7&r permet de voir l'endroit où les monstres spawnent : une croix jaune au sol indique qu'ils spawneront de nuit, une croix rouge, qu'il y a un risque imminent de spawn. La &2touche F9&r permet de voir la bordure des chunks : pratique si vous souhaitez placer vos machines dans un seul et même chunk."
+				"- &4Sophisticated Backpacks&r -> quand vous aurez votre sac à dos, vous pourrez l'ouvrir en une seule touche et trier son inventaire grâce à la touche \"&2Sort&r\" ! Pareil avec le mod &4Sophisticated Storage&r."
+				"- &4Relics&r -> Juste laisser comme tel, pour pouvoir voir la description de ces objets"
+				"- &4Voice Chat&r -> si vous jouez en multijoueur, il vous permettra de parler en vocal avec les gens proches de vous, ou se situant dans le même groupe de discussion."
+			]
+			icon: "moa_decor_electronics:c_game_boy"
+			id: "410C1DAACB4C2E64"
+			rewards: [{
+				id: "14C8FDD07BD8B24C"
+				item: "moa_decor_electronics:c_playstation_1"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Quelques conseils"
+			tasks: [{
+				id: "117EF463D79A80DE"
+				title: "Les contrôles"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["410C1DAACB4C2E64"]
+			description: [
+				"Voici une liste non-exhaustive d'options un peu plus avancées. Elles sont liées à des mods précis, donc ne vous y intéressez que lorsque vous attaquerez le mod en question :"
+				""
+				"- &4Ars Nouveau&r -> &2Open Book&r et &2ToggleSection HUD&r sont vraiment utiles. Le premier permet d'ouvrir le livre du mod, et le second d'avoir un menu d'accès rapide des sorts que vous aurez préparés."
+				"- &4Building Gadget&r -> &2Setting Menu&r permet d'interragir avec les outils"
+				"- &4Create&r -> garder la touche &2Ponder&r active, elle vous donnera un tuto sur le fonctionne du mod."
+				"- &4Draconic Evolution&r -> &2Place Item&r permet de poser un objet au sol, comme si il se trouvait dans un &2item frame&r. &2Advanced Dislocator GUI&r est une touche qui permet un accès rapide aux points de téléportation de l'&2Advanced Dislocator&r. &2Tool Config&r permet de configurer les outils pour leur donner les effets souhaités. &2Tool Modules&r permet d'ajouter des modules aux outils et ainsi, leur procurer de nouveaux effets."
+				"- &4Simple Magnet&r -> Permet d'activer ou de désactiver le Magnet."
+				"- &4Simple Jetpacks 2&r -> Les touches liées au &2Throttle&r permettent d'accélérer ou décélérer la vitesse du &2Jetpack&r. La touche &2Engine&r permet d'activer ou désactiver le &2Jetpack&r. La touche &2GUI&r permet d'ouvrir l'inventaire du &2Jetpack&r. Et enfin, la touche &2Hover&r permet d'activer ou non le vol stationnaire."
+				"- &4Tinker's Construct&r -> Ces deux touches permettent d'activer ou non un effet sur le casque et les jambières."
+			]
+			icon: "moa_decor_electronics:laptop_blanca_codigo"
+			id: "6596B1F4DF0EF81D"
+			rewards: [{
+				id: "1E14A06182F1DC8F"
+				item: "moa_decor_electronics:laptop_gris_codigo"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02EBBB3E82C90153"
+				title: "Options avancées"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Ce pack contient le mod &4&4Spice of Life&r &4: Carrot Edition&r&r. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
+				""
+				"- Il vous faudra 10 nourritures différentes pour gagner un coeur les 100 premiers coeurs (1000 nourritures)"
+				"- Puis il vous faudra 20 nourritures pour gagner 1 coeur."
+				""
+				"Si vous faites &4#yet&r dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
+				""
+				"Vous pouvez manger même si vous n'avez pas faim !"
+			]
+			icon: "minecraft:carrot"
+			id: "180AFD680331A167"
+			rewards: [{
+				id: "474DBD680CDF2503"
+				item: "moa_decor_cookery:barrilmanzana"
+				type: "item"
+			}]
+			tasks: [{
+				id: "444AACC44A999B22"
+				title: "Nourriture"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Durant votre aventure, vous croiserez certains coffres avec des bordures. &4Evitez de les casser !&r Ces coffres sont ouvrables par tous, et contiennent ainsi des loots pour chaque personne qui les ouvrira. &nExemple&r : si j'ouvre un coffre de récompense de fin de donjon, et que j'y récupère tout ce qui s'y trouve, quelqu'un qui passera après moi aura &4son propre loot&r à récupérer !"
+				""
+				"&4&nAstuce&r :&r certains objets augmenteront votre \"&2Luck&r\". Cette statistique augmente votre chance d'obtenir du meilleur butin à chaque ouverture de coffre !"
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:gold_chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "127E2FDCFB0F341B"
+			rewards: [{
+				id: "6E9C98B3844E446A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "spruce"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3803651F5B0D1224"
+				title: "Lootr"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: ["&4KubeJS&r est un mod particulier : il nous permet à nous, créateur de packs, d'ajouter ou de modifier des crafts qui n'existent dans aucun autre mods. Si vous souhaitez voir ces fameux crafts, tapez &4@Kubejs&r dans la barre de recherche de &2JEI&r."]
+			icon: "minecraft:purpur_block"
+			id: "058AD72C782F2135"
+			rewards: [{
+				id: "0E788D8ABA947DB7"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3775D95BDBCF46CD"
+				title: "KubeJS"
+				type: "checkmark"
+			}]
+			x: 1.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Ce mod permet de couper certains sons qui pourraient vous déranger, comme une machine qui ferait beaucoup de bruits par exemple."
+				""
+				"Il suffit pour cela d'appuyer sur le petit écouteur dans votre inventaire, puis de choisir le son qui vous dérange et d'appuyer sur le bouton \"&2Mute&r\"."
+				"{image:kubejs:textures/ftbquests/inventaire.png width:100 height:100 align:center}"
+				"{image:kubejs:textures/ftbquests/sounds.png width:150 height:120 align:center}"
+			]
+			icon: "modularrouters:muffler_upgrade"
+			id: "5EA7E9FDF8CE4BF6"
+			rewards: [{
+				id: "688FFB143E767C5D"
+				item: "supplementaries:speaker_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10E907B286DF394E"
+				title: "Extreme sound muffler"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Ce livre de quête m'a pris &4plusieurs dizaines&r d'heures à réaliser. De nombreuses informations s'y trouvent. Egalement, certains mods ont réalisé leur propre livre d'explication (cependant, ils sont en anglais pour la plupart)."
+				""
+				"N'hésitez pas à jeter un oeil aux différentes quêtes. La &4curiosité&r sera votre meilleure arme pour venir à bout de ce modpack. Certaines quêtes étant longuement expliquée, pensez à &n&2scroll vers le bas&r&r lorsque vous en lisez une."
+				""
+				"Je vous offre un livre qui contient tout les livres que les moddeurs ont créé pour leur mod. Vous pouvez faire un clic droit puis sélectionner un des livres pour le lire en faisant un clic droit. Un clic gauche, et vous récupérerez l'&4Eccentric Tome&r."
+				""
+				"Si vous souhaitez y ajouter le &4livre de quête&r, vous devez placer l'&4Eccentric Tome&r et le livre de quête dans une table de craft."
+			]
+			icon: "ftbquests:book"
+			id: "6C6C0B4C59199C92"
+			tasks: [{
+				id: "2D119ED33C71EEB3"
+				title: "FTB Quest"
+				type: "checkmark"
+			}]
+			x: -1.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Les &4Curios&r sont un complétement à l'inventaire de base de Minecraft. On y accède en appuyant sur le petit bouton en haut à gauche du personnage, dans votre inventaire. Pour pourrez ainsi y placer des &2colliers&r, des &2anneaux&r, votre &2jetpack&r, votre &2sac à dos&r, sans que cela n'empiète sur vos emplacements d'armure. "
+				""
+				"&n&4Petite subtilité&r :&r vous remarquerez que parmi tous les emplacements de &4Curios&r (= Neckless, Jetpack, Back, Rings, etc ...), il existe &2deux emplacements nommés Curio&r. Ce sont des emplacements &2Joker&r, qui peuvent accueillir n'importe quel item qui peut se placer dans les autres emplacements. Par exemple, vous pouvez y placer deux sacs à dos ici, et un sac à dos dans l'emplacement &2Back&r. Cependant, dans le cas du sac à dos, si vous utilisez une touche de raccourci pour l'ouvrir, il ne pourra en ouvrir qu'un des trois, et ce sera toujours le même."
+				""
+				"&n&4Attention&r :&r si ces items possèdent une interface (= un &2GUI&r), il faudra soit le sortir de vos &4Curios&r, et faire un clic droit avec l'item en main, ou bien utiliser une touche de raccourci (voir vos options)."
+				"{image:kubejs:textures/ftbquests/curios.png width:150 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "relics:reflection_necklace"
+				tag: {
+					abilities: {
+						explode: {
+							points: 0
+							stats: {
+								capacity: 47.83933d
+								damage: 0.26848d
+								stun: 0.23566d
+							}
+						}
+					}
+				}
+			}
+			id: "382D15E426CEFBD6"
+			rewards: [{
+				id: "096FE56EDFB220E7"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C425E66C4AE83BB"
+				title: "Curios"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Pour les personnes qui voudraient pimenter leur partie, je vous proposer de porter dans vos Curios cet anneau. &4&n&lATTENTION&r&r&r : il ne sera pas possible de le retirer avant un moment, et le pack ne vous oblige &l&4ABSOLUMENT PAS&r&r à jouer avec."
+				""
+				"Cet anneau vous donnera &27 pouvoirs bénéfiques&r ... En échange de             &m&27 malédictions&r&r."
+				""
+				"Voici les &2bénédictions&r :"
+				"- +1 lvl de Looting en permanance"
+				"- +1 lvl de Fortune en permanance"
+				"- +400% d'xp gagné"
+				"- +10 lvl d'enchantement sur la table d'enchantement -> vous créerez des outils et livres enchantés plus puissant que les autres"
+				"- Des créatures auront des drops uniques"
+				"- Vous aurez accès à votre Ender Chest en permanance via votre inventaire, comme si vous portiez le Ring of Ender"
+				"- Vous pourrez créer et utiliser des reliques uniques et très puissantes"
+				""
+				"Quand aux &2malédictions&r :"
+				"- Vous recevez le double de dommage, peu importe son type"
+				"- Les créatures neutres comme les pigmens sont désormais aggressifs"
+				"- L'armure est 30% moins efficace sur vous"
+				"- Les monstres reçoivent deux fois moins de dommage de votre part"
+				"- Si vous êtes en feu, vous le restez définitivement. L'eau vous éteint quand même."
+				"- A chaque fois que vous mourez, vous laisserez un cristal d'âme sur votre emplacement de mort. Chaque mort réduira votre santé max de 10%, jusqu'à ce que vous récupériez le cristal. Pour vous aidez, vous pouvez craft le &4Wayfinder of the Damned&r."
+				"- Vous souffrez d'insomnie incurable : vous ne pouvez plus passer la nuit, mais vous pouvez quand même set votre spawn dans un lit"
+				""
+				"Pour pouvoir &4retirer&r l'anneau, vous devrez accomplir un petit rituel indiquer sur la &2Unholy Stone&r : il faudra se rendre dans le &4Nether&r, sauter au centre d'un très grand lac de lave avec son inventaire rempli de &2Stone&r. L'anneau se brisera à &4jamais&r, et vous perdrez &4définitivement&r 10% de votre vie."
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "6123D6A33DB71BE7"
+			rewards: [{
+				id: "565FD1899D518771"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			subtitle: "Tenterez-vous l'expérience ?"
+			tasks: [{
+				id: "0A2FBED25EDA11E3"
+				title: "Trop facile ?"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.75d
+		}
+	]
+	title: "Bienvenue ! :D"
+}

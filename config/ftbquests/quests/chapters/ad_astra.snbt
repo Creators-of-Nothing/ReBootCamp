@@ -1,0 +1,1011 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "5583654A1516B98A"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "14BE97A823F2C66D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["058506E399D6C52E"]
+			description: ["Un monde &2gelé&r, mais où l'&2oxygène&r est présent ! C'est la dernière &2planète&r que vous visiterez !"]
+			icon: "ad_astra:glacio_globe"
+			id: "051F9E9A009B4296"
+			rewards: [{
+				id: "7834837D7EFE3941"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "1AAFFC188EF9F500"
+				type: "dimension"
+			}]
+			title: "Vers l'infini et Glacio !"
+			x: 0.0d
+			y: -27.25d
+		}
+		{
+			dependencies: ["3C0013592F00CA68"]
+			description: ["&2Mars&r ! Une planète où il ne fait toujours pas bon vivre .. Mais au moins, vous trouverez un nouveau &2minerais&r : l'&4Ostrum&r !"]
+			icon: "ad_astra:mars_globe"
+			id: "047774AF3932F4E8"
+			rewards: [{
+				id: "2F3C2AEE61327636"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "6B0249C30540DDE8"
+				type: "dimension"
+			}]
+			title: "Direction Mars !"
+			x: 0.0d
+			y: -17.75d
+		}
+		{
+			dependencies: ["785F0A8EBABDFBC8"]
+			description: ["Il n'y a rien à y faire, il y fait trop chaud, et il n'y a même pas les &2minerais&r d'&4Ad Astra&r, mais au moins, vous voyez du pays :p"]
+			icon: "ad_astra:mercury_globe"
+			id: "1CA1B50D10DF6720"
+			rewards: [{
+				id: "30396F9D3EC754F0"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "45D7F80ED5584076"
+				type: "dimension"
+			}]
+			title: "Visite chaude de Mercure"
+			x: -2.0d
+			y: -21.75d
+		}
+		{
+			dependencies: ["08C4141FE31F3BFD"]
+			description: ["Vous voici sur la &2Lune&r ! Il n'y a pas grand chose, mais vous y trouverez deux nouveaux &2minerais&r : du &4Desh&r et du ... &4Fromage&r ?"]
+			icon: "ad_astra:moon_globe"
+			id: "5C8E3190284F8920"
+			rewards: [{
+				id: "1DFB9C6E75E61258"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "41C8107284300319"
+				type: "dimension"
+			}]
+			title: "Se rendre sur la Lune"
+			x: 0.0d
+			y: -12.25d
+		}
+		{
+			dependencies: ["785F0A8EBABDFBC8"]
+			description: ["&2Vénus&r, une planète hostile, &2chaude&r, et où les &2pluies acides&r sont fréquentes ! Il faudra bien s'y préparer !"]
+			icon: "ad_astra:venus_globe"
+			id: "5D7DB8EC21C44C9C"
+			rewards: [{
+				id: "3068EE15F34386C5"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "3DB2D051FE5AFC64"
+				type: "dimension"
+			}]
+			title: "Vers l'Etoile du Berger"
+			x: 0.0d
+			y: -22.25d
+		}
+		{
+			description: [
+				"&4Ad Astra&r est un mod d'&2exploration spatiale&r. Ici, vous devrez construire une &4fusée&r pour vous rendre sur divers &2planètes&r / &2satellites&r, récupérer des ressources, construire une &4fusée&r plus grosse, recommencer pour aller &2plus loin&r !"
+				""
+				"Vous pourrez y établir une &2base&r, et même créer votre propre &2station spatiale&r ! Par ailleurs, il existe de très nombreux blocs de ce mod qui sont purement &2décoratif&r, n'hésitez pas à y jeter un oeil, surtout si vous souhaitez créer une &2base moderne&r."
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "11D1A53A933CCD77"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Bisou je m'envole"
+			tasks: [{
+				id: "136E9509A968D659"
+				title: "Ad Astra"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5792D35AC6EDEC0C"]
+			description: ["Il s'agit d'un &4pas de tir&r. Vous pourrez y poser votre &4fusée&r lorsqu'elle sera construite."]
+			id: "180AB19375B51858"
+			tasks: [{
+				id: "0640A94D5F0637FF"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"180AB19375B51858"
+				"79A0F8597F9B3A60"
+				"38D7BD3465B64745"
+			]
+			description: [
+				"Votre &2première&r &4fusée&r : elle vous permettra de vous rendre sur la &2Lune&r ou de créer une &2station spatiale&r en orbite de la &2Terre&r ou de la &2Lune&r."
+				""
+				"&n&4Attention&r&r : il n'y a pas d'&2oxygène&r sur la &2Lune&r et ni sur la &2station spatiale&r de base. Prévoyez de l'&2oxygène&r et une &4Waystone&r pour rentrer rapidement sur &2Terre&r."
+			]
+			id: "08C4141FE31F3BFD"
+			tasks: [{
+				id: "43AF6EB47174A096"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6DB012E0BFD17F6E"]
+			description: [
+				"Votre &2seconde&r &4fusée&r : elle vous permettra de vous rendre sur &2Mars&r ou de créer une &2station spatiale&r en orbite de &2Mars&r."
+				""
+				"&n&4Attention&r&r : il n'y a pas d'&2oxygène&r sur &2Mars&r, ni sur la &2station spatiale&r de base. Prévoyez de l'&2oxygène&r et une &4Waystone&r pour rentrer rapidement sur &2Terre&r."
+			]
+			id: "3C0013592F00CA68"
+			tasks: [{
+				id: "051946D771922A27"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["53E07AD9958EAFB2"]
+			description: [
+				"Votre &2troisième&r &4fusée&r : elle vous permettra de vous rendre sur la &2Vénus&r et &2Mercure&r ou de créer une &2station spatiale&r en orbite de ces dernières."
+				""
+				"&n&4Attention&r&r : il n'y a pas d'&2oxygène&r sur ces deux &2planètes&r, ni sur la &2station spatiale&r de base. Prévoyez de l'&2oxygène&r et une &4Waystone&r pour rentrer rapidement sur &2Terre&r."
+			]
+			id: "785F0A8EBABDFBC8"
+			tasks: [{
+				id: "0BD2BA3A4665B62A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -20.75d
+		}
+		{
+			dependencies: ["2FB6AF36D90143E5"]
+			description: [
+				"Votre &2quatrième&r et &2dernière&r &4fusée&r : elle vous permettra de vous rendre sur &2Glacio&r ou de créer une &2station spatiale&r en orbite de &2Glacio&r."
+				""
+				"&n&4Attention&r&r : il n'y a pas d'&2oxygène&r sur la &2station spatiale&r de base. Prévoyez de l'&2oxygène&r et une &4Waystone&r pour rentrer rapidement sur &2Terre&r. Cependant, il y a de l'&2oxygène&r sur &2Glacio&r !"
+			]
+			id: "058506E399D6C52E"
+			subtitle: "Ca c'est ma fusée !"
+			tasks: [{
+				id: "3536624E4C09824C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["22C83A0E4E76DD4D"]
+			description: ["Il vous faudra une &4combinaison complète&r pour &2survivre&r au vide de l'espace, ainsi que pour pouvoir &2respirer&r accessoirement. Seul le &4plastron&r a besoin d'être alimenté en &2oxygène&r."]
+			id: "79A0F8597F9B3A60"
+			tasks: [
+				{
+					id: "1AF84E82765307A3"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "582FA5802638ECB8"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A3A96201103C5F2"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FCF8B04D0E9E5DF"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["22C83A0E4E76DD4D"]
+			description: ["Vous réviez de devenir Wall-E ? Avec ce Zip Gun, c'est désormais chose faite ! Alimenté par de l'oxygène, vous vous élancerez vers l'avant à chaque fois que vous l'utilisez (= clic droit). Vous pouvez en utilisez deux en même temps en mettant le second dans votre seconde main pour aller plus loin."]
+			id: "56974CFFD471F921"
+			rewards: [{
+				id: "22159258BA232A2F"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Wheeeeeee !!"
+			tasks: [{
+				id: "6E0A76520B7CDBE2"
+				item: {
+					Count: 1
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["42F0180A1BEC9911"]
+			description: ["Il s'agit d'une &4batterie portative&r qui distribuera l'&2énergie&r à votre    &2inventaire&r / &2armure&r / &2Curios&r si activée. Pour se faire, il faut faire un &2clic droit&r avec."]
+			id: "77586AC012C34F5B"
+			rewards: [{
+				id: "3FD25F16258F92EC"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "523307EE05E4F09C"
+				item: {
+					Count: 1
+					id: "ad_astra:etrionic_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["79A0F8597F9B3A60"]
+			description: ["Cette &4bouteille d'oxygène&r permet de délivrer de l'&2oxygène en continu&r à votre combinaison. L'avantage étant qu'elle se place dans vos &2Curios slots&r."]
+			id: "145746A2FCA7DEAF"
+			rewards: [{
+				id: "7409D5AE0B0D1647"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FFD941BA396B317"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						oxygencharger: {
+							chargemode: "ad_astra_giselle_addon:none"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["11D1A53A933CCD77"]
+			description: ["Permet de &2charger&r un item en &2énergie&r. Pour l'utiliser, il faut faire un &2clic droit&r dessus avec l'item que l'on souhaite &2charger&r."]
+			id: "42F0180A1BEC9911"
+			tasks: [{
+				id: "48BD903EE48D489B"
+				item: {
+					Count: 1
+					id: "ad_astra:energizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A74A279D6827358"]
+			description: ["Permet d'&2alimenter&r en &4fuel&r les &4fusées&r et &4Rovers&r proches."]
+			id: "38D7BD3465B64745"
+			tasks: [{
+				id: "6FC2478A6221A15D"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["11D1A53A933CCD77"]
+			description: [
+				"Cette télécommande vous indique, dans l'ordre :"
+				""
+				"- l'heure"
+				"- si l'atmosphère est respirable ou non"
+				"- la température"
+				"- et l'intensité de la pesanteur"
+			]
+			id: "4804C42B29FF8199"
+			tasks: [{
+				id: "3D1E94FE1FB056C6"
+				item: "ad_astra:ti_69"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19EA7452EDF1B83C"]
+			description: ["Permet de &2pomper&r de l'&4eau&r en utilisant de l'&2énergie&r."]
+			id: "5C10575DCE3B4EEB"
+			rewards: [{
+				id: "3EAAC8794A789F05"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A93E0E33F4C4690"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11D1A53A933CCD77"]
+			description: ["Cette machine permet de créer des &4plaques&r avec juste un peu d'&2énergie&r."]
+			id: "30479B2D3EEFEFA8"
+			tasks: [{
+				id: "5CA80212F1300485"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79A0F8597F9B3A60"]
+			description: [
+				"Il s'agit d'une &4bouteille d'oxygène&r. Il faut l'utiliser en faisant un &2clic droit&r pour délivrer l'&2oxygène&r à votre &4combinaison&r."
+				""
+				"&n&4Attention&r&r : vous pouvez &2vider&r votre &4bouteille&r même lorsque la &4combinaison&r est pleine."
+			]
+			id: "1BCCE6CCFC3952C0"
+			tasks: [{
+				id: "43C7C184EB25F2F7"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.25d
+		}
+		{
+			dependencies: ["1BCCE6CCFC3952C0"]
+			description: [
+				"Il s'agit d'une grosse &4bouteille d'oxygène&r. Il faut l'utiliser en faisant un &2clic droit&r pour délivrer l'&2oxygène&r à votre &4combinaison&r."
+				""
+				"&n&4Attention&r&r : vous pouvez &2vider&r votre &4bouteille&r même lorsque la &4combinaison&r est pleine."
+			]
+			id: "60522DEED30AE0F4"
+			tasks: [{
+				id: "70B4431F33B5B135"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["19EA7452EDF1B83C"]
+			description: ["Il s'agit d'une simple &4table de craft&r qui vous permettra d'&2assembler&r les &2différentes parties&r de votre &4fusée&r."]
+			id: "5792D35AC6EDEC0C"
+			tasks: [{
+				id: "4B5C6403F4CB6E43"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["1EAE50A8F8FB0AA6"]
+			description: ["Permet de &2transformer&r l'&4Oil&r en &4Fuel&r pour vos &4fusées&r et &4Rovers&r."]
+			id: "0A74A279D6827358"
+			tasks: [{
+				id: "50036C18C30F32E9"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5C10575DCE3B4EEB"]
+			description: ["Permet de &2convertir&r l'&4eau&r en &4oxygène&r, permettant ainsi de remplir votre &4combinaison&r, ainsi que vos &4bouteilles d'oxygène&r."]
+			id: "22C83A0E4E76DD4D"
+			tasks: [{
+				id: "3711F2E14EAF6415"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30479B2D3EEFEFA8"]
+			description: ["Cette machine vous permettra de créer vos &4Steel Ingots&r."]
+			id: "19EA7452EDF1B83C"
+			tasks: [{
+				id: "31684ADBBE88283C"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19EA7452EDF1B83C"]
+			description: ["L'&4Oil&r se trouve généralement dans les &2océans&r sous forme de grandes fontaines. Vous pouvez utiliser l'&4Explorer Compass&r pour en trouver facilement. Cherchez : &2Oil Well&r."]
+			id: "1EAE50A8F8FB0AA6"
+			rewards: [{
+				id: "00D88B41916AEB9B"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AEE2D4CB3F65BFB"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A74A279D6827358"]
+			description: ["C'est du &2carburant&r pour votre &4fusée&r et votre &4Rover&r."]
+			id: "5DA920C5956D8C55"
+			rewards: [{
+				id: "54E2D39A8187F275"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38BDE70351A65C8F"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C8E3190284F8920"]
+			description: ["Oui, il y a du &4fromage&r sur la Lune !"]
+			id: "4C80C425B0A5FEE0"
+			rewards: [{
+				id: "423F325044D6E779"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			subtitle: "Wallace et Gromit avaient raison !"
+			tasks: [{
+				id: "520AC47DD2B4F964"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5C8E3190284F8920"]
+			description: ["Un &2minerais&r trouvable dans le sous-sol de la &2Lune&r, ou bien dans les différentes &2structures&r que vous pourrez visiter."]
+			id: "6DB012E0BFD17F6E"
+			rewards: [{
+				id: "687BEEC4DBB3B6B3"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F35D62C3D3477F6"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6DB012E0BFD17F6E"]
+			description: [
+				"Un &4Rover&r pour vous balader !"
+				""
+				"&n&l&4MESSAGE POUR LES STREAMERS : "
+				""
+				"&4&n&lN'ALLUMEZ PAS LA RADIO !&r Il s'agit de web-radio du monde réel, donc avec des &2musiques copyrightées&r ! Idem pour la &4Radio&r qui sert pour le craft."
+			]
+			id: "2370C2243EDC9D29"
+			rewards: [{
+				id: "2DDBDC0645467867"
+				item: "ad_astra:purple_flag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5352BAA2865DDFA2"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6DB012E0BFD17F6E"]
+			description: [
+				"L'&4Oxygen Distributor&r permet, lorsqu'on lui fourni de l'&2énergie&r et de l'&2eau&r, de distribuer de l'&2oxygène&r dans une zone. Utile dans une &2station spatiale&r !"
+				""
+				"Le &4Gravity Normalizer&r permet d'imposer la &2gravité&r souhaitée dans une zone, en échange d'&2énergie&r. Plus la &2gravité&r est &2faible&r, et plus vous aurez une &2gravité&r lunaire. Plus elle est &2forte&r, et plus vous serez cloué au sol."
+			]
+			id: "018D352298ED4DCB"
+			rewards: [{
+				id: "250AF89B8B068015"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3611DE8AB12919A8"
+					item: "ad_astra:oxygen_distributor"
+					type: "item"
+				}
+				{
+					id: "2A5AA4987BCC9B2E"
+					item: "ad_astra:gravity_normalizer"
+					type: "item"
+				}
+			]
+			title: "Base spatiale"
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["047774AF3932F4E8"]
+			description: ["Un &2minerais&r trouvable dans le sous-sol de &2Mars&r, ou bien dans les différentes &2structures&r que vous pourrez visiter."]
+			id: "53E07AD9958EAFB2"
+			rewards: [{
+				id: "2CA16B8DC6A05B2C"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10F548878719D2E3"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.25d
+		}
+		{
+			dependencies: ["53E07AD9958EAFB2"]
+			description: ["Cette machine sert à créer du &2carburant&r à partir de &4Glace&r ! Fini les pannes d'approvisionnement !"]
+			id: "0AC91231C8B78B0D"
+			rewards: [{
+				id: "1DE03407CFF37A95"
+				item: "minecraft:blue_ice"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "048E914ACFCAB93E"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0AC91231C8B78B0D"]
+			description: ["Du &2carburant&r bien plus facile à créer ! Si placé dans le monde en contact d'&4eau&r, elle se mettra à &2geler&r !"]
+			id: "71FF11D05B53BA31"
+			rewards: [{
+				id: "749270AEB0A60156"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D5DF3154DB1F09"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -20.25d
+		}
+		{
+			dependencies: ["5D7DB8EC21C44C9C"]
+			description: ["Un &2minerais&r trouvable dans le sous-sol de &2Vénus&r, ou bien dans les différentes &2structures&r que vous pourrez visiter."]
+			id: "2FB6AF36D90143E5"
+			rewards: [{
+				id: "4E5304C5B4778042"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "278849DBB91CDDE4"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -23.75d
+		}
+		{
+			dependencies: ["79A0F8597F9B3A60"]
+			description: [
+				"Ces livres sont &2craftables&r."
+				""
+				"&4Space Breathing&r permet, lorsqu'appliqué sur un &4casque&r, d'utiliser les &4bouteilles à oxygène&r avec n'importe quel &4casque&r."
+				""
+				"&4Gravity Normalizing&r permet, lorsqu'appliqué sur une &4paire de bottes&r, d'avoir la gravité de l'&2Overworld&r."
+				""
+				"&2Contrairement&r à ce qui est indiqué, nous avons retiré le fait que cela vous coûte de la &2durabilité&r ou de l'&2énergie&r à l'utilisation."
+			]
+			id: "422E2510CB80CBA9"
+			rewards: [
+				{
+					id: "50C6B60CF28BE430"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78172B817FA04CA3"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D4C6ED6454C5EAA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ad_astra_giselle_addon:space_breathing"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E04AE27C640C2CA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ad_astra_giselle_addon:gravity_normalizing"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Des livres enchantés ?"
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["53E07AD9958EAFB2"]
+			id: "278B3B2238052A55"
+			tasks: [
+				{
+					id: "2FFFC83DBB138DAB"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2162B6AE35BF014D"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20BCA2A93FAE2316"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E8291EA6FA64310"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: -19.5d
+		}
+		{
+			dependencies: ["278B3B2238052A55"]
+			id: "02ADF7E18D10942A"
+			rewards: [{
+				id: "368A00DA98FD0C99"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:netherite_oxygen_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "130C05407C2669C0"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:netherite_oxygen_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -20.25d
+		}
+		{
+			dependencies: ["278B3B2238052A55"]
+			description: [
+				"Ce livre est &2craftable&r."
+				""
+				"&4Space Fire Proof&r permet, lorsqu'appliqué sur un &4plastron&r, d'éviter que vous preniez feu sur les &2planètes chaudes&r (= Vénus et Mercure)."
+				""
+				"&2Contrairement&r à ce qui est indiqué, nous avons retiré le fait que cela vous coûte de la &2durabilité&r ou de l'&2énergie&r à l'utilisation."
+			]
+			id: "1BAC75F26E0BF574"
+			rewards: [{
+				id: "41A60697E99C59C4"
+				item: {
+					Count: 1
+					id: "minecraft:golden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "709A40562050A1A3"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_fire_proof"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Space Fire Proof"
+			x: -3.5d
+			y: -18.75d
+		}
+		{
+			dependencies: ["2FB6AF36D90143E5"]
+			id: "27CEB6ECA4F3BA11"
+			tasks: [
+				{
+					id: "6E00CA2313FE888F"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E982BFAAC886ECD"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "579BE44B91EFFF13"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "258F2AE56AFCAE41"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -24.25d
+		}
+		{
+			dependencies: ["27CEB6ECA4F3BA11"]
+			description: [
+				"Ce livre est &2craftable&r."
+				""
+				"&4Acid Rain Proof&r permet, lorsqu'appliqué sur un &4plastron&r, d'éviter de subir les &2pluies acides&r de &4Vénus&r."
+				""
+				"&2Contrairement&r à ce qui est indiqué, nous avons retiré le fait que cela vous coûte de la &2durabilité&r ou de l'&2énergie&r à l'utilisation."
+			]
+			id: "58C85A2E04279BDA"
+			rewards: [{
+				id: "0B64A28E16B4683C"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37C9D47693EB7C0F"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:acid_rain_proof"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Acid Rain Proof"
+			x: 4.0d
+			y: -25.25d
+		}
+		{
+			dependencies: ["08C4141FE31F3BFD"]
+			id: "06A90390D5C7AC65"
+			tasks: [{
+				id: "4492AD1B560FF7D8"
+				title: "Station Spatiale"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -10.75d
+		}
+	]
+	title: "Ad Astra"
+}

@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "des_tuyaux"
+	group: "0A9A25D57F12D946"
+	icon: "solarflux:sp_custom_solar_panel_13"
+	id: "1201D123F031D064"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["583F594FC6371723"]
+			description: [
+				"&2Generation&r : Combien il génère de RF/tick"
+				"&2Transfert&r : Combien de RF/tick il peut transférer sur les machines"
+				"&2Capacity&r : Sa capacité de stockage interne"
+			]
+			id: "4E01896B52B611FB"
+			rewards: [{
+				id: "5E3167651565A36C"
+				item: "blue_skies:everbright_moonstone_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "15CA8605200E2DEF"
+				item: "solarflux:sp_custom_solar_panel_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E01896B52B611FB"]
+			id: "56041F5AEAF196F7"
+			rewards: [{
+				id: "7C8A0AADF6DA7C80"
+				item: "blue_skies:horizonite_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E26F90A7A451488"
+				item: "solarflux:sp_custom_solar_panel_2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["56041F5AEAF196F7"]
+			id: "6C995B0CD4E4378D"
+			rewards: [{
+				id: "4440FC2B10E3DBC9"
+				item: "blue_skies:falsite_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3348D99A9D5FC8B3"
+				item: "solarflux:sp_custom_solar_panel_3"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6C995B0CD4E4378D"]
+			id: "3131659FF0F92392"
+			rewards: [{
+				id: "6D7218CFEA5C3FA3"
+				item: "create:andesite_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "67157AC8E2017EB2"
+				item: "solarflux:sp_custom_solar_panel_4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3131659FF0F92392"]
+			id: "56A9A3751F147EB6"
+			rewards: [{
+				id: "453FB8887AA97A53"
+				item: "create:brass_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2E942A3C70CEC8"
+				item: "solarflux:sp_custom_solar_panel_5"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["56A9A3751F147EB6"]
+			id: "2FE83FF0AD0FFAF8"
+			rewards: [{
+				id: "2744A6837090AB11"
+				item: "mna:vinteum_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E368F3A0A909C0A"
+				item: "solarflux:sp_custom_solar_panel_6"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2FE83FF0AD0FFAF8"]
+			id: "1F41CE7F9DBDD9A4"
+			rewards: [{
+				id: "27F9FEC9AE3580EC"
+				item: "mna:transmuted_silver"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "20F6B4B9AC023CC8"
+				item: "solarflux:sp_custom_solar_panel_7"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F41CE7F9DBDD9A4"]
+			id: "0916F9DB80405FDC"
+			rewards: [{
+				id: "2FD6D39278FB7315"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F66460D4E0283A2"
+				item: "solarflux:sp_custom_solar_panel_8"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0916F9DB80405FDC"]
+			id: "7CD25971B0695865"
+			rewards: [{
+				id: "1EBD55248763E075"
+				item: "cataclysm:ignitium_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "780947D01480CAC7"
+				item: "solarflux:sp_custom_solar_panel_9"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["7CD25971B0695865"]
+			id: "22F2D5B3A32FBE60"
+			rewards: [{
+				id: "6F15BE84F88E144D"
+				item: "gobber2:gobber2_ore_end"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "722F78BB1493EB8F"
+				item: "solarflux:sp_custom_solar_panel_10"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22F2D5B3A32FBE60"]
+			id: "3547C30489DB4841"
+			rewards: [{
+				id: "69A8C5BA78BF0FAD"
+				item: "powah:crystal_nitro"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D2B997E6AC26689"
+				item: "solarflux:sp_custom_solar_panel_11"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3547C30489DB4841"]
+			id: "0A915EEE7DF91962"
+			rewards: [{
+				id: "097D770DF5122EE4"
+				item: "draconicevolution:large_chaos_frag"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "633DFA347F11C608"
+				item: "solarflux:sp_custom_solar_panel_12"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0A915EEE7DF91962"]
+			id: "01AF3D31846582AF"
+			rewards: [{
+				id: "065FEB32AC2EA7B2"
+				item: "avaritia:neutron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3955AAC654F3B866"
+				item: "solarflux:sp_custom_solar_panel_13"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Ce mod sera une des façons les plus faciles de générer de l'&2énergie&r. Cependant, les premiers tiers de panneau solaire ne sont pas très efficaces. Chaque tier se fera avec le précédent. Vous pourrez &2booster&r ces panneaux solaires avec des &4upgrades&r."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "583F594FC6371723"
+			rewards: [{
+				id: "74BEDADFAC0D1EB9"
+				item: "pipez:energy_pipe"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Energie photovoltaïque"
+			tasks: [{
+				id: "3FE12537C7D3727B"
+				title: "Solar Panel"
+				type: "checkmark"
+			}]
+			title: "Solar Flux Reborn"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["583F594FC6371723"]
+			description: [
+				"Ces &4upgrades&r permettent d'améliorer vos panneaux solaires. Vous pouvez placer dans chaque panneau solaire :"
+				""
+				"- 20 &4Efficiency&r"
+				"- 10 &4Transfert Rate&r"
+				"- 10 &4Capacity&r"
+			]
+			id: "221413EFC46FBB43"
+			rewards: [{
+				id: "2B1D0F63F25C331B"
+				item: "solarflux:blank_upgrade"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 20L
+					id: "7C685186F398D19A"
+					item: { Count: 20, id: "solarflux:efficiency_upgrade" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "48678B1922A1AA62"
+					item: { Count: 10, id: "solarflux:transfer_rate_upgrade" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1E529DA24A21397D"
+					item: { Count: 10, id: "solarflux:capacity_upgrade" }
+					type: "item"
+				}
+			]
+			title: "Upgrades"
+			x: 2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"01AF3D31846582AF"
+				"221413EFC46FBB43"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "797229174D8721F3"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1364B795C6AF7A64"
+				title: "Complétion"
+				type: "checkmark"
+			}]
+			title: "Solar Flux Reborn complété !"
+			x: -6.25d
+			y: 0.0d
+		}
+	]
+	title: "Solar Flux Reborn"
+}

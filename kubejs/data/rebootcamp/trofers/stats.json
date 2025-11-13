@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Stats !",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "minecraft:villager"
+    },
+    "display": {
+        "scale": 0.5
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#4a2207",
+        "base": "#FFFFFF"
+    }
+}

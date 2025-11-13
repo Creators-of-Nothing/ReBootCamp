@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers"
+	group: "1921496FB68D5F69"
+	icon: "embers:atmospheric_gauge"
+	id: "58C82F6AE0906BF9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Embers"
+}

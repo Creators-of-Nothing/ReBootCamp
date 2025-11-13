@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Refined Storage",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "refinedstorage:creative_controller"
+    },
+    "display": {
+        "scale": 1
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#00AAAA",
+        "base": "#FFFFFF"
+    }
+}

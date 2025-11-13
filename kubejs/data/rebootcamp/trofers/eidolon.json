@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Eidolon",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "eidolon:worktable"
+    },
+    "display": {
+        "scale": 1
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AAAAAA",
+        "base": "#FFFFFF"
+    }
+}

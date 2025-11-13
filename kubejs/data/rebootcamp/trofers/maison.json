@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Maisonnée",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "cookingforblockheads:cow_jar"
+    },
+    "display": {
+        "scale": 1.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#000000",
+        "base": "#FFFFFF"
+    }
+}

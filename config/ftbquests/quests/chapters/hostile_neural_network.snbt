@@ -1,0 +1,404 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_network"
+	group: "5583654A1516B98A"
+	icon: {
+		Count: 1
+		id: "hostilenetworks:data_model"
+		tag: {
+			data_model: {
+				id: "hostilenetworks:creeper"
+			}
+		}
+	}
+	id: "3C0F0A9330CF387F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&4Hostile Neural Network&r est un mod qui permet de &2générer&r des ressources à partir des &2créatures&r du jeu, sans avoir besoin qu'elles soient physiquement présentes. Il vous faudra une bonne &2génération de ressources&r de base et surtout d'&2énergie&r pour pouvoir attaquer ce mod."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "6A134ACF344B8641"
+			rewards: [{
+				id: "6DC66E84FF7A5184"
+				item: "minecraft:rotten_flesh"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5C446F4C1A6839EF"
+				title: "Hostil Neural Network"
+				type: "checkmark"
+			}]
+			title: "Hostile Neural Network"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["499568BB5AB3F787"]
+			description: [
+				"Vous avez vaincu ce chapitre,  &2félicitations&r !"
+				""
+				"Si vous avez accompli &4tous les chapitres&r, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre &5Ultime Récompense&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "moa_decor_holidays:regalo_morado"
+			id: "5110A168CA7318B8"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0A3DA10EF7441966"
+				title: "Hostile Neural Network complété !"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["677CDD8C252045E5"]
+			description: [
+				"La &4Simulation Chamber&r est une machine qui va consommer &4BEAUCOUP&r d'&2énergie&r ainsi que des &4Prediction Matrix&r à chaque cycle. Il faudra y placer un &4Model&r de &2Tier Basic minimum&r pour que la machine commence à fonctionner."
+				""
+				"A chaque &2cycle&r, la &4Chamber&r consommera un &4Prediction Matrix&r et génèrera deux types de &4Prediction Matrix&r : "
+				""
+				"- Les &4Generaliseds&r qui sont des items qui vous serviront à crafter des items génériques, comme du fer par exemple. Ils sont générés quoi qu'il arrive"
+				"- Les \"&4Spécifiques&r\" qui sont des items qui serviront dans le &4Loot Fabricator&r et qui génèreront les ressources de la créature d'où vient le &4Model&r. Ils ont une chance d'être créé suivant le &2Tier&r du &4Model&r utilisé"
+				""
+				"Plus le &2Tier&r du &4Model&r est élevé, plus il a de chance de générer des &4Prédictions Spécifiques&r."
+				""
+				"&n&4Remarque&r :&r à chaque cycle, les &2Datas&r (= le nombre de kill de l'entité donnée) s'incrémente de 1. Il n'est donc pas nécessaire de tuer des créatures jusqu'au &2tier Self-Aware&r : le &2Tier Basic&r suffit."
+			]
+			id: "1E00C1C9924243E2"
+			rewards: [
+				{
+					id: "0CFFD225BA633C16"
+					item: "hostilenetworks:overworld_prediction"
+					type: "item"
+				}
+				{
+					id: "2094AF1F91EFF80E"
+					item: {
+						Count: 1
+						id: "hostilenetworks:prediction"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:zombie"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E7A7CAD1702BAA4"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					id: "644E36443F0781B2"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			description: ["Le &4Loot Fabricator&r permet de convertir les &4Predictions Spécifiques&r en loot en échange de &4BEAUCOUP&r d'&2énergie&r. Si une &4Prediction&r possède plusieurs loots possibles, comme celui du &2Creeper&r qui peut looter sa &4tête&r ou de la &4Gunpowder&r, alors il faudra faire un &2choix&r dans le &4Fabricator&r. Ce dernier &2retient&r le choix que vous aurez sélectionné."]
+			id: "499568BB5AB3F787"
+			rewards: [{
+				count: 16
+				id: "5405A146A0A26AAC"
+				item: "minecraft:porkchop"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "478704DF78EFBDB7"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A134ACF344B8641"]
+			description: [
+				"Le &4Model Framework&r est un &2programme informatique&r qu'il faudra &2entrainer&r pour lui permettre de &2générer des ressources&r. Mais avant ça, il faudra lui indiquer quelle créature il devra &2imiter&r. Faites un &2clic droit&r sur une créature pour en obtenir le &4Model&r."
+				""
+				"Chaque &4Model&r possède un &2Tier&r, que vous pourrez améliorer grâce au &4Deep Leaner&r."
+				""
+				"Le &4Deep Learner&r est une &2télécommande&r que vous devrez garder sur vous lors que vous souhaiterez améliorer le &2Tier&r de votre &4Model&r. Il suffit de faire un &2clic droit&r avec le Learner pour en ouvrir l'interface et d'y glisser jusqu'à &44 Models&r à la fois, et de ... &4Tuer&r les entités désignées. Il existe jusqu'à &25 Tiers&r possibles, ainsi qu'une autre façon de les améliorer que je détaille dans la quête suivante. Mais avant cela, vous devrez faire passer votre &4Model&r du &2Tier Faulty&r au &2Tier Basic&r."
+				""
+				"&n&4Remarque&r :&r certains &4Models&r acceptent différentes créatures appartenant à la &2même&r &2famille&r : par exemple, les &4Pig Models&r acceptent aussi les Boars lorsque vous les tuer. Cela est indiqué dans le &4Learner&r ou en appuyant sur la touche &2Shift&r lorsque vous passez la souris dessus, dans votre inventaire. Il est écrit : &4Variants : Boar&r."
+			]
+			id: "677CDD8C252045E5"
+			rewards: [{
+				id: "26124A21EFE269E7"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64E5D0A7E538FBA2"
+					item: {
+						Count: 1
+						id: "hostilenetworks:deep_learner"
+						tag: {
+							learner_inv: {
+								Items: [ ]
+								Size: 4
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30E22C1B497ACEFD"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "559842D9E7FDC590"
+			rewards: [
+				{
+					id: "745E86D6BF46A6F3"
+					item: "ars_nouveau:wilden_horn"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "00957751736FAD19"
+					item: "ars_nouveau:wilden_spike"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4290C3A7F07C58BD"
+					item: "ars_nouveau:wilden_wing"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A647864031FFFDC"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ars_nouveau/wilden_mobs"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "78636D142B95D630"
+			rewards: [{
+				id: "763B9AC772768879"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:artifacts/mimic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "390DC716FFE94338"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:artifacts/mimic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "7CF86424AA03231F"
+			rewards: [{
+				id: "4EAB09CD554F22B7"
+				item: "minecraft:sponge"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D497292954C40AC"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:elder_guardian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "073B3E05A478D05E"
+			rewards: [{
+				id: "4D03777347AABF6C"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B9A1BCB566F5641"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "4343716EC4476079"
+			rewards: [{
+				id: "56098FA70BB20245"
+				item: "minecraft:echo_shard"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "631DDDACF8AF03A3"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "06220DA0D308B155"
+			rewards: [{
+				id: "7FFEE3B5712DFE75"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B999B15F9102C98"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "73AD354312C17166"
+			rewards: [{
+				id: "1389AC5385E3F623"
+				item: "minecraft:cobweb"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3AA310851BE50D"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "32395FFEAAE16EBB"
+			rewards: [{
+				id: "05404F5E383985BC"
+				item: "minecraft:ghast_tear"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "409679460C31D20A"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "4957FE3F65DF1414"
+			rewards: [{
+				id: "1A37F04F23481D20"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F89C99B52CD6817"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["1E00C1C9924243E2"]
+			id: "754C7CD957A3D030"
+			tasks: [{
+				id: "03F611C3A21D800A"
+				item: "hostilenetworks:twilight_prediction"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.25d
+		}
+	]
+	title: "Hostile Neural Network"
+}

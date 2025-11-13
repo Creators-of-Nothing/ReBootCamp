@@ -1,0 +1,23 @@
+{
+    "name": {
+        "text": "Trophée Proutegaz",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:Proutegaz}"
+    },
+    "display": {
+        "scale": 0.75,
+		"offset": {
+			"y": 2
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#7E0CD6",
+        "base": "#FFFFFF"
+    }
+}

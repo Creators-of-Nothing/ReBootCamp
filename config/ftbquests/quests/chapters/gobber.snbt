@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gobber"
+	group: "5583654A1516B98A"
+	icon: "gobber2:dragon_elytra"
+	id: "510DAC1D12A7F77A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Gobber"
+}

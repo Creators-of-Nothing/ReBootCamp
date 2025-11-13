@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Challenges",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "stalwart_dungeons:diamond_hammer"
+    },
+    "display": {
+        "scale": 0.4,
+		"offset": {
+			"y": 6
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AA0000",
+        "base": "#FFFFFF"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Zoologiste",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "alexsmobs:sunbird",
+		"offset": {
+			"y": 3
+			}
+    },
+    "display": {
+        "scale": 0.13
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#FFFF55",
+        "base": "#FFFFFF"
+    }
+}

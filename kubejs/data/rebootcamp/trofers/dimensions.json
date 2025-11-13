@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Dimensions",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "twilightforest:twilight_portal_miniature_structure"
+    },
+    "display": {
+        "scale": 1.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AA00AA",
+        "base": "#FFFFFF"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Creeper",
+        "color": "dark_purple"
+    },
+    "entity": {
+        "type": "creeperoverhaul:mushroom_creeper"
+    },
+    "display": {
+        "scale": 0.5
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#55FF55",
+        "base": "#FFFFFF"
+    }
+}

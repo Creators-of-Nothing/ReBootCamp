@@ -1,0 +1,22 @@
+{
+    "name": {
+        "text": "Trophée Alex",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "alexsmobs:shattered_dimensional_carver"
+    },
+    "display": {
+        "scale": 0.5,
+				"offset": {
+			"y": 3
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#0000AA",
+        "base": "#FFFFFF"
+    }
+}

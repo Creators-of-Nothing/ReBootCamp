@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_stuff"
+	group: "48E8FA999D758C15"
+	icon: "extendedcrafting:the_ultimate_catalyst"
+	id: "312AABFDFC6561E0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B5A9074FC3C8D8A"]
+			description: ["Ce Catalyst sert de porte d'entrée dans le craft des items créatifs."]
+			id: "71A65EC3DCA7252B"
+			rewards: [{
+				id: "411644DF41FC604E"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "70C9783EF1FEC17D"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Permet de crafter une disquette qui peut contenir une infinité d'items."]
+			id: "0D853F4EC0684BBC"
+			rewards: [{
+				id: "0C2831944B7ED50B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4BEC5AA23335FA66"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Permet de crafter une disquette qui peut contenir une infinité de fluides."]
+			id: "04CFEE49932154E8"
+			rewards: [{
+				id: "527373D98DE7653F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "60189CE4FA2BC110"
+				item: "extradisks:infinite_fluid_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22702B4D896430D1"]
+			id: "1B5A9074FC3C8D8A"
+			rewards: [{
+				id: "51A36FE4FA09C26F"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "6C21D1A3DC8A847E"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Ce lingot permet de crafter les derniers items créatifs. "]
+			id: "436F92AF12A490E3"
+			rewards: [{
+				id: "7A287A1048071926"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "4A729CFA3745A1DB"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.8125d
+		}
+		{
+			description: ["C'est une ressource qui se drop sur la Comb Jelly, une méduse qui se trouve uniquement dans les Frozen Oceans la nuit. N'hésitez pas à utiliser le mod Caged Mobs pour farmer cette ressource, ou créer un spawner à l'aide d'Apotheosis et Mob Grinding Utils."]
+			id: "22702B4D896430D1"
+			rewards: [{
+				id: "1008C48653E69EE0"
+				item: "alexsmobs:rainbow_jelly"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B54DEC8CA16F653"
+				item: "alexsmobs:rainbow_jelly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Permet le transfert instantannés des ressources avec les câbles du mod Pipez."]
+			id: "57FC72CDEF958644"
+			rewards: [{
+				id: "6C67BEE4DBF6539F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6D915460727E55E8"
+				item: "pipez:infinity_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Ce livre, de tier maximum, contient tout les sorts possibles. Attention : il ne contient pas les familiers !"]
+			id: "29EC4631D74869C4"
+			rewards: [{
+				id: "3E8F764E154DDE7C"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "477235EC16E2A7B2"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Le plus puissant des fours : il peut cuir un stack d'items en un tick. Permet de générer également beaucoup de RF."]
+			id: "2342531D5D226FFE"
+			rewards: [{
+				id: "32A5D9D860B96F83"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "388E8BD73CD6A2B3"
+				item: {
+					Count: 1
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"yellow\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: [
+				"Une Source Jar inépuisable ! "
+				""
+				"&4Note :&r Pour obtenir le Liquified Source, vous devez utiliser le Source Condenser près d'une Source Jar. Vous n'aurez plus qu'à extraire le liquide via des Fluids Pipes par exemple."
+			]
+			id: "58DD1CF2BB6D7A2A"
+			rewards: [{
+				id: "1923674DD1083E6D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "7A0DA1CED9D8679B"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["La télécommande ultime du mod Refined Storage. N'a pas besoin d'énergie pour fonctionner."]
+			id: "617DED9427A6E3B5"
+			rewards: [{
+				id: "26E0F826205EADC2"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "67099D3AC5D7F855"
+				item: "universalgrid:creative_wireless_universal_grid"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Permet d'accéder à une disquette à distance. Pour se faire, il faut lui donner la dite disquette. N'a pas besoin d'énergie pour fonctionner."]
+			id: "3C6C4547FDE77A95"
+			rewards: [{
+				id: "00A7EB3297186D3D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "505653B516CA80A2"
+				item: {
+					Count: 1
+					id: "refinedstorage:creative_portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["Le Monitor ultime du mod Refined Storage, version télécommande. Permet de voir vos crafts s'opérer. N'a pas besoin d'énergie pour fonctionner."]
+			id: "72B95F3739D99181"
+			rewards: [{
+				id: "3A012D52D9359522"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2212D7B410C25AE2"
+				item: "refinedstorage:creative_wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			description: ["C'est comme le Controller de base, mais lui n'a pas besoin d'énergie pour fonctionner."]
+			id: "117E4AD3A699F205"
+			rewards: [{
+				id: "0832BC8EFF66B207"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "03553F85D2085373"
+				item: "refinedstorage:creative_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Ce Cake permet de configurer les Blazes Burners simplement. Cliquez dessus avec votre Creative Blaze Cake permettra de faire chauffer à la température souhaiter votre Blaze Burner. Le Cake n'est pas consommé à l'utilisation, et le Blaze Burner fonctionnera à l'infini."]
+			id: "73AED7AC8D52BABB"
+			rewards: [{
+				id: "535FC9DA6CE9D226"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "717254E7D15657CD"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Un charbon qui brûle PRESQUE éternellement."]
+			id: "54E4880085DE8D3C"
+			rewards: [{
+				id: "67795FDDA11837F5"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "329E481F8CC809CB"
+				item: "ironfurnaces:rainbow_coal"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -13.5d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Comme son nom ne l'indique pas vraiment, il s'agit d'un stockage infini de RF."]
+			id: "5B2D2A76EB2B8644"
+			rewards: [{
+				id: "68D768C5E979E38A"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6D6B8E580732C843"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.75d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Permet de dupliquer les items à l'infini. Pour cela, cliquez dessus avec l'item à dupliquer, et placer un câble pour en sortir les copies."]
+			id: "6AE6DD17BE76F40D"
+			rewards: [{
+				id: "66B480C13FE8A211"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "23ECA96D8A5C37CD"
+				item: "create:creative_crate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.25d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Un moteur de Create qui n'a pas besoin d'énergie pour fonctionner. Il peut monter à un très haut niveau de SU. Sa vitesse est, comme le motor classique, configurable."]
+			id: "763D34E08C845716"
+			rewards: [{
+				id: "7115B11AF618611D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "350FD952B79B0E27"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.25d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Permet de contenir une infinité d'un fluide. Pour le configurer, il faut faire un clic droit dessus avec un bucket rempli du fluide souhaité."]
+			id: "78C449B4FFDC4704"
+			rewards: [{
+				id: "57B8C54823218EAD"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "41FC2DC03CDB1FC9"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -10.75d
+		}
+		{
+			dependencies: ["436F92AF12A490E3"]
+			description: ["Un Cogwheel qui tourne tout seul. Sa vitesse peut être configurée."]
+			id: "73BB77A26ECCD421"
+			rewards: [{
+				id: "55C561013EA856DF"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "048933EB685EBBC7"
+				item: "createcasing:creative_cogwheel"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -10.75d
+		}
+		{
+			dependencies: [
+				"54E4880085DE8D3C"
+				"73AED7AC8D52BABB"
+				"73BB77A26ECCD421"
+				"763D34E08C845716"
+				"6AE6DD17BE76F40D"
+				"72B95F3739D99181"
+				"57FC72CDEF958644"
+				"2342531D5D226FFE"
+				"58DD1CF2BB6D7A2A"
+				"29EC4631D74869C4"
+				"3C6C4547FDE77A95"
+				"117E4AD3A699F205"
+				"0D853F4EC0684BBC"
+				"04CFEE49932154E8"
+				"617DED9427A6E3B5"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "10D11C9AF21F216A"
+			rewards: [{
+				id: "495B30F5E8678372"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:creative"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "0CB86CB15CA19B7C"
+				type: "checkmark"
+			}]
+			title: "Creative complété !"
+			x: 0.0d
+			y: -22.5d
+		}
+	]
+	title: "Creative Stuff"
+}

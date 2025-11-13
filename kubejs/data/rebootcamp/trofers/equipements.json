@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Equipements",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "explorerscompass:explorerscompass"
+    },
+    "display": {
+        "scale": 1.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AAAAAA",
+        "base": "#FFFFFF"
+    }
+}

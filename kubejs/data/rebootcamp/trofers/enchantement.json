@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Enchantement",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "minecraft:spawner"
+    },
+    "display": {
+        "scale": 0.95
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AA00AA",
+        "base": "#FFFFFF"
+    }
+}

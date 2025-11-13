@@ -1,0 +1,23 @@
+{
+    "name": {
+        "text": "Trophée Robina",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:iRobina}"
+    },
+    "display": {
+        "scale": 0.75,
+		"offset": {
+			"y": 2
+			}
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#f1bdf4",
+        "base": "#FFFFFF"
+    }
+}

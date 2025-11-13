@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Support",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "ironfurnaces:million_furnace"
+    },
+    "display": {
+        "scale": 1.05
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#00AAAA",
+        "base": "#FFFFFF"
+    }
+}

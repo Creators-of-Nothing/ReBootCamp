@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "0A9A25D57F12D946"
+	icon: "tconstruct:smeltery_controller"
+	id: "3794D85410D7DC53"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&4Tinkers' Construct&r est un mod qui permet de créer une &2arme&r / un &2outil personnalisé&r, avec des &2effets uniques&r, selon le &2matériau&r que vous utilisez. Pour se faire, vous devrez créer chacune des parties de l'&2arme&r / l'&2outil&r, puis les assembler pour créer ce que vous désirez. Enfin, lorsque vous avez créé votre chef d'oeuvre, vous pourrez lui ajouter des &2effets supplémentaires&r. Ce chapitre vous détaillera comment faire."
+			""
+			"Egalement, voici une &2liste des matériaux utilisables&r, ainsi que leurs &2effets&r :"
+		]
+		icon: "ars_nouveau:glyph_redstone_signal"
+		id: "46B2E28D3ED6850C"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "0F1B400A962C9780"
+			title: "Tinker's Construct"
+			type: "checkmark"
+		}]
+		title: "Tinkers' Construct"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Tinkers' Construct"
+}

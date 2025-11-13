@@ -1,0 +1,19 @@
+{
+    "name": {
+        "text": "Trophée Mekanism",
+        "color": "dark_purple"
+    },
+    "item": {
+        "item": "mekanism:mekasuit_helmet"
+    },
+    "display": {
+        "scale": 1.3
+    },
+    "animation": {
+        "type": "spinning"
+    },
+    "colors": {
+        "accent": "#AAAAAA",
+        "base": "#FFFFFF"
+    }
+}

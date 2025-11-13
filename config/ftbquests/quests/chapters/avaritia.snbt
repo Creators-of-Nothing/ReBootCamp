@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avaritia"
+	group: "5583654A1516B98A"
+	icon: "avaritia:extreme_crafting_table"
+	id: "1C8DE30464C9A4F6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nous y sommes, la dernière ligne droite ! Ce &2mod&r vous donnera accès à des &2outils&r, &2armes&r, et &2armures créatives&r ! Votre pouvoir sera &2sans limite&r, mais il va falloir s'accrocher ! Vous devrez avoir accompli &2tous les mods&r pour accéder à celui-ci, en particulier &4Draconic Evolution&r."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "5451A7B88744CA3D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "083FA7038A9E4166"
+				title: "Avaritia"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49AADF29869F1CF6"]
+			id: "06895D6F11030DF0"
+			tasks: [{
+				id: "4D36705EB800D4B6"
+				item: "avaritia:sculk_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["06895D6F11030DF0"]
+			id: "3FC4A25CDB0A897D"
+			tasks: [{
+				id: "3C1398A20B75793B"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3FC4A25CDB0A897D"]
+			id: "0FE765DFA1F3DA86"
+			tasks: [{
+				id: "2CE578BE080BE428"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FE765DFA1F3DA86"]
+			id: "0975DCABFFBF5504"
+			tasks: [{
+				id: "4693937780760262"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["5451A7B88744CA3D"]
+			description: ["Cette machine vous permettra de produire vos premiers &4Piles of Neutrons&r. Cette machine n'a besoin de rien pour fonctionner, à part d'&2extraire&r les items."]
+			id: "49AADF29869F1CF6"
+			tasks: [{
+				id: "4927B3A54862494D"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49AADF29869F1CF6"]
+			description: ["Cette machine vous permettra de produire directement des &4Neutronium Nuggets&r. Cette machine n'a besoin de rien pour fonctionner, à part d'&2extraire&r les items."]
+			id: "6D16EED751A94115"
+			tasks: [{
+				id: "01E8750CF168647A"
+				item: "avaritia:dense_neutron_collector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6D16EED751A94115"]
+			description: ["Cette machine vous permettra de produire directement des &4Neutronium Ingots&r. Cette machine n'a besoin de rien pour fonctionner, à part d'&2extraire&r les items."]
+			id: "698C067DA6A391DA"
+			tasks: [{
+				id: "345FCD9A8F73F293"
+				item: "avaritia:denser_neutron_collector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["698C067DA6A391DA"]
+			description: ["Cette machine vous permettra de produire directement des &4Neutronium Nuggets&r. Cette machine n'a besoin de rien pour fonctionner, à part d'&2extraire&r les items. Elle fonctionne également &4bien plus rapidement&r que sa prédécesseure."]
+			id: "7AD6FFB8CFA4CAFD"
+			tasks: [{
+				id: "511A9D75687A02B8"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3FC4A25CDB0A897D"]
+			description: ["Ce &4charbon&r permet de cuire jusqu'à &2800&r items !"]
+			id: "239FE418D02EB13A"
+			tasks: [{
+				id: "7C29398A493E2DD8"
+				item: "avaritia:refined_coal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: ["Une des deux &2meilleures nourritures&r du jeu ! Elle vous donnera de &2nombreux bonus&r, en plus de vous nourrir pour &2looooooongtemps&r !"]
+			id: "5EF9A0EC3274CA12"
+			tasks: [{
+				id: "1664BD257A4299B2"
+				item: "avaritia:ultimate_stew"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -4.75d
+		}
+		{
+			description: ["Une des deux &2meilleures nourritures&r du jeu ! Elle vous donnera de &2nombreux bonus&r, en plus de vous nourrir pour &2looooooongtemps&r !"]
+			id: "5C1205AB75A68D27"
+			tasks: [{
+				id: "1036A7A9B88B6B1C"
+				item: "avaritia:cosmic_meatballs"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -5.25d
+		}
+		{
+			description: ["Vous aimez les gâteaux ? Si vous posez celui-ci, il se &2reconstruira&r à chaque bouchée ! Vous pouvez le &2récupérer à la main&r si vous souhaitez le poser ailleurs."]
+			id: "3C2515BC4CC8DAC7"
+			tasks: [{
+				id: "67CEEB2C33CEBE6B"
+				item: "avaritia:endless_cake"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -5.25d
+		}
+		{
+			description: ["C'est la &4Smithing Table&r du Mod : elle vous permettra de crafter certains items d'&2Avaritia&r."]
+			id: "124DD80DDC8282B8"
+			tasks: [{
+				id: "204D3DD029ECE0F0"
+				item: "avaritia:extreme_smithing_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.25d
+		}
+		{
+			id: "7B0B8552D8AAB860"
+			tasks: [{
+				id: "54225CB61741FFD2"
+				item: "avaritia:enhancement_core"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			id: "4A5DE731A28BE102"
+			tasks: [{
+				id: "3EF299ED9AA79E86"
+				item: "avaritia:upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -5.5d
+		}
+		{
+			description: ["Une &4épée&r qui &2One Shot&r quasiment tout, dont des personnes créatives ! Son &2clic droit&r permet également de tuer tout ce qui se trouve autour de vous. Elle est &2indestructible&r."]
+			id: "216D571AFDC395FD"
+			tasks: [{
+				id: "5533737648F447C0"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -11.5d
+		}
+		{
+			description: ["Un &4arc&r qui peut &2One Shot&r tout ! A chaque tir, là où atterira la flèche, une &2pluie de flèche&r tombera du ciel. Cet &4arc&r n'a pas besoin de &4flèches&r pour fonctionner. Il est &2indestructible&r."]
+			id: "3535F2A5CF12F8CA"
+			tasks: [{
+				id: "4169994AE38FC408"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.75d
+		}
+		{
+			description: [
+				"Une &4arbalète&r qui tire &45 carreaux&r qui peuvent &2One Shot&r quasiment toute entité ! Elle est &2indestructible&r."
+				""
+				"Comment ça c'est nul ?"
+			]
+			id: "2F240483109170A9"
+			tasks: [{
+				id: "0B2FD28E4D548EFC"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_crossbow"
+					tag: {
+						Charged: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			description: ["Une &4pioche&r capable de miner tout les blocs minable à la &4pioche&r ! Si vous faites un &2shift - clic droit&r avec cette &4pioche&r en main, vous activez son &2Range Mode&r. Désormais, chaque coup de &4pioche&r minera une &2grande zone&r. Les blocs seront &2condensés&r dans un &4Matter Cluster&r, qu'il suffira d'utiliser (= &2clic droit&r avec) pour récupérer les blocs."]
+			id: "093DA73227879447"
+			tasks: [{
+				id: "6B4255A67B269828"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: {
+						hammer: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"Une &4pelle&r capable de miner tout les blocs minable à la &4pelle&r ! Si vous faites un &2shift - clic droit&r avec cette &4pelle&r en main, vous activez son &2Range Mode&r. Désormais, chaque coup de pelle minera une &2grande zone&r. Les blocs seront &2condensés&r dans un &4Matter Cluster&r, qu'il suffira d'utiliser (= &2clic droit&r avec) pour récupérer les blocs. Elle est &2indestructible&r."
+				""
+				"En &2Range Mode&r, si vous faites un &2clic droit&r avec, vous pourrez lancer des &4Endest Pearls&r à l'infini."
+			]
+			id: "4028640E73FB379B"
+			tasks: [{
+				id: "519F6B407C0AA9B8"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_shovel"
+					tag: {
+						destroyer: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -10.5d
+		}
+		{
+			description: ["Une &4hache&r capable de miner tout type de &4bois&r ! Si vous faites un &2shift - clic droit&r avec cette &4hache&r en main, vous activez son &2Range Mode&r. Désormais, chaque coup de &4hache&r minera l'arbre entier. Les blocs seront &2condensés&r dans un &4Matter Cluster&r, qu'il suffira d'utiliser (= &2clic droit&r avec) pour récupérer les blocs. Elle est &2indestructible&r."]
+			id: "323C1A76C02EE5B5"
+			tasks: [{
+				id: "3F9829A144AA1792"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.75d
+		}
+		{
+			description: ["Une &4houe&r capable de miner tout les blocs minable avec une &4houe&r ! Si vous faites un &2shift - clic droit&r avec cette &4houe&r en main, vous activez son &2Range Mode&r. Désormais, chaque &2clic droit&r fera &2pousser&r les plantes dans une zone comme si vous aviez mis de la &4Bone Meal&r. Les plantes matures seront &2récoltées&r et &2condensées&r dans un &4Matter Cluster&r, qu'il suffira d'utiliser (= &2clic droit&r avec) pour récupérer les blocs. Elle est &2indestructible&r."]
+			id: "03B192B3024DD858"
+			tasks: [{
+				id: "3DFB10C3B74D71ED"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_hoe"
+					tag: {
+						sow: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			description: ["Un &4bucket&r qui peut être rempli de n'importe quel &2liquide&r, et ce, de manière &2infinie&r ! Vous pourrez ainsi vider un lac de lave et le replacer ailleurs !"]
+			id: "49A319AE92529B8D"
+			tasks: [{
+				id: "41355F029D1D704A"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_bucket"
+					tag: {
+						Fluids: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.25d
+		}
+		{
+			description: [
+				"Poser près d'une machine, elle l'accélerera &2drastiquement&r ! Cette &4clock&r a une zone d'effet carrée dont le diamètre est de &225 blocs&r !"
+				""
+				"&n&4&lATTENTION&r :&r&r N'EN PLACEZ PAS TROP ! VOUS RISQUEZ DE FAIRE &4LAGGUER&r VOTRE MONDE ET LE RENDRE &4INJOUABLE&r !!!"
+			]
+			id: "72F8187CFAB9B7D5"
+			tasks: [{
+				id: "11ED3ABB65E2B317"
+				item: "avaritia:infinity_clock"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.25d
+		}
+		{
+			description: [
+				"Une enclume &2indestructible&r !"
+				""
+				"&n&l&4ATTENTION&r :&r Ne la posez pas n'importe où !"
+			]
+			id: "58F93E05F0B522F4"
+			tasks: [{
+				id: "60632655A8C6B351"
+				item: "avaritia:extreme_anvil"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			id: "3D6BE025C27AFA68"
+			tasks: [{
+				id: "52853AF00CF03D46"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_upgrade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: -9.5d
+		}
+		{
+			description: ["Cette &2armure&r vous donnera divers bonus, dont celui du &2Fly Créatif&r. Mais surtout : vous devenez &2INVINCIBLE&r ! Ou presque ... En effet, les &2armes&r d'&4Avaritia&r peuvent vous tuer, donc attention ! Cette &2armure&r est &2indestructible&r."]
+			id: "7A2EA641495888F9"
+			tasks: [
+				{
+					id: "4AC1F3B5598FE85D"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "701E4AB70E6130E8"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "6F1FD98C49F3D3E9"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "0996EE6FB94B0103"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			title: "Infinity Armor"
+			x: -1.75d
+			y: -13.5d
+		}
+		{
+			description: ["Une paire d'&4Elytra&r qui ne perd pas en durabilité ! De plus, à chaque fois que vous utilisez votre touche de &2saut&r, ces &4Elytra&r vous boosteront comme si vous aviez utiliser une &4fusée&r !"]
+			id: "43BDCCC23DD1C1F0"
+			tasks: [{
+				id: "7E6037CE8D262A89"
+				item: "avaritia:infinity_elytra"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -13.0d
+		}
+		{
+			description: ["Vous souhaitez &2protéger&r vos   &4chevaux&r ? Cette &2armure&r est faite pour vous !"]
+			id: "44898B4B564426CF"
+			tasks: [{
+				id: "17910A7F61C4B054"
+				item: "avaritia:neutron_horse_armor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.75d
+		}
+		{
+			description: ["C'est un &4Totem of Undying&r boosté aux hormones : il possède &2100 utilisations&r avant de se briser."]
+			id: "1E20EEBFCBCAB3E3"
+			tasks: [{
+				id: "50C217521E32AECC"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.25d
+		}
+		{
+			description: ["Contrairement à ce que son nom pourrait indiquer, il s'agit d'une &4grenade&r qui attire toutes les entités en son centre avant de créer une mini &2explosion&r."]
+			id: "5E9201AA17D71D39"
+			tasks: [{
+				id: "1D66CE23FDDB7D05"
+				item: "avaritia:endest_pearl"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.75d
+		}
+	]
+	title: "Avaritia"
+}
